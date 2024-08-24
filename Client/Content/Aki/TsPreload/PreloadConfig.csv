@@ -1,0 +1,16 @@
+IsEditor,AssetPath
+FALSE,/Game/Aki/Character/Input/Enum/EInputState.EInputState
+FALSE,/Game/Aki/Data/UiCameraAnimation/Enum/EUiCameraAnimationAttributeType.EUiCameraAnimationAttributeType
+FALSE,/Game/Aki/Render/RuntimeBP/Effect/Billboard/E_BillboardMode.E_BillboardMode
+FALSE,/Game/Aki/Data/Entity/Enum/EBossStateViewType.EBossStateViewType
+FALSE,/Game/Aki/Data/Entity/Enum/EHeadStateViewType.EHeadStateViewType
+FALSE,/Game/Aki/Character/BaseCharacter/ECamp.Ecamp
+FALSE,/Game/Aki/Sequence/Manager/SSequencesNetwork.SSequencesNetwork
+FALSE,/Game/Aki/Sequence/SeqSubtitle/SSubtitleSettings.SSubtitleSettings
+FALSE,/Game/Aki/Data/Interaction/Struct/SInteractionConfig.SInteractionConfig
+FALSE,/Game/Aki/Character/BaseCharacter/SUiAnimNotifyEffect.SUiAnimNotifyEffect
+FALSE,/Game/Aki/Character/BaseCharacter/SUiAnimNotifyModel.SUiAnimNotifyModel
+FALSE,/Game/Aki/Character/Input/Enum/EInputAction.EInputAction
+FALSE,/Game/Aki/Data/Entity/Enum/EEntityType.EEntityType
+FALSE,/Game/Aki/Data/Interaction/Enum/EInteractionIconType.EInteractionIconType
+FALSE,/Game/Aki/Character/BaseCharacter/ECustomCameraMode.ECustomCameraMode
