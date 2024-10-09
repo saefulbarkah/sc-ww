@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.WorldMapShowOnlyComponent=void 0;const ActivityMowingRiskController_1=require("../../Activity/ActivityContent/MowingRisk/Controller/ActivityMowingRiskController"),HotKeyComponent_1=require("./HotKeyComponent");class WorldMapShowOnlyComponent extends HotKeyComponent_1.HotKeyComponent{OnRefreshSelfHotKeyState(t){ActivityMowingRiskController_1.ActivityMowingRiskController.Instance.CheckInInstanceDungeon()?this.SetVisibleMode(2,!1):this.SetVisibleMode(2,!0)}OnIsOccupancyFightInput(){return!1}}exports.WorldMapShowOnlyComponent=WorldMapShowOnlyComponent;
+//# sourceMappingURL=WorldMapShowOnlyComponent.js.map

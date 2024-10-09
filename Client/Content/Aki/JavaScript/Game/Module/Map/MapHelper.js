@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.MapHelper=void 0;const ScrollingTipsController_1=require("../ScrollingTips/ScrollingTipsController"),MapUtil_1=require("./MapUtil");class MapHelper{static CheckAndShowCrossMapTips(l,i,r){l=MapUtil_1.MapUtil.GetMarkBelongMapId(l,i);MapUtil_1.MapUtil.IsDungeonDiffWorld(l,MapUtil_1.MapUtil.GetCurrentBigMapId())&&(i=MapUtil_1.MapUtil.GetInstanceDungeonTempWorldName(l,r),ScrollingTipsController_1.ScrollingTipsController.ShowTipsByTextId("CrossMapMainTips",i))}}exports.MapHelper=MapHelper;
+//# sourceMappingURL=MapHelper.js.map
