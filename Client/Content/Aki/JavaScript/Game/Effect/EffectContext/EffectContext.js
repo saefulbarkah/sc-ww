@@ -1,3 +1,3 @@
 
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.EffectContext=void 0;class EffectContext{constructor(t=void 0,s=void 0){this.CreateFromType=0,this.PlayFlag=0,this.EntityId=t,this.SourceObject=s}}exports.EffectContext=EffectContext;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.EffectContext=void 0;class EffectContext{constructor(t=void 0,s=void 0,i=!1){this.EntityId=void 0,this.SourceObject=void 0,this.DisablePostProcess=!1,this.CreateFromType=0,this.PlayFlag=0,this.EntityId=t,this.SourceObject=s,this.DisablePostProcess=i}}exports.EffectContext=EffectContext;
 //# sourceMappingURL=EffectContext.js.map

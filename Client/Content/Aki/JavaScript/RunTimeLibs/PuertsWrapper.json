@@ -575,6 +575,18 @@
 						"ObfuscationName": "DefaultValue",
 						"IsWrapper": true,
 						"IsCache": false
+					},
+					{
+						"PropertyName": "bHasDefaultValue",
+						"ObfuscationName": "bHasDefaultValue",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Values",
+						"ObfuscationName": "Values",
+						"IsWrapper": true,
+						"IsCache": false
 					}
 				],
 				"Functions": []
@@ -1958,6 +1970,21 @@
 				"Functions": []
 			},
 			{
+				"ClassPathName": "/Script/KuroGameplay.SequencerBindingRuntimeProxy",
+				"JsName": "SequencerBindingRuntimeProxy",
+				"ObfuscationName": "SequencerBindingRuntimeProxy",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "BindingID",
+						"ObfuscationName": "BindingID",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
 				"ClassPathName": "/Script/KuroEditorCommon.DrawBoxCommand",
 				"JsName": "DrawBoxCommand",
 				"ObfuscationName": "DrawBoxCommand",
@@ -2734,12 +2761,6 @@
 						"IsReturnCache": false
 					},
 					{
-						"FunctionName": "K2_AttachRootComponentToActor",
-						"ObfuscationName": "K2_AttachRootComponentToActor",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
 						"FunctionName": "WasRecentlyRendered",
 						"ObfuscationName": "WasRecentlyRendered",
 						"IsWrapper": true,
@@ -3304,6 +3325,18 @@
 					{
 						"PropertyName": "OnComponentEndOverlap",
 						"ObfuscationName": "OnComponentEndOverlap",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "bAsyncOverlap",
+						"ObfuscationName": "bAsyncOverlap",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "bKuroOverlapNotify",
+						"ObfuscationName": "bKuroOverlapNotify",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -4924,6 +4957,18 @@
 						"ObfuscationName": "bConsumeAllRootMotion",
 						"IsWrapper": true,
 						"IsCache": false
+					},
+					{
+						"PropertyName": "WeakenKawaiiFollow",
+						"ObfuscationName": "WeakenKawaiiFollow",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "KuroLodMask",
+						"ObfuscationName": "KuroLodMask",
+						"IsWrapper": true,
+						"IsCache": false
 					}
 				],
 				"Functions": [
@@ -5044,6 +5089,12 @@
 					{
 						"FunctionName": "GetAnimClass",
 						"ObfuscationName": "GetAnimClass",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetAnimationMode",
+						"ObfuscationName": "GetAnimationMode",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -5276,6 +5327,18 @@
 					{
 						"FunctionName": "AddDeltaForDelayAnim",
 						"ObfuscationName": "AddDeltaForDelayAnim",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "Montage_Resume",
+						"ObfuscationName": "Montage_Resume",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "Montage_Pause",
+						"ObfuscationName": "Montage_Pause",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -5729,6 +5792,18 @@
 						"ObfuscationName": "Sections",
 						"IsWrapper": true,
 						"IsCache": false
+					},
+					{
+						"PropertyName": "bFireEventsWhenForwards",
+						"ObfuscationName": "bFireEventsWhenForwards",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "bFireEventsWhenBackwards",
+						"ObfuscationName": "bFireEventsWhenBackwards",
+						"IsWrapper": true,
+						"IsCache": false
 					}
 				],
 				"Functions": []
@@ -6145,6 +6220,12 @@
 						"IsReturnCache": false
 					},
 					{
+						"FunctionName": "PlayToSeconds",
+						"ObfuscationName": "PlayToSeconds",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
 						"FunctionName": "PlayTo_Circle",
 						"ObfuscationName": "PlayTo_Circle",
 						"IsWrapper": true,
@@ -6153,12 +6234,6 @@
 					{
 						"FunctionName": "IsStopped",
 						"ObfuscationName": "IsStopped",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "PlayToSeconds",
-						"ObfuscationName": "PlayToSeconds",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -6433,14 +6508,14 @@
 						"IsReturnCache": false
 					},
 					{
-						"FunctionName": "GetBindingByTagInTemplate",
-						"ObfuscationName": "GetBindingByTagInTemplate",
+						"FunctionName": "GetSequencePlayer",
+						"ObfuscationName": "GetSequencePlayer",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					},
 					{
-						"FunctionName": "GetSequencePlayer",
-						"ObfuscationName": "GetSequencePlayer",
+						"FunctionName": "GetBindingByTagInTemplate",
+						"ObfuscationName": "GetBindingByTagInTemplate",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -7239,14 +7314,14 @@
 						"IsCache": false
 					},
 					{
-						"PropertyName": "bEnablePhysicsInteraction",
-						"ObfuscationName": "bEnablePhysicsInteraction",
+						"PropertyName": "MaxStepHeight",
+						"ObfuscationName": "MaxStepHeight",
 						"IsWrapper": true,
 						"IsCache": false
 					},
 					{
-						"PropertyName": "MaxStepHeight",
-						"ObfuscationName": "MaxStepHeight",
+						"PropertyName": "bEnablePhysicsInteraction",
+						"ObfuscationName": "bEnablePhysicsInteraction",
 						"IsWrapper": true,
 						"IsCache": false
 					},
@@ -8492,6 +8567,12 @@
 						"ObfuscationName": "Add_VectorVector",
 						"IsWrapper": true,
 						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "Conv_VectorToLinearColor",
+						"ObfuscationName": "Conv_VectorToLinearColor",
+						"IsWrapper": true,
+						"IsReturnCache": false
 					}
 				]
 			},
@@ -8547,6 +8628,12 @@
 					{
 						"FunctionName": "Contains",
 						"ObfuscationName": "Contains",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "ParseIntoArray",
+						"ObfuscationName": "ParseIntoArray",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -9899,20 +9986,26 @@
 						"IsReturnCache": false
 					},
 					{
-						"FunctionName": "DisableStreamingSource",
-						"ObfuscationName": "DisableStreamingSource",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
 						"FunctionName": "IsStreamingCompletedForLayers",
 						"ObfuscationName": "IsStreamingCompletedForLayers",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					},
 					{
+						"FunctionName": "DisableStreamingSource",
+						"ObfuscationName": "DisableStreamingSource",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
 						"FunctionName": "IsStreamingSourceEnabled",
 						"ObfuscationName": "IsStreamingSourceEnabled",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "LogStreamingStuckInfo",
+						"ObfuscationName": "LogStreamingStuckInfo",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -10605,12 +10698,6 @@
 						"ObfuscationName": "SetActorLocationAndRotationExceptSkelMesh",
 						"IsWrapper": true,
 						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "CreateAttribute",
-						"ObfuscationName": "CreateAttribute",
-						"IsWrapper": true,
-						"IsReturnCache": false
 					}
 				]
 			},
@@ -11143,6 +11230,12 @@
 						"ObfuscationName": "HateTarget",
 						"IsWrapper": true,
 						"IsCache": false
+					},
+					{
+						"PropertyName": "SitDownType",
+						"ObfuscationName": "SitDownType",
+						"IsWrapper": true,
+						"IsCache": false
 					}
 				],
 				"Functions": []
@@ -11500,6 +11593,12 @@
 						"ObfuscationName": "IntTo",
 						"IsWrapper": true,
 						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "LocalPositionTo",
+						"ObfuscationName": "LocalPositionTo",
+						"IsWrapper": true,
+						"IsReturnCache": false
 					}
 				]
 			},
@@ -11536,14 +11635,14 @@
 						"IsReturnCache": false
 					},
 					{
-						"FunctionName": "OnUpdate",
-						"ObfuscationName": "OnUpdate",
+						"FunctionName": "SetSpeed",
+						"ObfuscationName": "SetSpeed",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					},
 					{
-						"FunctionName": "SetSpeed",
-						"ObfuscationName": "SetSpeed",
+						"FunctionName": "OnUpdate",
+						"ObfuscationName": "OnUpdate",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -12124,6 +12223,12 @@
 						"IsReturnCache": false
 					},
 					{
+						"FunctionName": "InputTriggerForNavigation",
+						"ObfuscationName": "InputTriggerForNavigation",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
 						"FunctionName": "InputNavigation",
 						"ObfuscationName": "InputNavigation",
 						"IsWrapper": true,
@@ -12144,12 +12249,6 @@
 					{
 						"FunctionName": "SwitchToNavigationInputType",
 						"ObfuscationName": "SwitchToNavigationInputType",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "InputTriggerForNavigation",
-						"ObfuscationName": "InputTriggerForNavigation",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -12212,14 +12311,14 @@
 						"IsReturnCache": false
 					},
 					{
-						"FunctionName": "SetCurrentInputKeyType",
-						"ObfuscationName": "SetCurrentInputKeyType",
+						"FunctionName": "SimulationPointerTrigger",
+						"ObfuscationName": "SimulationPointerTrigger",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					},
 					{
-						"FunctionName": "SimulationPointerTrigger",
-						"ObfuscationName": "SimulationPointerTrigger",
+						"FunctionName": "SetCurrentInputKeyType",
+						"ObfuscationName": "SetCurrentInputKeyType",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					},
@@ -12422,6 +12521,12 @@
 					{
 						"FunctionName": "SimulationLineTraceOnCenterScreen",
 						"ObfuscationName": "SimulationLineTraceOnCenterScreen",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "SetAllTextFont",
+						"ObfuscationName": "SetAllTextFont",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -13639,7 +13744,14 @@
 				"JsName": "UIBatchGeometryRenderable",
 				"ObfuscationName": "UIBatchGeometryRenderable",
 				"IsWrapper": true,
-				"Properties": [],
+				"Properties": [
+					{
+						"PropertyName": "CustomVectorParameterTMap",
+						"ObfuscationName": "CustomVectorParameterTMap",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
 				"Functions": [
 					{
 						"FunctionName": "SetIsGray",
@@ -14174,6 +14286,12 @@
 						"IsReturnCache": false
 					},
 					{
+						"FunctionName": "SetVelocity",
+						"ObfuscationName": "SetVelocity",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
 						"FunctionName": "SetRayCastTargetForScrollView",
 						"ObfuscationName": "SetRayCastTargetForScrollView",
 						"IsWrapper": true,
@@ -14182,12 +14300,6 @@
 					{
 						"FunctionName": "SetCanScroll",
 						"ObfuscationName": "SetCanScroll",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "SetVelocity",
-						"ObfuscationName": "SetVelocity",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -16274,6 +16386,12 @@
 						"ObfuscationName": "SaveObject",
 						"IsWrapper": true,
 						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "RemoveDataTableRowByName",
+						"ObfuscationName": "RemoveDataTableRowByName",
+						"IsWrapper": true,
+						"IsReturnCache": false
 					}
 				]
 			},
@@ -16508,6 +16626,12 @@
 					{
 						"PropertyName": "UseNewResolveIp",
 						"ObfuscationName": "UseNewResolveIp",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "OpenSendVerify",
+						"ObfuscationName": "OpenSendVerify",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -17400,6 +17524,12 @@
 						"IsReturnCache": false
 					},
 					{
+						"FunctionName": "SetSceneRenderingState",
+						"ObfuscationName": "SetSceneRenderingState",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
 						"FunctionName": "SetClusteredStuffVisible",
 						"ObfuscationName": "SetClusteredStuffVisible",
 						"IsWrapper": true,
@@ -17412,8 +17542,8 @@
 						"IsReturnCache": false
 					},
 					{
-						"FunctionName": "GetActorOfClass",
-						"ObfuscationName": "GetActorOfClass",
+						"FunctionName": "GetRHIDriverDate",
+						"ObfuscationName": "GetRHIDriverDate",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					},
@@ -17424,20 +17554,20 @@
 						"IsReturnCache": false
 					},
 					{
-						"FunctionName": "SetSceneRenderingState",
-						"ObfuscationName": "SetSceneRenderingState",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "GetRHIDriverDate",
-						"ObfuscationName": "GetRHIDriverDate",
+						"FunctionName": "GetActorOfClass",
+						"ObfuscationName": "GetActorOfClass",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					},
 					{
 						"FunctionName": "IsNiagaraComplete",
 						"ObfuscationName": "IsNiagaraComplete",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetCpuTemperature",
+						"ObfuscationName": "GetCpuTemperature",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					},
@@ -17468,6 +17598,36 @@
 					{
 						"FunctionName": "GetCPUBrand",
 						"ObfuscationName": "GetCPUBrand",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetMaxFps",
+						"ObfuscationName": "GetMaxFps",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetSwapBufferTime",
+						"ObfuscationName": "GetSwapBufferTime",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetRHIThreadTime",
+						"ObfuscationName": "GetRHIThreadTime",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetRenderThreadTime",
+						"ObfuscationName": "GetRenderThreadTime",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetGameThreadTime",
+						"ObfuscationName": "GetGameThreadTime",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -18236,6 +18396,12 @@
 						"ObfuscationName": "GetEntityIdByBaseItem",
 						"IsWrapper": true,
 						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetActorScreenBoundingBox",
+						"ObfuscationName": "GetActorScreenBoundingBox",
+						"IsWrapper": true,
+						"IsReturnCache": false
 					}
 				]
 			},
@@ -18377,6 +18543,12 @@
 						"IsReturnCache": false
 					},
 					{
+						"FunctionName": "GetFrameTransform",
+						"ObfuscationName": "GetFrameTransform",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
 						"FunctionName": "GetFadeAmountAt",
 						"ObfuscationName": "GetFadeAmountAt",
 						"IsWrapper": true,
@@ -18389,32 +18561,26 @@
 						"IsReturnCache": false
 					},
 					{
-						"FunctionName": "FindMasterTracksByType",
-						"ObfuscationName": "FindMasterTracksByType",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "GetFrameTransformByTag",
-						"ObfuscationName": "GetFrameTransformByTag",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "GetFrameTransform",
-						"ObfuscationName": "GetFrameTransform",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
 						"FunctionName": "FindTracksByType",
 						"ObfuscationName": "FindTracksByType",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					},
 					{
+						"FunctionName": "FindMasterTracksByType",
+						"ObfuscationName": "FindMasterTracksByType",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
 						"FunctionName": "FindBindingById",
 						"ObfuscationName": "FindBindingById",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetFrameTransformByTag",
+						"ObfuscationName": "GetFrameTransformByTag",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					},
@@ -18873,6 +19039,12 @@
 						"ObfuscationName": "OnPreSaveWorld",
 						"IsWrapper": true,
 						"IsCache": false
+					},
+					{
+						"PropertyName": "OnViewportKeyInput",
+						"ObfuscationName": "OnViewportKeyInput",
+						"IsWrapper": true,
+						"IsCache": false
 					}
 				],
 				"Functions": []
@@ -19070,6 +19242,12 @@
 					{
 						"FunctionName": "CloseAllConnection",
 						"ObfuscationName": "CloseAllConnection",
+						"IsWrapper": false,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "SetBindingValueFloat64",
+						"ObfuscationName": "SetBindingValueFloat64",
 						"IsWrapper": false,
 						"IsReturnCache": false
 					}
@@ -19534,6 +19712,12 @@
 					{
 						"FunctionName": "AddTrack",
 						"ObfuscationName": "AddTrack",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "FindTracksByType",
+						"ObfuscationName": "FindTracksByType",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -20134,6 +20318,12 @@
 						"ObfuscationName": "ChangeIosAudioSessionProperties",
 						"IsWrapper": true,
 						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "IsDolbyAtmosGameSupported",
+						"ObfuscationName": "IsDolbyAtmosGameSupported",
+						"IsWrapper": true,
+						"IsReturnCache": false
 					}
 				]
 			},
@@ -20474,30 +20664,6 @@
 					{
 						"FunctionName": "StopSimpleSeconds",
 						"ObfuscationName": "StopSimpleSeconds",
-						"IsWrapper": false,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "CreateCycleCounter",
-						"ObfuscationName": "CreateCycleCounter",
-						"IsWrapper": false,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "StartCycleCounter",
-						"ObfuscationName": "StartCycleCounter",
-						"IsWrapper": false,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "StartCycleCounterByIndex",
-						"ObfuscationName": "StartCycleCounterByIndex",
-						"IsWrapper": false,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "StopCycleCounter",
-						"ObfuscationName": "StopCycleCounter",
 						"IsWrapper": false,
 						"IsReturnCache": false
 					}
@@ -20937,6 +21103,12 @@
 						"IsReturnCache": false
 					},
 					{
+						"FunctionName": "SetThreadAffinity",
+						"ObfuscationName": "SetThreadAffinity",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
 						"FunctionName": "SetHttpThreadIdleMinimumSleepTimeInSeconds",
 						"ObfuscationName": "SetHttpThreadIdleMinimumSleepTimeInSeconds",
 						"IsWrapper": true,
@@ -20945,6 +21117,12 @@
 					{
 						"FunctionName": "SetHttpThreadActiveMinimumSleepTimeInSeconds",
 						"ObfuscationName": "SetHttpThreadActiveMinimumSleepTimeInSeconds",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "Md5HashAnsiString",
+						"ObfuscationName": "Md5HashAnsiString",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					},
@@ -20975,18 +21153,6 @@
 					{
 						"FunctionName": "DestroyObject",
 						"ObfuscationName": "DestroyObject",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "SetThreadAffinity",
-						"ObfuscationName": "SetThreadAffinity",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "Md5HashAnsiString",
-						"ObfuscationName": "Md5HashAnsiString",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					},
@@ -21023,6 +21189,30 @@
 					{
 						"FunctionName": "IsLowMemoryDevice",
 						"ObfuscationName": "IsLowMemoryDevice",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "Base64EncodeWithSpecifyCharWithConvertToUTF8",
+						"ObfuscationName": "Base64EncodeWithSpecifyCharWithConvertToUTF8",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "Base64Decode",
+						"ObfuscationName": "Base64Decode",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "Md5HashUTF8String",
+						"ObfuscationName": "Md5HashUTF8String",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "SetInputKeyDeadZone",
+						"ObfuscationName": "SetInputKeyDeadZone",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -21514,6 +21704,12 @@
 						"ObfuscationName": "Detect",
 						"IsWrapper": true,
 						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "ResetEventTargets",
+						"ObfuscationName": "ResetEventTargets",
+						"IsWrapper": true,
+						"IsReturnCache": false
 					}
 				]
 			},
@@ -21731,12 +21927,6 @@
 						"IsReturnCache": false
 					},
 					{
-						"FunctionName": "PredictWorkload",
-						"ObfuscationName": "PredictWorkload",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
 						"FunctionName": "UpdateGameConfigSceneTransition",
 						"ObfuscationName": "UpdateGameConfigSceneTransition",
 						"IsWrapper": true,
@@ -21793,6 +21983,12 @@
 					{
 						"FunctionName": "InitGameConfigFPS",
 						"ObfuscationName": "InitGameConfigFPS",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetCurrentTemperatureData",
+						"ObfuscationName": "GetCurrentTemperatureData",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -21994,12 +22190,6 @@
 					{
 						"FunctionName": "GetAppVersion",
 						"ObfuscationName": "GetAppVersion",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "GetAppReleaseType",
-						"ObfuscationName": "GetAppReleaseType",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					},
@@ -22283,6 +22473,36 @@
 				"Functions": []
 			},
 			{
+				"ClassPathName": "/Script/Engine.AnimTrack",
+				"JsName": "AnimTrack",
+				"ObfuscationName": "AnimTrack",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "AnimSegments",
+						"ObfuscationName": "AnimSegments",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/Engine.AnimSegment",
+				"JsName": "AnimSegment",
+				"ObfuscationName": "AnimSegment",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "AnimReference",
+						"ObfuscationName": "AnimReference",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
 				"ClassPathName": "/Script/Engine.AnimLinkableElement",
 				"JsName": "AnimLinkableElement",
 				"ObfuscationName": "AnimLinkableElement",
@@ -22291,6 +22511,21 @@
 					{
 						"PropertyName": "SegmentBeginTime",
 						"ObfuscationName": "SegmentBeginTime",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/Engine.SlotAnimationTrack",
+				"JsName": "SlotAnimationTrack",
+				"ObfuscationName": "SlotAnimationTrack",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "AnimTrack",
+						"ObfuscationName": "AnimTrack",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -22311,510 +22546,6 @@
 					}
 				],
 				"Functions": []
-			},
-			{
-				"ClassPathName": "/Script/GameplayAbilities.AbilityTriggerData",
-				"JsName": "AbilityTriggerData",
-				"ObfuscationName": "AbilityTriggerData",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "TriggerTag",
-						"ObfuscationName": "TriggerTag",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "TriggerSource",
-						"ObfuscationName": "TriggerSource",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Script/KuroAudio.KuroAudioEnvironmentInfo",
-				"JsName": "KuroAudioEnvironmentInfo",
-				"ObfuscationName": "KuroAudioEnvironmentInfo",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "StateEvent",
-						"ObfuscationName": "StateEvent",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "bEnableDynamicReverb",
-						"ObfuscationName": "bEnableDynamicReverb",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Script/KuroAudio.KuroDynamicReverbParam",
-				"JsName": "KuroDynamicReverbParam",
-				"ObfuscationName": "KuroDynamicReverbParam",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "HorizontalHitCount",
-						"ObfuscationName": "HorizontalHitCount",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "VerticalHitDistance",
-						"ObfuscationName": "VerticalHitDistance",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Script/AIModule.BTDecorator_ForceSuccess",
-				"JsName": "BTDecorator_ForceSuccess",
-				"ObfuscationName": "BTDecorator_ForceSuccess",
-				"IsWrapper": false,
-				"Properties": [],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Script/AIModule.BTDecorator_Loop",
-				"JsName": "BTDecorator_Loop",
-				"ObfuscationName": "BTDecorator_Loop",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "bInfiniteLoop",
-						"ObfuscationName": "bInfiniteLoop",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Script/UMG.Widget",
-				"JsName": "Widget",
-				"ObfuscationName": "Widget",
-				"IsWrapper": true,
-				"Properties": [],
-				"Functions": [
-					{
-						"FunctionName": "RemoveFromParent",
-						"ObfuscationName": "RemoveFromParent",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					}
-				]
-			},
-			{
-				"ClassPathName": "/Script/UMG.Image",
-				"JsName": "Image",
-				"ObfuscationName": "Image",
-				"IsWrapper": true,
-				"Properties": [],
-				"Functions": [
-					{
-						"FunctionName": "SetBrushFromTexture",
-						"ObfuscationName": "SetBrushFromTexture",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					}
-				]
-			},
-			{
-				"ClassPathName": "/Script/UMG.ScrollBox",
-				"JsName": "ScrollBox",
-				"ObfuscationName": "ScrollBox",
-				"IsWrapper": true,
-				"Properties": [],
-				"Functions": [
-					{
-						"FunctionName": "ScrollWidgetIntoView",
-						"ObfuscationName": "ScrollWidgetIntoView",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "ScrollToStart",
-						"ObfuscationName": "ScrollToStart",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "ScrollToEnd",
-						"ObfuscationName": "ScrollToEnd",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					}
-				]
-			},
-			{
-				"ClassPathName": "/Script/UMG.TextBlock",
-				"JsName": "TextBlock",
-				"ObfuscationName": "TextBlock",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "Font",
-						"ObfuscationName": "Font",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": [
-					{
-						"FunctionName": "SetText",
-						"ObfuscationName": "SetText",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					}
-				]
-			},
-			{
-				"ClassPathName": "/Script/KuroInput.KuroInputFunctionLibrary",
-				"JsName": "KuroInputFunctionLibrary",
-				"ObfuscationName": "KuroInputFunctionLibrary",
-				"IsWrapper": true,
-				"Properties": [],
-				"Functions": [
-					{
-						"FunctionName": "SetGameOnlyInputMode",
-						"ObfuscationName": "SetGameOnlyInputMode",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "SetGameAndUIInputMode",
-						"ObfuscationName": "SetGameAndUIInputMode",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "ResetInputMode",
-						"ObfuscationName": "ResetInputMode",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "ReplyInputMode",
-						"ObfuscationName": "ReplyInputMode",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "HasInputModeReply",
-						"ObfuscationName": "HasInputModeReply",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "ClearInputModeReply",
-						"ObfuscationName": "ClearInputModeReply",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "ApplyInputMode",
-						"ObfuscationName": "ApplyInputMode",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					}
-				]
-			},
-			{
-				"ClassPathName": "/Script/SpinePlugin.SpineAtlasAsset",
-				"JsName": "SpineAtlasAsset",
-				"ObfuscationName": "SpineAtlasAsset",
-				"IsWrapper": false,
-				"Properties": [],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Script/SpinePlugin.TrackEntry",
-				"JsName": "TrackEntry",
-				"ObfuscationName": "TrackEntry",
-				"IsWrapper": true,
-				"Properties": [],
-				"Functions": [
-					{
-						"FunctionName": "SetMixDuration",
-						"ObfuscationName": "SetMixDuration",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					}
-				]
-			},
-			{
-				"ClassPathName": "/Script/SpinePlugin.SpineSkeletonDataAsset",
-				"JsName": "SpineSkeletonDataAsset",
-				"ObfuscationName": "SpineSkeletonDataAsset",
-				"IsWrapper": false,
-				"Properties": [],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Script/AkAudio.MovieSceneAkAudioEventSection",
-				"JsName": "MovieSceneAkAudioEventSection",
-				"ObfuscationName": "MovieSceneAkAudioEventSection",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "Event",
-						"ObfuscationName": "Event",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Script/LGUI.UIMultiTemplateLayout",
-				"JsName": "UIMultiTemplateLayout",
-				"ObfuscationName": "UIMultiTemplateLayout",
-				"IsWrapper": false,
-				"Properties": [],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Script/KuroAI.BTDecorator_ForceFailure",
-				"JsName": "BTDecorator_ForceFailure",
-				"ObfuscationName": "BTDecorator_ForceFailure",
-				"IsWrapper": false,
-				"Properties": [],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Script/KuroGAS.AsyncTaskWaitGameplayEvent",
-				"JsName": "AsyncTaskWaitGameplayEvent",
-				"ObfuscationName": "AsyncTaskWaitGameplayEvent",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "EventReceived",
-						"ObfuscationName": "EventReceived",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": [
-					{
-						"FunctionName": "ListenForGameplayEvent",
-						"ObfuscationName": "ListenForGameplayEvent",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "EndTask",
-						"ObfuscationName": "EndTask",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					}
-				]
-			},
-			{
-				"ClassPathName": "/Script/KuroRenderingRuntimeBPPlugin.KuroGrassInteractionSphereComponent",
-				"JsName": "KuroGrassInteractionSphereComponent",
-				"ObfuscationName": "KuroGrassInteractionSphereComponent",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "bEnabled",
-						"ObfuscationName": "bEnabled",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Radius",
-						"ObfuscationName": "Radius",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Script/KuroRenderingEditorBPPlugin.KuroRenderingSequenceEditorBPLibrary",
-				"JsName": "KuroRenderingSequenceEditorBPLibrary",
-				"ObfuscationName": "KuroRenderingSequenceEditorBPLibrary",
-				"IsWrapper": false,
-				"Properties": [],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Script/PerfSight.PerfSightHelper",
-				"JsName": "PerfSightHelper",
-				"ObfuscationName": "PerfSightHelper",
-				"IsWrapper": true,
-				"Properties": [],
-				"Functions": [
-					{
-						"FunctionName": "SetVersionIden",
-						"ObfuscationName": "SetVersionIden",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "SetUserId",
-						"ObfuscationName": "SetUserId",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "SetPCServerURL",
-						"ObfuscationName": "SetPCServerURL",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "SetPCAppVersion",
-						"ObfuscationName": "SetPCAppVersion",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "PostNetworkLatency",
-						"ObfuscationName": "PostNetworkLatency",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "MarkLevelLoad",
-						"ObfuscationName": "MarkLevelLoad",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "MarkLevelFin",
-						"ObfuscationName": "MarkLevelFin",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "InitContext",
-						"ObfuscationName": "InitContext",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "EnableDebugMode",
-						"ObfuscationName": "EnableDebugMode",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "MarkLevelLoadCompleted",
-						"ObfuscationName": "MarkLevelLoadCompleted",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "PostEvent",
-						"ObfuscationName": "PostEvent",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					}
-				]
-			},
-			{
-				"ClassPathName": "/Script/KuroCloudGame.KuroCloudGameWrapper",
-				"JsName": "KuroCloudGameWrapper",
-				"ObfuscationName": "KuroCloudGameWrapper",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "CloudGameOnReceiveDataDelegate",
-						"ObfuscationName": "CloudGameOnReceiveDataDelegate",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "CloudGameOnReceiveDataWithKeyDelegate",
-						"ObfuscationName": "CloudGameOnReceiveDataWithKeyDelegate",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": [
-					{
-						"FunctionName": "SendDataToPipeBinary",
-						"ObfuscationName": "SendDataToPipeBinary",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					}
-				]
-			},
-			{
-				"ClassPathName": "/Script/KuroVariable.KuroVariableFunctionLibrary",
-				"JsName": "KuroVariableFunctionLibrary",
-				"ObfuscationName": "KuroVariableFunctionLibrary",
-				"IsWrapper": true,
-				"Properties": [],
-				"Functions": [
-					{
-						"FunctionName": "SetStringValue",
-						"ObfuscationName": "SetStringValue",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "SetObject",
-						"ObfuscationName": "SetObject",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "RemoveStringValue",
-						"ObfuscationName": "RemoveStringValue",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "RemoveObject",
-						"ObfuscationName": "RemoveObject",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "HasStringValue",
-						"ObfuscationName": "HasStringValue",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "GetStringValue",
-						"ObfuscationName": "GetStringValue",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "GetObject",
-						"ObfuscationName": "GetObject",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					}
-				]
-			},
-			{
-				"ClassPathName": "/Script/XeSSBlueprint.XeSSBlueprintLibrary",
-				"JsName": "XeSSBlueprintLibrary",
-				"ObfuscationName": "XeSSBlueprintLibrary",
-				"IsWrapper": true,
-				"Properties": [],
-				"Functions": [
-					{
-						"FunctionName": "IsXeSSSupported",
-						"ObfuscationName": "IsXeSSSupported",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					}
-				]
 			},
 			{
 				"ClassPathName": "/Script/Engine.PredictProjectilePathResult",
@@ -22946,14 +22677,20 @@
 				"Functions": []
 			},
 			{
-				"ClassPathName": "/Script/UnrealEd.EditorLoadingSavingSettings",
-				"JsName": "EditorLoadingSavingSettings",
-				"ObfuscationName": "EditorLoadingSavingSettings",
+				"ClassPathName": "/Script/GameplayAbilities.AbilityTriggerData",
+				"JsName": "AbilityTriggerData",
+				"ObfuscationName": "AbilityTriggerData",
 				"IsWrapper": true,
 				"Properties": [
 					{
-						"PropertyName": "bAutoSaveEnable",
-						"ObfuscationName": "bAutoSaveEnable",
+						"PropertyName": "TriggerTag",
+						"ObfuscationName": "TriggerTag",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "TriggerSource",
+						"ObfuscationName": "TriggerSource",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -22961,20 +22698,20 @@
 				"Functions": []
 			},
 			{
-				"ClassPathName": "/Script/LGUI.RootTextItemMapDataV2",
-				"JsName": "RootTextItemMapDataV2",
-				"ObfuscationName": "RootTextItemMapDataV2",
+				"ClassPathName": "/Script/KuroAudio.KuroDynamicReverbParam",
+				"JsName": "KuroDynamicReverbParam",
+				"ObfuscationName": "KuroDynamicReverbParam",
 				"IsWrapper": true,
 				"Properties": [
 					{
-						"PropertyName": "TextActorMap",
-						"ObfuscationName": "TextActorMap",
+						"PropertyName": "HorizontalHitCount",
+						"ObfuscationName": "HorizontalHitCount",
 						"IsWrapper": true,
 						"IsCache": false
 					},
 					{
-						"PropertyName": "TransitionTextIdMap",
-						"ObfuscationName": "TransitionTextIdMap",
+						"PropertyName": "VerticalHitDistance",
+						"ObfuscationName": "VerticalHitDistance",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -22982,553 +22719,20 @@
 				"Functions": []
 			},
 			{
-				"ClassPathName": "/Script/Engine.SCS_Node",
-				"JsName": "SCS_Node",
-				"ObfuscationName": "SCS_Node",
+				"ClassPathName": "/Script/KuroAudio.KuroAudioEnvironmentInfo",
+				"JsName": "KuroAudioEnvironmentInfo",
+				"ObfuscationName": "KuroAudioEnvironmentInfo",
 				"IsWrapper": true,
 				"Properties": [
 					{
-						"PropertyName": "ComponentClass",
-						"ObfuscationName": "ComponentClass",
+						"PropertyName": "StateEvent",
+						"ObfuscationName": "StateEvent",
 						"IsWrapper": true,
 						"IsCache": false
 					},
 					{
-						"PropertyName": "ComponentTemplate",
-						"ObfuscationName": "ComponentTemplate",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Script/Engine.SimpleConstructionScript",
-				"JsName": "SimpleConstructionScript",
-				"ObfuscationName": "SimpleConstructionScript",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "AllNodes",
-						"ObfuscationName": "AllNodes",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Script/Landscape.LandscapeProxy",
-				"JsName": "LandscapeProxy",
-				"ObfuscationName": "LandscapeProxy",
-				"IsWrapper": true,
-				"Properties": [],
-				"Functions": [
-					{
-						"FunctionName": "SetKuroLandscapeFOVFactor",
-						"ObfuscationName": "SetKuroLandscapeFOVFactor",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "SetKuroLandscapeFOVFactorByCamera",
-						"ObfuscationName": "SetKuroLandscapeFOVFactorByCamera",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					}
-				]
-			},
-			{
-				"ClassPathName": "/Script/KuroGameplay.KuroSequencePerformanceManager",
-				"JsName": "KuroSequencePerformanceManager",
-				"ObfuscationName": "KuroSequencePerformanceManager",
-				"IsWrapper": true,
-				"Properties": [],
-				"Functions": [
-					{
-						"FunctionName": "OpenKuroPerformanceMode",
-						"ObfuscationName": "OpenKuroPerformanceMode",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "CloseKuroPerformanceMode",
-						"ObfuscationName": "CloseKuroPerformanceMode",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					}
-				]
-			},
-			{
-				"ClassPathName": "/Script/KuroRenderingRuntimeBPPlugin.KuroGlobalGI",
-				"JsName": "KuroGlobalGI",
-				"ObfuscationName": "KuroGlobalGI",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "bPlayerInCave",
-						"ObfuscationName": "bPlayerInCave",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "bPlayerInGrass",
-						"ObfuscationName": "bPlayerInGrass",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": [
-					{
-						"FunctionName": "BindEventGlobalFootstepMaterialUpdate",
-						"ObfuscationName": "BindEventGlobalFootstepMaterialUpdate",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					}
-				]
-			},
-			{
-				"ClassPathName": "/Script/KuroUtility.KuroStaticPS5Library",
-				"JsName": "KuroStaticPS5Library",
-				"ObfuscationName": "KuroStaticPS5Library",
-				"IsWrapper": true,
-				"Properties": [],
-				"Functions": [
-					{
-						"FunctionName": "GetIdToken",
-						"ObfuscationName": "GetIdToken",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "GetAuthCode",
-						"ObfuscationName": "GetAuthCode",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "ShowPsStoreIcon",
-						"ObfuscationName": "ShowPsStoreIcon",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "HidePsStoreIcon",
-						"ObfuscationName": "HidePsStoreIcon",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "GetAccountIdByUserId",
-						"ObfuscationName": "GetAccountIdByUserId",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "OpenWebBrowser",
-						"ObfuscationName": "OpenWebBrowser",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "InitWebApi",
-						"ObfuscationName": "InitWebApi",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "GetUserId",
-						"ObfuscationName": "GetUserId",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "GetOnlineIdByUserId",
-						"ObfuscationName": "GetOnlineIdByUserId",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "RegisterUdsContext",
-						"ObfuscationName": "RegisterUdsContext",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "InitNpUniversalDataSystem",
-						"ObfuscationName": "InitNpUniversalDataSystem",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "DestroyUdsHandle",
-						"ObfuscationName": "DestroyUdsHandle",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "DestroyUdsContext",
-						"ObfuscationName": "DestroyUdsContext",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "CreateUdsHandle",
-						"ObfuscationName": "CreateUdsHandle",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "CreateUdsContext",
-						"ObfuscationName": "CreateUdsContext",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "AbortUdsHandle",
-						"ObfuscationName": "AbortUdsHandle",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "UdsEventPropertyObjectSetString",
-						"ObfuscationName": "UdsEventPropertyObjectSetString",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "PostUdsEvent",
-						"ObfuscationName": "PostUdsEvent",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "DestroyUdsEvent",
-						"ObfuscationName": "DestroyUdsEvent",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "CreateUdsEvent",
-						"ObfuscationName": "CreateUdsEvent",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "UpdateTrophyProgressWithContextIdAndHandleIdAsync",
-						"ObfuscationName": "UpdateTrophyProgressWithContextIdAndHandleIdAsync",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "UnlockTrophyWithContextIdAndHandleIdAsync",
-						"ObfuscationName": "UnlockTrophyWithContextIdAndHandleIdAsync",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "RegisterTrophyContextAsync",
-						"ObfuscationName": "RegisterTrophyContextAsync",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "GetTrophyListWithContextIdAndHandleIdAsync",
-						"ObfuscationName": "GetTrophyListWithContextIdAndHandleIdAsync",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "GetCacheMapElement",
-						"ObfuscationName": "GetCacheMapElement",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "GetBlockUserListAsync",
-						"ObfuscationName": "GetBlockUserListAsync",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "DestroyTrophyHandleAsync",
-						"ObfuscationName": "DestroyTrophyHandleAsync",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "DestroyTrophyContextAsync",
-						"ObfuscationName": "DestroyTrophyContextAsync",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "CreateTrophyHandleAsync",
-						"ObfuscationName": "CreateTrophyHandleAsync",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "CreateTrophyContextAsync",
-						"ObfuscationName": "CreateTrophyContextAsync",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "AddCacheMapElement",
-						"ObfuscationName": "AddCacheMapElement",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "PollWebBrowser",
-						"ObfuscationName": "PollWebBrowser",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "PollCheckoutDialogResult",
-						"ObfuscationName": "PollCheckoutDialogResult",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "OpenWebView",
-						"ObfuscationName": "OpenWebView",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "OpenCheckoutDialog",
-						"ObfuscationName": "OpenCheckoutDialog",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "GetStoreProducts",
-						"ObfuscationName": "GetStoreProducts",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "OpenMessageDialog",
-						"ObfuscationName": "OpenMessageDialog",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "GetMessageDialogStateAsync",
-						"ObfuscationName": "GetMessageDialogStateAsync",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "SetPlayerSessionJoinableUserType",
-						"ObfuscationName": "SetPlayerSessionJoinableUserType",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "LeavePlayerSession",
-						"ObfuscationName": "LeavePlayerSession",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "JoinPlayerSession",
-						"ObfuscationName": "JoinPlayerSession",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "GetPlayerIdByPlayerSessionId",
-						"ObfuscationName": "GetPlayerIdByPlayerSessionId",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "CreatePlayerSession",
-						"ObfuscationName": "CreatePlayerSession",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "CheckUserPremium",
-						"ObfuscationName": "CheckUserPremium",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "CheckJoinSession",
-						"ObfuscationName": "CheckJoinSession",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "GetCommunicationRestrictionStatusAsync",
-						"ObfuscationName": "GetCommunicationRestrictionStatusAsync",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "TerminateMessageDialog",
-						"ObfuscationName": "TerminateMessageDialog",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "ClearJoinSessionDelegate",
-						"ObfuscationName": "ClearJoinSessionDelegate",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "AddJoinSessionDelegate",
-						"ObfuscationName": "AddJoinSessionDelegate",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "SceNpGetNpReachabilityState",
-						"ObfuscationName": "SceNpGetNpReachabilityState",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "NotifyPremiumFeature",
-						"ObfuscationName": "NotifyPremiumFeature",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					}
-				]
-			},
-			{
-				"ClassPathName": "/Script/KuroHotPatch.KuroCheckInfoEntry",
-				"JsName": "KuroCheckInfoEntry",
-				"ObfuscationName": "KuroCheckInfoEntry",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "FileName",
-						"ObfuscationName": "FileName",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "FilePath",
-						"ObfuscationName": "FilePath",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Hash",
-						"ObfuscationName": "Hash",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Size",
-						"ObfuscationName": "Size",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Url",
-						"ObfuscationName": "Url",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "NeedRestart",
-						"ObfuscationName": "NeedRestart",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Result",
-						"ObfuscationName": "Result",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Script/KuroHotPatch.KuroCheckFiles",
-				"JsName": "KuroCheckFiles",
-				"ObfuscationName": "KuroCheckFiles",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "CheckList",
-						"ObfuscationName": "CheckList",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "TmpSuffix",
-						"ObfuscationName": "TmpSuffix",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "ProgressDelegate",
-						"ObfuscationName": "ProgressDelegate",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "CompleteDelegate",
-						"ObfuscationName": "CompleteDelegate",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": [
-					{
-						"FunctionName": "Clear",
-						"ObfuscationName": "Clear",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "Check",
-						"ObfuscationName": "Check",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					}
-				]
-			},
-			{
-				"ClassPathName": "/Script/KuroEditorRuntime.ReadFileData",
-				"JsName": "ReadFileData",
-				"ObfuscationName": "ReadFileData",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "FilePath",
-						"ObfuscationName": "FilePath",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "FileContent",
-						"ObfuscationName": "FileContent",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Script/KuroUtility.BlockUserData",
-				"JsName": "BlockUserData",
-				"ObfuscationName": "BlockUserData",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "blockUsers",
-						"ObfuscationName": "blockUsers",
+						"PropertyName": "bEnableDynamicReverb",
+						"ObfuscationName": "bEnableDynamicReverb",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -23623,64 +22827,14 @@
 				"Functions": []
 			},
 			{
-				"ClassPathName": "/Script/LGUI.UITextureActor",
-				"JsName": "UITextureActor",
-				"ObfuscationName": "UITextureActor",
+				"ClassPathName": "/Script/KuroUtility.BlockUserData",
+				"JsName": "BlockUserData",
+				"ObfuscationName": "BlockUserData",
 				"IsWrapper": true,
 				"Properties": [
 					{
-						"PropertyName": "UITexture",
-						"ObfuscationName": "UITexture",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Script/LGUI.LGUIArtTextData",
-				"JsName": "LGUIArtTextData",
-				"ObfuscationName": "LGUIArtTextData",
-				"IsWrapper": false,
-				"Properties": [],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Script/LGUI.UIArtText",
-				"JsName": "UIArtText",
-				"ObfuscationName": "UIArtText",
-				"IsWrapper": true,
-				"Properties": [],
-				"Functions": [
-					{
-						"FunctionName": "SetText",
-						"ObfuscationName": "SetText",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "SetArtTextData",
-						"ObfuscationName": "SetArtTextData",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "GetArtTextData",
-						"ObfuscationName": "GetArtTextData",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					}
-				]
-			},
-			{
-				"ClassPathName": "/Script/KuroGameplay.SequencerBindingRuntimeProxy",
-				"JsName": "SequencerBindingRuntimeProxy",
-				"ObfuscationName": "SequencerBindingRuntimeProxy",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "BindingID",
-						"ObfuscationName": "BindingID",
+						"PropertyName": "blockUsers",
+						"ObfuscationName": "blockUsers",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -23727,14 +22881,20 @@
 				"Functions": []
 			},
 			{
-				"ClassPathName": "/Script/Engine.AnimTrack",
-				"JsName": "AnimTrack",
-				"ObfuscationName": "AnimTrack",
+				"ClassPathName": "/Script/KuroEditorRuntime.ReadFileData",
+				"JsName": "ReadFileData",
+				"ObfuscationName": "ReadFileData",
 				"IsWrapper": true,
 				"Properties": [
 					{
-						"PropertyName": "AnimSegments",
-						"ObfuscationName": "AnimSegments",
+						"PropertyName": "FilePath",
+						"ObfuscationName": "FilePath",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "FileContent",
+						"ObfuscationName": "FileContent",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -23742,14 +22902,50 @@
 				"Functions": []
 			},
 			{
-				"ClassPathName": "/Script/Engine.AnimSegment",
-				"JsName": "AnimSegment",
-				"ObfuscationName": "AnimSegment",
+				"ClassPathName": "/Script/KuroHotPatch.KuroCheckInfoEntry",
+				"JsName": "KuroCheckInfoEntry",
+				"ObfuscationName": "KuroCheckInfoEntry",
 				"IsWrapper": true,
 				"Properties": [
 					{
-						"PropertyName": "AnimReference",
-						"ObfuscationName": "AnimReference",
+						"PropertyName": "FileName",
+						"ObfuscationName": "FileName",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "FilePath",
+						"ObfuscationName": "FilePath",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Hash",
+						"ObfuscationName": "Hash",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Size",
+						"ObfuscationName": "Size",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Url",
+						"ObfuscationName": "Url",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "NeedRestart",
+						"ObfuscationName": "NeedRestart",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Result",
+						"ObfuscationName": "Result",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -23757,14 +22953,173 @@
 				"Functions": []
 			},
 			{
-				"ClassPathName": "/Script/Engine.SlotAnimationTrack",
-				"JsName": "SlotAnimationTrack",
-				"ObfuscationName": "SlotAnimationTrack",
+				"ClassPathName": "/Script/AIModule.BTDecorator_ForceSuccess",
+				"JsName": "BTDecorator_ForceSuccess",
+				"ObfuscationName": "BTDecorator_ForceSuccess",
+				"IsWrapper": false,
+				"Properties": [],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/AIModule.BTDecorator_Loop",
+				"JsName": "BTDecorator_Loop",
+				"ObfuscationName": "BTDecorator_Loop",
 				"IsWrapper": true,
 				"Properties": [
 					{
-						"PropertyName": "AnimTrack",
-						"ObfuscationName": "AnimTrack",
+						"PropertyName": "bInfiniteLoop",
+						"ObfuscationName": "bInfiniteLoop",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/UMG.Widget",
+				"JsName": "Widget",
+				"ObfuscationName": "Widget",
+				"IsWrapper": true,
+				"Properties": [],
+				"Functions": [
+					{
+						"FunctionName": "RemoveFromParent",
+						"ObfuscationName": "RemoveFromParent",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Script/UMG.Image",
+				"JsName": "Image",
+				"ObfuscationName": "Image",
+				"IsWrapper": true,
+				"Properties": [],
+				"Functions": [
+					{
+						"FunctionName": "SetBrushFromTexture",
+						"ObfuscationName": "SetBrushFromTexture",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Script/UMG.ScrollBox",
+				"JsName": "ScrollBox",
+				"ObfuscationName": "ScrollBox",
+				"IsWrapper": true,
+				"Properties": [],
+				"Functions": [
+					{
+						"FunctionName": "ScrollWidgetIntoView",
+						"ObfuscationName": "ScrollWidgetIntoView",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "ScrollToStart",
+						"ObfuscationName": "ScrollToStart",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "ScrollToEnd",
+						"ObfuscationName": "ScrollToEnd",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Script/UMG.TextBlock",
+				"JsName": "TextBlock",
+				"ObfuscationName": "TextBlock",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "Font",
+						"ObfuscationName": "Font",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": [
+					{
+						"FunctionName": "SetText",
+						"ObfuscationName": "SetText",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Script/UnrealEd.EditorLoadingSavingSettings",
+				"JsName": "EditorLoadingSavingSettings",
+				"ObfuscationName": "EditorLoadingSavingSettings",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "bAutoSaveEnable",
+						"ObfuscationName": "bAutoSaveEnable",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/Landscape.LandscapeProxy",
+				"JsName": "LandscapeProxy",
+				"ObfuscationName": "LandscapeProxy",
+				"IsWrapper": true,
+				"Properties": [],
+				"Functions": [
+					{
+						"FunctionName": "SetKuroLandscapeFOVFactorByCamera",
+						"ObfuscationName": "SetKuroLandscapeFOVFactorByCamera",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "SetKuroLandscapeFOVFactor",
+						"ObfuscationName": "SetKuroLandscapeFOVFactor",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Script/Engine.SCS_Node",
+				"JsName": "SCS_Node",
+				"ObfuscationName": "SCS_Node",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "ComponentClass",
+						"ObfuscationName": "ComponentClass",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "ComponentTemplate",
+						"ObfuscationName": "ComponentTemplate",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/Engine.SimpleConstructionScript",
+				"JsName": "SimpleConstructionScript",
+				"ObfuscationName": "SimpleConstructionScript",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "AllNodes",
+						"ObfuscationName": "AllNodes",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -23793,6 +23148,218 @@
 					{
 						"FunctionName": "GetDeviceIRXState",
 						"ObfuscationName": "GetDeviceIRXState",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Script/KuroInput.KuroInputFunctionLibrary",
+				"JsName": "KuroInputFunctionLibrary",
+				"ObfuscationName": "KuroInputFunctionLibrary",
+				"IsWrapper": true,
+				"Properties": [],
+				"Functions": [
+					{
+						"FunctionName": "SetGameOnlyInputMode",
+						"ObfuscationName": "SetGameOnlyInputMode",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "SetGameAndUIInputMode",
+						"ObfuscationName": "SetGameAndUIInputMode",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "ResetInputMode",
+						"ObfuscationName": "ResetInputMode",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "ReplyInputMode",
+						"ObfuscationName": "ReplyInputMode",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "HasInputModeReply",
+						"ObfuscationName": "HasInputModeReply",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "ClearInputModeReply",
+						"ObfuscationName": "ClearInputModeReply",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "ApplyInputMode",
+						"ObfuscationName": "ApplyInputMode",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Script/SpinePlugin.SpineAtlasAsset",
+				"JsName": "SpineAtlasAsset",
+				"ObfuscationName": "SpineAtlasAsset",
+				"IsWrapper": false,
+				"Properties": [],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/SpinePlugin.TrackEntry",
+				"JsName": "TrackEntry",
+				"ObfuscationName": "TrackEntry",
+				"IsWrapper": true,
+				"Properties": [],
+				"Functions": [
+					{
+						"FunctionName": "SetMixDuration",
+						"ObfuscationName": "SetMixDuration",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Script/SpinePlugin.SpineSkeletonDataAsset",
+				"JsName": "SpineSkeletonDataAsset",
+				"ObfuscationName": "SpineSkeletonDataAsset",
+				"IsWrapper": false,
+				"Properties": [],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/AkAudio.MovieSceneAkAudioEventSection",
+				"JsName": "MovieSceneAkAudioEventSection",
+				"ObfuscationName": "MovieSceneAkAudioEventSection",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "Event",
+						"ObfuscationName": "Event",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/LGUI.LGUIArtTextData",
+				"JsName": "LGUIArtTextData",
+				"ObfuscationName": "LGUIArtTextData",
+				"IsWrapper": false,
+				"Properties": [],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/LGUI.RootTextItemMapDataV2",
+				"JsName": "RootTextItemMapDataV2",
+				"ObfuscationName": "RootTextItemMapDataV2",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "TextActorMap",
+						"ObfuscationName": "TextActorMap",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "TransitionTextIdMap",
+						"ObfuscationName": "TransitionTextIdMap",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/LGUI.UIArtText",
+				"JsName": "UIArtText",
+				"ObfuscationName": "UIArtText",
+				"IsWrapper": true,
+				"Properties": [],
+				"Functions": [
+					{
+						"FunctionName": "SetText",
+						"ObfuscationName": "SetText",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "SetArtTextData",
+						"ObfuscationName": "SetArtTextData",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetArtTextData",
+						"ObfuscationName": "GetArtTextData",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Script/LGUI.UIMultiTemplateLayout",
+				"JsName": "UIMultiTemplateLayout",
+				"ObfuscationName": "UIMultiTemplateLayout",
+				"IsWrapper": false,
+				"Properties": [],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/LGUI.UITextureActor",
+				"JsName": "UITextureActor",
+				"ObfuscationName": "UITextureActor",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "UITexture",
+						"ObfuscationName": "UITexture",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/KuroAI.BTDecorator_ForceFailure",
+				"JsName": "BTDecorator_ForceFailure",
+				"ObfuscationName": "BTDecorator_ForceFailure",
+				"IsWrapper": false,
+				"Properties": [],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/KuroGAS.AsyncTaskWaitGameplayEvent",
+				"JsName": "AsyncTaskWaitGameplayEvent",
+				"ObfuscationName": "AsyncTaskWaitGameplayEvent",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "EventReceived",
+						"ObfuscationName": "EventReceived",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": [
+					{
+						"FunctionName": "ListenForGameplayEvent",
+						"ObfuscationName": "ListenForGameplayEvent",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "EndTask",
+						"ObfuscationName": "EndTask",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -23829,6 +23396,777 @@
 					{
 						"FunctionName": "SetLogicallyHidden",
 						"ObfuscationName": "SetLogicallyHidden",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Script/KuroRenderingRuntimeBPPlugin.KuroGlobalGI",
+				"JsName": "KuroGlobalGI",
+				"ObfuscationName": "KuroGlobalGI",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "bPlayerInCave",
+						"ObfuscationName": "bPlayerInCave",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "bPlayerInGrass",
+						"ObfuscationName": "bPlayerInGrass",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": [
+					{
+						"FunctionName": "BindEventGlobalFootstepMaterialUpdate",
+						"ObfuscationName": "BindEventGlobalFootstepMaterialUpdate",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Script/KuroRenderingRuntimeBPPlugin.KuroGrassInteractionSphereComponent",
+				"JsName": "KuroGrassInteractionSphereComponent",
+				"ObfuscationName": "KuroGrassInteractionSphereComponent",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "Radius",
+						"ObfuscationName": "Radius",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "bEnabled",
+						"ObfuscationName": "bEnabled",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/KuroRenderingEditorBPPlugin.KuroRenderingSequenceEditorBPLibrary",
+				"JsName": "KuroRenderingSequenceEditorBPLibrary",
+				"ObfuscationName": "KuroRenderingSequenceEditorBPLibrary",
+				"IsWrapper": false,
+				"Properties": [],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/PerfSight.PerfSightHelper",
+				"JsName": "PerfSightHelper",
+				"ObfuscationName": "PerfSightHelper",
+				"IsWrapper": true,
+				"Properties": [],
+				"Functions": [
+					{
+						"FunctionName": "SetVersionIden",
+						"ObfuscationName": "SetVersionIden",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "SetUserId",
+						"ObfuscationName": "SetUserId",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "SetPCServerURL",
+						"ObfuscationName": "SetPCServerURL",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "SetPCAppVersion",
+						"ObfuscationName": "SetPCAppVersion",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "PostNetworkLatency",
+						"ObfuscationName": "PostNetworkLatency",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "PostEvent",
+						"ObfuscationName": "PostEvent",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "MarkLevelLoadCompleted",
+						"ObfuscationName": "MarkLevelLoadCompleted",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "MarkLevelLoad",
+						"ObfuscationName": "MarkLevelLoad",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "MarkLevelFin",
+						"ObfuscationName": "MarkLevelFin",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "InitContext",
+						"ObfuscationName": "InitContext",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "EnableDebugMode",
+						"ObfuscationName": "EnableDebugMode",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Script/KuroUtility.KuroStaticPS5Library",
+				"JsName": "KuroStaticPS5Library",
+				"ObfuscationName": "KuroStaticPS5Library",
+				"IsWrapper": true,
+				"Properties": [],
+				"Functions": [
+					{
+						"FunctionName": "UpdateTrophyProgressWithContextIdAndHandleIdAsync",
+						"ObfuscationName": "UpdateTrophyProgressWithContextIdAndHandleIdAsync",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "UnlockTrophyWithContextIdAndHandleIdAsync",
+						"ObfuscationName": "UnlockTrophyWithContextIdAndHandleIdAsync",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "UdsEventPropertyObjectSetString",
+						"ObfuscationName": "UdsEventPropertyObjectSetString",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "TerminateMessageDialog",
+						"ObfuscationName": "TerminateMessageDialog",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "ShowPsStoreIcon",
+						"ObfuscationName": "ShowPsStoreIcon",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "SetPlayerSessionJoinableUserType",
+						"ObfuscationName": "SetPlayerSessionJoinableUserType",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "RegisterUdsContext",
+						"ObfuscationName": "RegisterUdsContext",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "RegisterTrophyContextAsync",
+						"ObfuscationName": "RegisterTrophyContextAsync",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "PostUdsEvent",
+						"ObfuscationName": "PostUdsEvent",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "PollWebBrowser",
+						"ObfuscationName": "PollWebBrowser",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "PollCheckoutDialogResult",
+						"ObfuscationName": "PollCheckoutDialogResult",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "OpenWebBrowser",
+						"ObfuscationName": "OpenWebBrowser",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "OpenMessageDialog",
+						"ObfuscationName": "OpenMessageDialog",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "OpenCheckoutDialog",
+						"ObfuscationName": "OpenCheckoutDialog",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "LeavePlayerSession",
+						"ObfuscationName": "LeavePlayerSession",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "JoinPlayerSession",
+						"ObfuscationName": "JoinPlayerSession",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "InitWebApi",
+						"ObfuscationName": "InitWebApi",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "InitNpUniversalDataSystem",
+						"ObfuscationName": "InitNpUniversalDataSystem",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "HidePsStoreIcon",
+						"ObfuscationName": "HidePsStoreIcon",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetUserId",
+						"ObfuscationName": "GetUserId",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetTrophyListWithContextIdAndHandleIdAsync",
+						"ObfuscationName": "GetTrophyListWithContextIdAndHandleIdAsync",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetStoreProducts",
+						"ObfuscationName": "GetStoreProducts",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetPlayerIdByPlayerSessionId",
+						"ObfuscationName": "GetPlayerIdByPlayerSessionId",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetOnlineIdByUserId",
+						"ObfuscationName": "GetOnlineIdByUserId",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetMessageDialogStateAsync",
+						"ObfuscationName": "GetMessageDialogStateAsync",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetIdToken",
+						"ObfuscationName": "GetIdToken",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetCommunicationRestrictionStatusAsync",
+						"ObfuscationName": "GetCommunicationRestrictionStatusAsync",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetCacheMapElement",
+						"ObfuscationName": "GetCacheMapElement",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetBlockUserListAsync",
+						"ObfuscationName": "GetBlockUserListAsync",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetAuthCode",
+						"ObfuscationName": "GetAuthCode",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetAccountIdByUserId",
+						"ObfuscationName": "GetAccountIdByUserId",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "DestroyUdsHandle",
+						"ObfuscationName": "DestroyUdsHandle",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "DestroyUdsEvent",
+						"ObfuscationName": "DestroyUdsEvent",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "DestroyUdsContext",
+						"ObfuscationName": "DestroyUdsContext",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "DestroyTrophyHandleAsync",
+						"ObfuscationName": "DestroyTrophyHandleAsync",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "DestroyTrophyContextAsync",
+						"ObfuscationName": "DestroyTrophyContextAsync",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "CreateUdsHandle",
+						"ObfuscationName": "CreateUdsHandle",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "CreateUdsEvent",
+						"ObfuscationName": "CreateUdsEvent",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "CreateUdsContext",
+						"ObfuscationName": "CreateUdsContext",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "CreateTrophyHandleAsync",
+						"ObfuscationName": "CreateTrophyHandleAsync",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "CreateTrophyContextAsync",
+						"ObfuscationName": "CreateTrophyContextAsync",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "CreatePlayerSession",
+						"ObfuscationName": "CreatePlayerSession",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "ClearJoinSessionDelegate",
+						"ObfuscationName": "ClearJoinSessionDelegate",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "CheckUserPremium",
+						"ObfuscationName": "CheckUserPremium",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "CheckJoinSession",
+						"ObfuscationName": "CheckJoinSession",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "AddJoinSessionDelegate",
+						"ObfuscationName": "AddJoinSessionDelegate",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "AddCacheMapElement",
+						"ObfuscationName": "AddCacheMapElement",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "AbortUdsHandle",
+						"ObfuscationName": "AbortUdsHandle",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "SceNpGetNpReachabilityState",
+						"ObfuscationName": "SceNpGetNpReachabilityState",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "NotifyPremiumFeature",
+						"ObfuscationName": "NotifyPremiumFeature",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetCountryCodeByUserId",
+						"ObfuscationName": "GetCountryCodeByUserId",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "ClearJoinSessionHandle",
+						"ObfuscationName": "ClearJoinSessionHandle",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "UdsEventPropertyArraySetString",
+						"ObfuscationName": "UdsEventPropertyArraySetString",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Script/KuroHotPatch.KuroCheckFiles",
+				"JsName": "KuroCheckFiles",
+				"ObfuscationName": "KuroCheckFiles",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "CheckList",
+						"ObfuscationName": "CheckList",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "TmpSuffix",
+						"ObfuscationName": "TmpSuffix",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "ProgressDelegate",
+						"ObfuscationName": "ProgressDelegate",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "CompleteDelegate",
+						"ObfuscationName": "CompleteDelegate",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": [
+					{
+						"FunctionName": "Clear",
+						"ObfuscationName": "Clear",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "Check",
+						"ObfuscationName": "Check",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Script/KuroVariable.KuroVariableFunctionLibrary",
+				"JsName": "KuroVariableFunctionLibrary",
+				"ObfuscationName": "KuroVariableFunctionLibrary",
+				"IsWrapper": true,
+				"Properties": [],
+				"Functions": [
+					{
+						"FunctionName": "SetStringValue",
+						"ObfuscationName": "SetStringValue",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "SetObject",
+						"ObfuscationName": "SetObject",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "RemoveStringValue",
+						"ObfuscationName": "RemoveStringValue",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "RemoveObject",
+						"ObfuscationName": "RemoveObject",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "HasStringValue",
+						"ObfuscationName": "HasStringValue",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetStringValue",
+						"ObfuscationName": "GetStringValue",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetObject",
+						"ObfuscationName": "GetObject",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "SetIntValue",
+						"ObfuscationName": "SetIntValue",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetIntValue",
+						"ObfuscationName": "GetIntValue",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Script/KuroVehicle.KuroAnimInstanceVehicle",
+				"JsName": "KuroAnimInstanceVehicle",
+				"ObfuscationName": "KuroAnimInstanceVehicle",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "LogicParams",
+						"ObfuscationName": "LogicParams",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/KuroVehicle.KuroBaseVehicle",
+				"JsName": "KuroBaseVehicle",
+				"ObfuscationName": "KuroBaseVehicle",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "VehicleMovementComponent",
+						"ObfuscationName": "VehicleMovementComponent",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/KuroVehicle.KuroVehicleMovementComponent",
+				"JsName": "KuroVehicleMovementComponent",
+				"ObfuscationName": "KuroVehicleMovementComponent",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "GravityScale",
+						"ObfuscationName": "GravityScale",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "MaxAcceleration",
+						"ObfuscationName": "MaxAcceleration",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "MaxSpeed",
+						"ObfuscationName": "MaxSpeed",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "MaxBackwardSpeed",
+						"ObfuscationName": "MaxBackwardSpeed",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "RotAccAngleCoef",
+						"ObfuscationName": "RotAccAngleCoef",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "RotAccSpeedCoef",
+						"ObfuscationName": "RotAccSpeedCoef",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "RotAccConstCoef",
+						"ObfuscationName": "RotAccConstCoef",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "MinFriction",
+						"ObfuscationName": "MinFriction",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "MaxFriction",
+						"ObfuscationName": "MaxFriction",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "ExtraFrictionWhenExceedMaxSpeed",
+						"ObfuscationName": "ExtraFrictionWhenExceedMaxSpeed",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "MaxRotationSpeed",
+						"ObfuscationName": "MaxRotationSpeed",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "RotFrictionFactor",
+						"ObfuscationName": "RotFrictionFactor",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "StaticRotFriction",
+						"ObfuscationName": "StaticRotFriction",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "RotaryInertia",
+						"ObfuscationName": "RotaryInertia",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "SpeedImpactFactor",
+						"ObfuscationName": "SpeedImpactFactor",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "RotationImpactFactor",
+						"ObfuscationName": "RotationImpactFactor",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": [
+					{
+						"FunctionName": "SetMovementMode",
+						"ObfuscationName": "SetMovementMode",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "Kuro_SetGravityDirect",
+						"ObfuscationName": "Kuro_SetGravityDirect",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "Kuro_GetGravityDirect",
+						"ObfuscationName": "Kuro_GetGravityDirect",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "InitVehicleShapes",
+						"ObfuscationName": "InitVehicleShapes",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Script/KuroCloudGame.KuroCloudGameWrapper",
+				"JsName": "KuroCloudGameWrapper",
+				"ObfuscationName": "KuroCloudGameWrapper",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "CloudGameOnReceiveDataDelegate",
+						"ObfuscationName": "CloudGameOnReceiveDataDelegate",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "CloudGameOnReceiveDataWithKeyDelegate",
+						"ObfuscationName": "CloudGameOnReceiveDataWithKeyDelegate",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": [
+					{
+						"FunctionName": "SendDataToPipeBinary",
+						"ObfuscationName": "SendDataToPipeBinary",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Script/XeSSBlueprint.XeSSBlueprintLibrary",
+				"JsName": "XeSSBlueprintLibrary",
+				"ObfuscationName": "XeSSBlueprintLibrary",
+				"IsWrapper": true,
+				"Properties": [],
+				"Functions": [
+					{
+						"FunctionName": "IsXeSSSupported",
+						"ObfuscationName": "IsXeSSSupported",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -24134,6 +24472,21 @@
 				"Functions": []
 			},
 			{
+				"ClassPathName": "/Script/KuroGAS.BaseGameplayAbility",
+				"JsName": "BaseGameplayAbility",
+				"ObfuscationName": "BaseGameplayAbility",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "StartOnGiven",
+						"ObfuscationName": "StartOnGiven",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
 				"ClassPathName": "/Script/KuroPuertsWrapper.KuroDataTableFunctionLibrary",
 				"JsName": "KuroDataTableFunctionLibrary",
 				"ObfuscationName": "KuroDataTableFunctionLibrary",
@@ -24177,6 +24530,724 @@
 					}
 				],
 				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/MovieSceneTracks.MovieSceneBoolTrack",
+				"JsName": "MovieSceneBoolTrack",
+				"ObfuscationName": "MovieSceneBoolTrack",
+				"IsWrapper": false,
+				"Properties": [],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/KuroRenderingRuntimeBPPlugin.KuroMaterialControllerComponent",
+				"JsName": "KuroMaterialControllerComponent",
+				"ObfuscationName": "KuroMaterialControllerComponent",
+				"IsWrapper": true,
+				"Properties": [],
+				"Functions": [
+					{
+						"FunctionName": "UpdateEffects",
+						"ObfuscationName": "UpdateEffects",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "SetHandlePause",
+						"ObfuscationName": "SetHandlePause",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "SetHandleLoop",
+						"ObfuscationName": "SetHandleLoop",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "SeekHandleFactor",
+						"ObfuscationName": "SeekHandleFactor",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "RemoveTextureUpdateParamPermanent",
+						"ObfuscationName": "RemoveTextureUpdateParamPermanent",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "RemoveSkeletalMeshComponent",
+						"ObfuscationName": "RemoveSkeletalMeshComponent",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "RemoveFloatUpdateParamPermanent",
+						"ObfuscationName": "RemoveFloatUpdateParamPermanent",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "RemoveExternalOutlineStencilTestRefCount",
+						"ObfuscationName": "RemoveExternalOutlineStencilTestRefCount",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "RemoveExternalBattleRefCount",
+						"ObfuscationName": "RemoveExternalBattleRefCount",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "RemoveExternalBattleMaskRefCount",
+						"ObfuscationName": "RemoveExternalBattleMaskRefCount",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "RemoveExternalAlphaTestRefCount",
+						"ObfuscationName": "RemoveExternalAlphaTestRefCount",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "RemoveEffect",
+						"ObfuscationName": "RemoveEffect",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "RemoveDeadEffects",
+						"ObfuscationName": "RemoveDeadEffects",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "RemoveColorUpdateParamPermanent",
+						"ObfuscationName": "RemoveColorUpdateParamPermanent",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "RemoveAllEffects",
+						"ObfuscationName": "RemoveAllEffects",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "ManualTick",
+						"ObfuscationName": "ManualTick",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "InitFromOwner",
+						"ObfuscationName": "InitFromOwner",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetRegisteredSkeletalMeshComponent",
+						"ObfuscationName": "GetRegisteredSkeletalMeshComponent",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "AddTextureUpdateParamPermanent",
+						"ObfuscationName": "AddTextureUpdateParamPermanent",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "AddSkeletalMeshComponent",
+						"ObfuscationName": "AddSkeletalMeshComponent",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "AddFloatUpdateParamPermanent",
+						"ObfuscationName": "AddFloatUpdateParamPermanent",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "AddExternalOutlineStencilTestRefCount",
+						"ObfuscationName": "AddExternalOutlineStencilTestRefCount",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "AddExternalBattleRefCount",
+						"ObfuscationName": "AddExternalBattleRefCount",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "AddExternalBattleMaskRefCount",
+						"ObfuscationName": "AddExternalBattleMaskRefCount",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "AddExternalAlphaTestRefCount",
+						"ObfuscationName": "AddExternalAlphaTestRefCount",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "AddColorUpdateParamPermanent",
+						"ObfuscationName": "AddColorUpdateParamPermanent",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "SetInitTakeOver",
+						"ObfuscationName": "SetInitTakeOver",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "AddEffect_Ex",
+						"ObfuscationName": "AddEffect_Ex",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Script/LGUI.LGUIFontData_BaseObject",
+				"JsName": "LGUIFontData_BaseObject",
+				"ObfuscationName": "LGUIFontData_BaseObject",
+				"IsWrapper": false,
+				"Properties": [],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/KuroRenderingRuntimeBPPlugin.KuroSequencePerformanceManager",
+				"JsName": "KuroSequencePerformanceManager",
+				"ObfuscationName": "KuroSequencePerformanceManager",
+				"IsWrapper": true,
+				"Properties": [],
+				"Functions": [
+					{
+						"FunctionName": "OpenKuroPerformanceMode",
+						"ObfuscationName": "OpenKuroPerformanceMode",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "CloseKuroPerformanceMode",
+						"ObfuscationName": "CloseKuroPerformanceMode",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetPerformanceMode",
+						"ObfuscationName": "GetPerformanceMode",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Script/KuroGameplay.EffectModelDecal",
+				"JsName": "EffectModelDecal",
+				"ObfuscationName": "EffectModelDecal",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "DecalMaterialRef",
+						"ObfuscationName": "DecalMaterialRef",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Location",
+						"ObfuscationName": "Location",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Rotation",
+						"ObfuscationName": "Rotation",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Scale",
+						"ObfuscationName": "Scale",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "ZfadingFactor",
+						"ObfuscationName": "ZfadingFactor",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "ZfadingPower",
+						"ObfuscationName": "ZfadingPower",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "MaterialFloatParameters",
+						"ObfuscationName": "MaterialFloatParameters",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "MaterialColorParameters",
+						"ObfuscationName": "MaterialColorParameters",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/KuroGameplay.EffectModelGhost",
+				"JsName": "EffectModelGhost",
+				"ObfuscationName": "EffectModelGhost",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "MaterialRef",
+						"ObfuscationName": "MaterialRef",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "MeshComponentsToUse",
+						"ObfuscationName": "MeshComponentsToUse",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "CustomComponentNames",
+						"ObfuscationName": "CustomComponentNames",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "AlphaCurve",
+						"ObfuscationName": "AlphaCurve",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/KuroGameplay.EffectModelGpuParticle",
+				"JsName": "EffectModelGpuParticle",
+				"ObfuscationName": "EffectModelGpuParticle",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "Location",
+						"ObfuscationName": "Location",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Rotation",
+						"ObfuscationName": "Rotation",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Scale",
+						"ObfuscationName": "Scale",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Data",
+						"ObfuscationName": "Data",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "TimeScaler",
+						"ObfuscationName": "TimeScaler",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Loop",
+						"ObfuscationName": "Loop",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "EnablePingPong",
+						"ObfuscationName": "EnablePingPong",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "PingPongTime",
+						"ObfuscationName": "PingPongTime",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "ReversePlay",
+						"ObfuscationName": "ReversePlay",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/KuroGameplay.EffectModelGroup",
+				"JsName": "EffectModelGroup",
+				"ObfuscationName": "EffectModelGroup",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "Location",
+						"ObfuscationName": "Location",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Rotation",
+						"ObfuscationName": "Rotation",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Scale",
+						"ObfuscationName": "Scale",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "EffectData",
+						"ObfuscationName": "EffectData",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/KuroGameplay.EffectModelMultiEffect",
+				"JsName": "EffectModelMultiEffect",
+				"ObfuscationName": "EffectModelMultiEffect",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "EffectData",
+						"ObfuscationName": "EffectData",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Type",
+						"ObfuscationName": "Type",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "BaseNum",
+						"ObfuscationName": "BaseNum",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "SpinSpeed",
+						"ObfuscationName": "SpinSpeed",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Radius",
+						"ObfuscationName": "Radius",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/KuroGameplay.EffectModelSkeletalMesh",
+				"JsName": "EffectModelSkeletalMesh",
+				"ObfuscationName": "EffectModelSkeletalMesh",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "SkeletalMeshRef",
+						"ObfuscationName": "SkeletalMeshRef",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "AnimationRef",
+						"ObfuscationName": "AnimationRef",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Looping",
+						"ObfuscationName": "Looping",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Location",
+						"ObfuscationName": "Location",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Rotation",
+						"ObfuscationName": "Rotation",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Scale",
+						"ObfuscationName": "Scale",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "EnableCollision",
+						"ObfuscationName": "EnableCollision",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "HideFrames",
+						"ObfuscationName": "HideFrames",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "CastShadow",
+						"ObfuscationName": "CastShadow",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/KuroGameplay.EffectModelStaticMesh",
+				"JsName": "EffectModelStaticMesh",
+				"ObfuscationName": "EffectModelStaticMesh",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "Location",
+						"ObfuscationName": "Location",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Rotation",
+						"ObfuscationName": "Rotation",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Scale",
+						"ObfuscationName": "Scale",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "StaticMeshRef",
+						"ObfuscationName": "StaticMeshRef",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "UseMultipleMaterialSlots",
+						"ObfuscationName": "UseMultipleMaterialSlots",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "MaterialOverrideRef",
+						"ObfuscationName": "MaterialOverrideRef",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "MaterialOverrideArrayRef",
+						"ObfuscationName": "MaterialOverrideArrayRef",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "MaterialFloatParameters",
+						"ObfuscationName": "MaterialFloatParameters",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "MaterialColorParameters",
+						"ObfuscationName": "MaterialColorParameters",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "ReceiveDecal",
+						"ObfuscationName": "ReceiveDecal",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "EnableCollision",
+						"ObfuscationName": "EnableCollision",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "CastShadow",
+						"ObfuscationName": "CastShadow",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "TranslucencySortPriority",
+						"ObfuscationName": "TranslucencySortPriority",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "EnableScreenSizeCullRatioOverride",
+						"ObfuscationName": "EnableScreenSizeCullRatioOverride",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "ScreenSizeCullRatio",
+						"ObfuscationName": "ScreenSizeCullRatio",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/KuroGameplay.EffectModelTrail",
+				"JsName": "EffectModelTrail",
+				"ObfuscationName": "EffectModelTrail",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "AttachToBones",
+						"ObfuscationName": "AttachToBones",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "AttachBoneNames",
+						"ObfuscationName": "AttachBoneNames",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "RelativeLocations",
+						"ObfuscationName": "RelativeLocations",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "LocationsCurve",
+						"ObfuscationName": "LocationsCurve",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Material",
+						"ObfuscationName": "Material",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "UnitLength",
+						"ObfuscationName": "UnitLength",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "DissipateSpeed",
+						"ObfuscationName": "DissipateSpeed",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Alpha",
+						"ObfuscationName": "Alpha",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "FloatParameters",
+						"ObfuscationName": "FloatParameters",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "ColorParameters",
+						"ObfuscationName": "ColorParameters",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "DestroyAtOnce",
+						"ObfuscationName": "DestroyAtOnce",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "DissipateSpeedAfterDead",
+						"ObfuscationName": "DissipateSpeedAfterDead",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Script/KuroRenderingRuntimeBPPlugin.KuroMaterialParameterCollectionManager",
+				"JsName": "KuroMaterialParameterCollectionManager",
+				"ObfuscationName": "KuroMaterialParameterCollectionManager",
+				"IsWrapper": true,
+				"Properties": [],
+				"Functions": [
+					{
+						"FunctionName": "SetScalarParameterValueTimeCurve",
+						"ObfuscationName": "SetScalarParameterValueTimeCurve",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Script/KuroHttpTraffic.KuroHttpTrafficStatic",
+				"JsName": "KuroHttpTrafficStatic",
+				"ObfuscationName": "KuroHttpTrafficStatic",
+				"IsWrapper": true,
+				"Properties": [],
+				"Functions": [
+					{
+						"FunctionName": "Init",
+						"ObfuscationName": "Init",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
 			}
 		],
 		"ReflectionClassArray": [
@@ -25697,12 +26768,6 @@
 				"IsWrapper": true,
 				"Properties": [
 					{
-						"PropertyName": "LockOnConfigId",
-						"ObfuscationName": "LockOnConfigId",
-						"IsWrapper": true,
-						"IsCache": true
-					},
-					{
 						"PropertyName": "SkillTargetDirection",
 						"ObfuscationName": "SkillTargetDirection",
 						"IsWrapper": true,
@@ -25715,12 +26780,6 @@
 						"IsCache": true
 					},
 					{
-						"PropertyName": "ShowTarget",
-						"ObfuscationName": "ShowTarget",
-						"IsWrapper": true,
-						"IsCache": true
-					},
-					{
 						"PropertyName": "HateOrLockOnChanged",
 						"ObfuscationName": "HateOrLockOnChanged",
 						"IsWrapper": true,
@@ -25729,12 +26788,6 @@
 					{
 						"PropertyName": "TargetDied",
 						"ObfuscationName": "TargetDied",
-						"IsWrapper": true,
-						"IsCache": true
-					},
-					{
-						"PropertyName": "GlobalTarget",
-						"ObfuscationName": "GlobalTarget",
 						"IsWrapper": true,
 						"IsCache": true
 					}
@@ -26827,12 +27880,6 @@
 						"IsCache": true
 					},
 					{
-						"PropertyName": "IsForcePlayModify",
-						"ObfuscationName": "IsForcePlayModify",
-						"IsWrapper": true,
-						"IsCache": true
-					},
-					{
 						"PropertyName": "IsResetFinalArmRotationToSpecificPitch",
 						"ObfuscationName": "IsResetFinalArmRotationToSpecificPitch",
 						"IsWrapper": true,
@@ -26865,6 +27912,12 @@
 					{
 						"PropertyName": "ResetFinalArmLengthToSpecificValue",
 						"ObfuscationName": "ResetFinalArmLengthToSpecificValue",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "IsForcePlayModify",
+						"ObfuscationName": "IsForcePlayModify",
 						"IsWrapper": true,
 						"IsCache": true
 					},
@@ -29641,6 +30694,12 @@
 						"ObfuscationName": "条件技能ID",
 						"IsWrapper": true,
 						"IsCache": true
+					},
+					{
+						"PropertyName": "Id",
+						"ObfuscationName": "Id",
+						"IsWrapper": true,
+						"IsCache": true
 					}
 				],
 				"Functions": []
@@ -29805,8 +30864,26 @@
 						"IsCache": false
 					},
 					{
+						"PropertyName": "拼刀忽略距离",
+						"ObfuscationName": "拼刀忽略距离",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "拼刀忽略角度",
+						"ObfuscationName": "拼刀忽略角度",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
 						"PropertyName": "开启空气墙交互",
 						"ObfuscationName": "开启空气墙交互",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "触发前摇拼刀",
+						"ObfuscationName": "触发前摇拼刀",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -31449,14 +32526,14 @@
 						"IsCache": true
 					},
 					{
-						"PropertyName": "特效替换表",
-						"ObfuscationName": "特效替换表",
+						"PropertyName": "描述",
+						"ObfuscationName": "描述",
 						"IsWrapper": true,
 						"IsCache": true
 					},
 					{
-						"PropertyName": "描述",
-						"ObfuscationName": "描述",
+						"PropertyName": "特效替换表",
+						"ObfuscationName": "特效替换表",
 						"IsWrapper": true,
 						"IsCache": true
 					}
@@ -31508,6 +32585,12 @@
 					{
 						"PropertyName": "HitEffectTableMap",
 						"ObfuscationName": "HitEffectTableMap",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "LinkCharacter",
+						"ObfuscationName": "LinkCharacter",
 						"IsWrapper": true,
 						"IsCache": true
 					}
@@ -31809,12 +32892,6 @@
 						"IsCache": true
 					},
 					{
-						"PropertyName": "IconPath",
-						"ObfuscationName": "IconPath",
-						"IsWrapper": true,
-						"IsCache": true
-					},
-					{
 						"PropertyName": "KeyType",
 						"ObfuscationName": "KeyType",
 						"IsWrapper": true,
@@ -31839,12 +32916,6 @@
 						"IsCache": true
 					},
 					{
-						"PropertyName": "EnableIconPath",
-						"ObfuscationName": "EnableIconPath",
-						"IsWrapper": true,
-						"IsCache": true
-					},
-					{
 						"PropertyName": "NiagaraList",
 						"ObfuscationName": "NiagaraList",
 						"IsWrapper": true,
@@ -31863,8 +32934,26 @@
 						"IsCache": true
 					},
 					{
-						"PropertyName": "FrontIconPath",
-						"ObfuscationName": "FrontIconPath",
+						"PropertyName": "TexturePath",
+						"ObfuscationName": "TexturePath",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "EnableTexturePath",
+						"ObfuscationName": "EnableTexturePath",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "FrontTexturePath",
+						"ObfuscationName": "FrontTexturePath",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "ExtraType",
+						"ObfuscationName": "ExtraType",
 						"IsWrapper": true,
 						"IsCache": true
 					}
@@ -32634,6 +33723,18 @@
 					{
 						"PropertyName": "投掷锁定范围",
 						"ObfuscationName": "投掷锁定范围",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "归位消失特效",
+						"ObfuscationName": "归位消失特效",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "未锁定目标时不可投掷",
+						"ObfuscationName": "未锁定目标时不可投掷",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -34001,6 +35102,12 @@
 						"IsCache": false
 					},
 					{
+						"PropertyName": "植被交互半径",
+						"ObfuscationName": "植被交互半径",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
 						"PropertyName": "启用简易水面交互",
 						"ObfuscationName": "启用简易水面交互",
 						"IsWrapper": true,
@@ -34009,12 +35116,6 @@
 					{
 						"PropertyName": "植被交互相对位置",
 						"ObfuscationName": "植被交互相对位置",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "植被交互半径",
-						"ObfuscationName": "植被交互半径",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -34998,6 +36099,12 @@
 				"IsWrapper": true,
 				"Properties": [
 					{
+						"PropertyName": "EffectComponent",
+						"ObfuscationName": "EffectComponent",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
 						"PropertyName": "FloatParameter0",
 						"ObfuscationName": "FloatParameter0",
 						"IsWrapper": true,
@@ -35036,12 +36143,6 @@
 					{
 						"PropertyName": "CustomProcess",
 						"ObfuscationName": "CustomProcess",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "EffectComponent",
-						"ObfuscationName": "EffectComponent",
 						"IsWrapper": true,
 						"IsCache": false
 					},
@@ -35436,6 +36537,12 @@
 						"ObfuscationName": "EyesParameters",
 						"IsWrapper": true,
 						"IsCache": false
+					},
+					{
+						"PropertyName": "EmptyMaterial",
+						"ObfuscationName": "EmptyMaterial",
+						"IsWrapper": true,
+						"IsCache": false
 					}
 				],
 				"Functions": []
@@ -35639,6 +36746,12 @@
 					{
 						"PropertyName": "CrossStateEffects",
 						"ObfuscationName": "CrossStateEffects",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "TransitionTime",
+						"ObfuscationName": "TransitionTime",
 						"IsWrapper": true,
 						"IsCache": true
 					}
@@ -35967,14 +37080,14 @@
 						"IsReturnCache": false
 					},
 					{
-						"FunctionName": "WhiteScreenOff",
-						"ObfuscationName": "WhiteScreenOff",
+						"FunctionName": "EndGachaSequence",
+						"ObfuscationName": "EndGachaSequence",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					},
 					{
-						"FunctionName": "EndGachaSequence",
-						"ObfuscationName": "EndGachaSequence",
+						"FunctionName": "WhiteScreenOff",
+						"ObfuscationName": "WhiteScreenOff",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -36853,8 +37966,14 @@
 						"IsCache": false
 					},
 					{
-						"PropertyName": "IsUiUpdate",
-						"ObfuscationName": "IsUiUpdate",
+						"PropertyName": "DisableFightDither",
+						"ObfuscationName": "DisableFightDither",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "FightDitherRateCache",
+						"ObfuscationName": "FightDitherRateCache",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -36999,6 +38118,12 @@
 						"IsReturnCache": false
 					},
 					{
+						"FunctionName": "Destroy",
+						"ObfuscationName": "Destroy",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
 						"FunctionName": "SetRealtimeShadowOpacity",
 						"ObfuscationName": "SetRealtimeShadowOpacity",
 						"IsWrapper": true,
@@ -37029,8 +38154,50 @@
 						"IsReturnCache": false
 					},
 					{
-						"FunctionName": "Destroy",
-						"ObfuscationName": "Destroy",
+						"FunctionName": "SetStarScarEnergy",
+						"ObfuscationName": "SetStarScarEnergy",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "AddComponentWithEmptyMaterial",
+						"ObfuscationName": "AddComponentWithEmptyMaterial",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetSkeletalMeshComponent",
+						"ObfuscationName": "GetSkeletalMeshComponent",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "RemoveComponentInnerV2",
+						"ObfuscationName": "RemoveComponentInnerV2",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "AddComponentInnerV2",
+						"ObfuscationName": "AddComponentInnerV2",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "SetDisableFightDither",
+						"ObfuscationName": "SetDisableFightDither",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "AddMaterialControllerDataGroupWithAnimObject",
+						"ObfuscationName": "AddMaterialControllerDataGroupWithAnimObject",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "AddMaterialControllerDataWithAnimObject",
+						"ObfuscationName": "AddMaterialControllerDataWithAnimObject",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -37040,33 +38207,8 @@
 				"ClassPathName": "/Game/Aki/TypeScript/Game/Render/Effect/Data/EffectModelGroup.EffectModelGroup_C",
 				"JsName": "EffectModelGroup",
 				"ObfuscationName": "EffectModelGroup",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "EffectData",
-						"ObfuscationName": "EffectData",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Location",
-						"ObfuscationName": "Location",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Rotation",
-						"ObfuscationName": "Rotation",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Scale",
-						"ObfuscationName": "Scale",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
+				"IsWrapper": false,
+				"Properties": [],
 				"Functions": []
 			},
 			{
@@ -37126,6 +38268,12 @@
 					{
 						"FunctionName": "GetVisionEntityId",
 						"ObfuscationName": "GetVisionEntityId",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetEntityEnable",
+						"ObfuscationName": "GetEntityEnable",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -37390,6 +38538,12 @@
 					{
 						"FunctionName": "BackLoginView",
 						"ObfuscationName": "BackLoginView",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "IsLongPressExploreButton",
+						"ObfuscationName": "IsLongPressExploreButton",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -37735,6 +38889,12 @@
 					{
 						"FunctionName": "CollectPrefabTextData",
 						"ObfuscationName": "CollectPrefabTextData",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "CreatePrefabByLanguageKey",
+						"ObfuscationName": "CreatePrefabByLanguageKey",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -41118,6 +42278,12 @@
 						"ObfuscationName": "Follow",
 						"IsWrapper": true,
 						"IsCache": false
+					},
+					{
+						"PropertyName": "TagProbabilityInfo",
+						"ObfuscationName": "TagProbabilityInfo",
+						"IsWrapper": true,
+						"IsCache": false
 					}
 				],
 				"Functions": []
@@ -41857,9 +43023,28 @@
 						"ObfuscationName": "强制播放Sequence",
 						"IsWrapper": true,
 						"IsCache": false
+					},
+					{
+						"PropertyName": "启用特定功能下的镜头配置",
+						"ObfuscationName": "启用特定功能下的镜头配置",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "特定功能下的镜头配置",
+						"ObfuscationName": "特定功能下的镜头配置",
+						"IsWrapper": true,
+						"IsCache": false
 					}
 				],
-				"Functions": []
+				"Functions": [
+					{
+						"FunctionName": "GetSpecificConfig",
+						"ObfuscationName": "GetSpecificConfig",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
 			},
 			{
 				"ClassPathName": "/Game/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C",
@@ -41888,6 +43073,21 @@
 					{
 						"PropertyName": "UseHighPriority",
 						"ObfuscationName": "UseHighPriority",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAbsoluteTimeStop.TsAnimNotifyStateAbsoluteTimeStop_C",
+				"JsName": "TsAnimNotifyStateAbsoluteTimeStop",
+				"ObfuscationName": "TsAnimNotifyStateAbsoluteTimeStop",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "是否冻结移动效果",
+						"ObfuscationName": "是否冻结移动效果",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -42049,6 +43249,12 @@
 					{
 						"PropertyName": "HandleMap",
 						"ObfuscationName": "HandleMap",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "TagProbabilityInfo",
+						"ObfuscationName": "TagProbabilityInfo",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -44154,6 +45360,12 @@
 						"ObfuscationName": "GridBaseActor",
 						"IsWrapper": true,
 						"IsCache": false
+					},
+					{
+						"PropertyName": "ExitTagPriority",
+						"ObfuscationName": "ExitTagPriority",
+						"IsWrapper": true,
+						"IsCache": false
 					}
 				],
 				"Functions": []
@@ -45828,438 +47040,11 @@
 				"Functions": []
 			},
 			{
-				"ClassPathName": "/Game/Aki/TypeScript/Game/Render/Effect/Data/EffectModelDecal.EffectModelDecal_C",
-				"JsName": "EffectModelDecal",
-				"ObfuscationName": "EffectModelDecal",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "Location",
-						"ObfuscationName": "Location",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Rotation",
-						"ObfuscationName": "Rotation",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Scale",
-						"ObfuscationName": "Scale",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "MaterialFloatParameters",
-						"ObfuscationName": "MaterialFloatParameters",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "MaterialColorParameters",
-						"ObfuscationName": "MaterialColorParameters",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "DecalMaterialRef",
-						"ObfuscationName": "DecalMaterialRef",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "ZfadingFactor",
-						"ObfuscationName": "ZfadingFactor",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "ZfadingPower",
-						"ObfuscationName": "ZfadingPower",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Game/Aki/TypeScript/Game/Render/Effect/Data/EffectModelGhost.EffectModelGhost_C",
-				"JsName": "EffectModelGhost",
-				"ObfuscationName": "EffectModelGhost",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "MaterialRef",
-						"ObfuscationName": "MaterialRef",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "MeshComponentsToUse",
-						"ObfuscationName": "MeshComponentsToUse",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "CustomComponentNames",
-						"ObfuscationName": "CustomComponentNames",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "AlphaCurve",
-						"ObfuscationName": "AlphaCurve",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Game/Aki/TypeScript/Game/Render/Effect/Data/EffectModelGpuParticle.EffectModelGpuParticle_C",
-				"JsName": "EffectModelGpuParticle",
-				"ObfuscationName": "EffectModelGpuParticle",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "Data",
-						"ObfuscationName": "Data",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Loop",
-						"ObfuscationName": "Loop",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "ReversePlay",
-						"ObfuscationName": "ReversePlay",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Location",
-						"ObfuscationName": "Location",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Rotation",
-						"ObfuscationName": "Rotation",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Scale",
-						"ObfuscationName": "Scale",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "TimeScaler",
-						"ObfuscationName": "TimeScaler",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "PingPongTime",
-						"ObfuscationName": "PingPongTime",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "EnablePingPong",
-						"ObfuscationName": "EnablePingPong",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": []
-			},
-			{
 				"ClassPathName": "/Game/Aki/TypeScript/Game/Render/Effect/Data/EffectModelSkeletalMesh.EffectModelSkeletalMesh_C",
 				"JsName": "EffectModelSkeletalMesh",
 				"ObfuscationName": "EffectModelSkeletalMesh",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "Looping",
-						"ObfuscationName": "Looping",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Location",
-						"ObfuscationName": "Location",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Rotation",
-						"ObfuscationName": "Rotation",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Scale",
-						"ObfuscationName": "Scale",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "EnableCollision",
-						"ObfuscationName": "EnableCollision",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "SkeletalMeshRef",
-						"ObfuscationName": "SkeletalMeshRef",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "AnimationRef",
-						"ObfuscationName": "AnimationRef",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "HideFrames",
-						"ObfuscationName": "HideFrames",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "CastShadow",
-						"ObfuscationName": "CastShadow",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Game/Aki/TypeScript/Game/Render/Effect/Data/EffectModelStaticMesh.EffectModelStaticMesh_C",
-				"JsName": "EffectModelStaticMesh",
-				"ObfuscationName": "EffectModelStaticMesh",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "Location",
-						"ObfuscationName": "Location",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Rotation",
-						"ObfuscationName": "Rotation",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Scale",
-						"ObfuscationName": "Scale",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "MaterialColorParameters",
-						"ObfuscationName": "MaterialColorParameters",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "MaterialFloatParameters",
-						"ObfuscationName": "MaterialFloatParameters",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "ReceiveDecal",
-						"ObfuscationName": "ReceiveDecal",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "EnableCollision",
-						"ObfuscationName": "EnableCollision",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "StaticMeshRef",
-						"ObfuscationName": "StaticMeshRef",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "MaterialOverrideRef",
-						"ObfuscationName": "MaterialOverrideRef",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "UseMultipleMaterialSlots",
-						"ObfuscationName": "UseMultipleMaterialSlots",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "MaterialOverrideArrayRef",
-						"ObfuscationName": "MaterialOverrideArrayRef",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "CastShadow",
-						"ObfuscationName": "CastShadow",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "TranslucencySortPriority",
-						"ObfuscationName": "TranslucencySortPriority",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "EnableScreenSizeCullRatioOverride",
-						"ObfuscationName": "EnableScreenSizeCullRatioOverride",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "ScreenSizeCullRatio",
-						"ObfuscationName": "ScreenSizeCullRatio",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Game/Aki/TypeScript/Game/Render/Effect/Data/EffectModelTrail.EffectModelTrail_C",
-				"JsName": "EffectModelTrail",
-				"ObfuscationName": "EffectModelTrail",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "AttachToBones",
-						"ObfuscationName": "AttachToBones",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "AttachBoneNames",
-						"ObfuscationName": "AttachBoneNames",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "RelativeLocations",
-						"ObfuscationName": "RelativeLocations",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Material",
-						"ObfuscationName": "Material",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "DissipateSpeed",
-						"ObfuscationName": "DissipateSpeed",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Alpha",
-						"ObfuscationName": "Alpha",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "FloatParameters",
-						"ObfuscationName": "FloatParameters",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "ColorParameters",
-						"ObfuscationName": "ColorParameters",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "DestroyAtOnce",
-						"ObfuscationName": "DestroyAtOnce",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "DissipateSpeedAfterDead",
-						"ObfuscationName": "DissipateSpeedAfterDead",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "UnitLength",
-						"ObfuscationName": "UnitLength",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "LocationsCurve",
-						"ObfuscationName": "LocationsCurve",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Game/Aki/TypeScript/Game/Render/Effect/Data/MultiEffect/EffectModelMultiEffect.EffectModelMultiEffect_C",
-				"JsName": "EffectModelMultiEffect",
-				"ObfuscationName": "EffectModelMultiEffect",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "EffectData",
-						"ObfuscationName": "EffectData",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "BaseNum",
-						"ObfuscationName": "BaseNum",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "SpinSpeed",
-						"ObfuscationName": "SpinSpeed",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Radius",
-						"ObfuscationName": "Radius",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Type",
-						"ObfuscationName": "Type",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
+				"IsWrapper": false,
+				"Properties": [],
 				"Functions": []
 			},
 			{
@@ -47585,6 +48370,45 @@
 				"Functions": []
 			},
 			{
+				"ClassPathName": "/Game/Aki/Character/BaseCharacter/SFollowRotateInfo.SFollowRotateInfo",
+				"JsName": "SFollowRotateInfo",
+				"ObfuscationName": "SFollowRotateInfo",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "RotateSpeed",
+						"ObfuscationName": "RotateSpeed",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "RotateType",
+						"ObfuscationName": "RotateType",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "CameraDistance",
+						"ObfuscationName": "CameraDistance",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "EntityIdBlackboardKey",
+						"ObfuscationName": "EntityIdBlackboardKey",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "NotSyncAxisList",
+						"ObfuscationName": "NotSyncAxisList",
+						"IsWrapper": true,
+						"IsCache": true
+					}
+				],
+				"Functions": []
+			},
+			{
 				"ClassPathName": "/Game/Aki/Character/BaseCharacter/SReplaceEffect.SReplaceEffect",
 				"JsName": "SReplaceEffect",
 				"ObfuscationName": "SReplaceEffect",
@@ -47610,7 +48434,14 @@
 				"JsName": "BP_SM_ActionStopMontage",
 				"ObfuscationName": "BP_SM_ActionStopMontage",
 				"IsWrapper": false,
-				"Properties": [],
+				"Properties": [
+					{
+						"PropertyName": "淡出时间",
+						"ObfuscationName": "淡出时间",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
 				"Functions": []
 			},
 			{
@@ -47710,6 +48541,12 @@
 						"IsCache": false
 					},
 					{
+						"PropertyName": "NeedUploadData",
+						"ObfuscationName": "NeedUploadData",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
 						"PropertyName": "NeedInputActions",
 						"ObfuscationName": "NeedInputActions",
 						"IsWrapper": true,
@@ -47724,12 +48561,6 @@
 					{
 						"PropertyName": "DisableWhenCurrentRoleHasTags",
 						"ObfuscationName": "DisableWhenCurrentRoleHasTags",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "NeedUploadData",
-						"ObfuscationName": "NeedUploadData",
 						"IsWrapper": true,
 						"IsCache": false
 					},
@@ -47833,8 +48664,20 @@
 				"IsWrapper": true,
 				"Properties": [
 					{
-						"PropertyName": "AreaIDs",
-						"ObfuscationName": "AreaIDs",
+						"PropertyName": "AreaFogIDs",
+						"ObfuscationName": "AreaFogIDs",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "IsFogP1",
+						"ObfuscationName": "IsFogP1",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "IsFogP2",
+						"ObfuscationName": "IsFogP2",
 						"IsWrapper": true,
 						"IsCache": true
 					}
@@ -47850,6 +48693,127 @@
 					{
 						"PropertyName": "WorldPartitionStreamingSource",
 						"ObfuscationName": "WorldPartitionStreamingSource",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/HotPatch/SHotPatchGamepad.SHotPatchGamepad",
+				"JsName": "SHotPatchGamepad",
+				"ObfuscationName": "SHotPatchGamepad",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "ActionName",
+						"ObfuscationName": "ActionName",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "TextureActor",
+						"ObfuscationName": "TextureActor",
+						"IsWrapper": true,
+						"IsCache": true
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/Render/RuntimeBP/Scene/Interface/BPI_SceneBp.BPI_SceneBp_C",
+				"JsName": "BPI_SceneBp",
+				"ObfuscationName": "BPI_SceneBp",
+				"IsWrapper": true,
+				"Properties": [],
+				"Functions": [
+					{
+						"FunctionName": "GetAoiRange",
+						"ObfuscationName": "GetAoiRange",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "Stop",
+						"ObfuscationName": "Stop",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "Start",
+						"ObfuscationName": "Start",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Game/Aki/Render/RuntimeBP/Character/Npc/SNpcSetupPartInfo.SNpcSetupPartInfo",
+				"JsName": "SNpcSetupPartInfo",
+				"ObfuscationName": "SNpcSetupPartInfo",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "SkeletalMeshComponents",
+						"ObfuscationName": "SkeletalMeshComponents",
+						"IsWrapper": true,
+						"IsCache": true
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/TypeScript/Editor/Gameplay/GameplayEditorFunctionLibrary.GameplayEditorFunctionLibrary_C",
+				"JsName": "GameplayEditorFunctionLibrary",
+				"ObfuscationName": "GameplayEditorFunctionLibrary",
+				"IsWrapper": false,
+				"Properties": [],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/TypeScript/Editor/Gameplay/TsTicTacToeEditorFunctionLibrary.TsTicTacToeEditorFunctionLibrary_C",
+				"JsName": "TsTicTacToeEditorFunctionLibrary",
+				"ObfuscationName": "TsTicTacToeEditorFunctionLibrary",
+				"IsWrapper": false,
+				"Properties": [],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/TypeScript/Editor/LevelAiEditor/TsLevelAiEditorBlueprintFunctionLibrary.TsLevelAiEditorBlueprintFunctionLibrary_C",
+				"JsName": "TsLevelAiEditorBlueprintFunctionLibrary",
+				"ObfuscationName": "TsLevelAiEditorBlueprintFunctionLibrary",
+				"IsWrapper": true,
+				"Properties": [],
+				"Functions": [
+					{
+						"FunctionName": "GenerateLevelAiBehaviorTreeFromEditor",
+						"ObfuscationName": "GenerateLevelAiBehaviorTreeFromEditor",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Game/Aki/TypeScript/Game/AI/BehaviorTree/Decorator/TsDecoratorCheckDayWeather.TsDecoratorCheckDayWeather_C",
+				"JsName": "TsDecoratorCheckDayWeather",
+				"ObfuscationName": "TsDecoratorCheckDayWeather",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "CheckDayState",
+						"ObfuscationName": "CheckDayState",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "CheckWeatherState",
+						"ObfuscationName": "CheckWeatherState",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "ConditionType",
+						"ObfuscationName": "ConditionType",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -47992,38 +48956,14 @@
 				"IsWrapper": true,
 				"Properties": [
 					{
-						"PropertyName": "DistanceMin",
-						"ObfuscationName": "DistanceMin",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "DistanceMax",
-						"ObfuscationName": "DistanceMax",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "DistanceForceMove",
-						"ObfuscationName": "DistanceForceMove",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "MoveSpeed",
-						"ObfuscationName": "MoveSpeed",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "Offset",
-						"ObfuscationName": "Offset",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
 						"PropertyName": "RotateInfo",
 						"ObfuscationName": "RotateInfo",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "MoveInfo",
+						"ObfuscationName": "MoveInfo",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -48051,6 +48991,27 @@
 					{
 						"PropertyName": "SlotTransform",
 						"ObfuscationName": "SlotTransform",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyDetach.TsAnimNotifyDetach_C",
+				"JsName": "TsAnimNotifyDetach",
+				"ObfuscationName": "TsAnimNotifyDetach",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "IsDetachFollower",
+						"ObfuscationName": "IsDetachFollower",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "IsRecursion",
+						"ObfuscationName": "IsRecursion",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -48087,6 +49048,33 @@
 					{
 						"PropertyName": "CheckAutonomousProxy",
 						"ObfuscationName": "CheckAutonomousProxy",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAttach.TsAnimNotifyStateAttach_C",
+				"JsName": "TsAnimNotifyStateAttach",
+				"ObfuscationName": "TsAnimNotifyStateAttach",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "GameplayTag",
+						"ObfuscationName": "GameplayTag",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "AttachSocketName",
+						"ObfuscationName": "AttachSocketName",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "AttachSocketOffset",
+						"ObfuscationName": "AttachSocketOffset",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -48265,6 +49253,27 @@
 				"Functions": []
 			},
 			{
+				"ClassPathName": "/Game/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSoftLock.TsAnimNotifyStateSoftLock_C",
+				"JsName": "TsAnimNotifyStateSoftLock",
+				"ObfuscationName": "TsAnimNotifyStateSoftLock",
+				"IsWrapper": true,
+				"Properties": [],
+				"Functions": [
+					{
+						"FunctionName": "DisableSoftLock",
+						"ObfuscationName": "DisableSoftLock",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "EnableSoftLock",
+						"ObfuscationName": "EnableSoftLock",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
 				"ClassPathName": "/Game/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.TsAnimNotifyStateSubMeshControl_C",
 				"JsName": "TsAnimNotifyStateSubMeshControl",
 				"ObfuscationName": "TsAnimNotifyStateSubMeshControl",
@@ -48328,6 +49337,27 @@
 				"Functions": []
 			},
 			{
+				"ClassPathName": "/Game/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateWalkOnWater.TsAnimNotifyStateWalkOnWater_C",
+				"JsName": "TsAnimNotifyStateWalkOnWater",
+				"ObfuscationName": "TsAnimNotifyStateWalkOnWater",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "Key",
+						"ObfuscationName": "Key",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "FixLocation",
+						"ObfuscationName": "FixLocation",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
 				"ClassPathName": "/Game/Aki/TypeScript/Game/Module/UiNavigation/TsUiNavigationScrollControlSize.TsUiNavigationScrollControlSize_C",
 				"JsName": "TsUiNavigationScrollControlSize",
 				"ObfuscationName": "TsUiNavigationScrollControlSize",
@@ -48340,6 +49370,14 @@
 						"IsCache": false
 					}
 				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/TypeScript/Game/NewWorld/Character/Common/Blueprint/Utils/TsVehicleBlueprintFunctionLibrary.TsVehicleBlueprintFunctionLibrary_C",
+				"JsName": "TsVehicleBlueprintFunctionLibrary",
+				"ObfuscationName": "TsVehicleBlueprintFunctionLibrary",
+				"IsWrapper": false,
+				"Properties": [],
 				"Functions": []
 			},
 			{
@@ -48411,7 +49449,41 @@
 				"JsName": "PD_HolographicEffect",
 				"ObfuscationName": "PD_HolographicEffect",
 				"IsWrapper": false,
-				"Properties": [],
+				"Properties": [
+					{
+						"PropertyName": "Start",
+						"ObfuscationName": "Start",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Loop",
+						"ObfuscationName": "Loop",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/TypeScript/Game/NewWorld/Vehicle/TsBaseVehicle.TsBaseVehicle_C",
+				"JsName": "TsBaseVehicle",
+				"ObfuscationName": "TsBaseVehicle",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "EntityId",
+						"ObfuscationName": "EntityId",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "InputComponentClass",
+						"ObfuscationName": "InputComponentClass",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
 				"Functions": []
 			},
 			{
@@ -48441,6 +49513,27 @@
 				"ObfuscationName": "CombatDebugBlueprintFunctionLibrary",
 				"IsWrapper": false,
 				"Properties": [],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/TypeScript/Launcher/PlayerInput/TsHotPatchPanelConfig.TsHotPatchPanelConfig_C",
+				"JsName": "TsHotPatchPanelConfig",
+				"ObfuscationName": "TsHotPatchPanelConfig",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "AxisMap",
+						"ObfuscationName": "AxisMap",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "ActionMap",
+						"ObfuscationName": "ActionMap",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
 				"Functions": []
 			},
 			{
@@ -48496,36 +49589,106 @@
 				]
 			},
 			{
-				"ClassPathName": "/Game/Aki/TypeScript/Editor/LevelAiEditor/TsLevelAiEditorBlueprintFunctionLibrary.TsLevelAiEditorBlueprintFunctionLibrary_C",
-				"JsName": "TsLevelAiEditorBlueprintFunctionLibrary",
-				"ObfuscationName": "TsLevelAiEditorBlueprintFunctionLibrary",
+				"ClassPathName": "/Game/Aki/Sequence/Common_Seq/Video/SplitScreen/BP_SplitScreen.BP_SplitScreen_C",
+				"JsName": "BP_SplitScreen",
+				"ObfuscationName": "BP_SplitScreen",
 				"IsWrapper": true,
-				"Properties": [],
-				"Functions": [
+				"Properties": [
 					{
-						"FunctionName": "GenerateLevelAiBehaviorTreeFromEditor",
-						"ObfuscationName": "GenerateLevelAiBehaviorTreeFromEditor",
+						"PropertyName": "CharacterActor_3",
+						"ObfuscationName": "CharacterActor_3",
 						"IsWrapper": true,
-						"IsReturnCache": false
-					}
-				]
-			},
-			{
-				"ClassPathName": "/Game/Aki/Render/RuntimeBP/Scene/Interface/BPI_SceneBp.BPI_SceneBp_C",
-				"JsName": "BPI_SceneBp",
-				"ObfuscationName": "BPI_SceneBp",
-				"IsWrapper": true,
-				"Properties": [],
-				"Functions": [
-					{
-						"FunctionName": "GetAoiRange",
-						"ObfuscationName": "GetAoiRange",
-						"IsWrapper": true,
-						"IsReturnCache": false
+						"IsCache": false
 					},
 					{
-						"FunctionName": "Stop",
-						"ObfuscationName": "Stop",
+						"PropertyName": "CharacterActor_2",
+						"ObfuscationName": "CharacterActor_2",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "CharacterActor_1",
+						"ObfuscationName": "CharacterActor_1",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "E_LinkPos_1",
+						"ObfuscationName": "E_LinkPos_1",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "E_LinkPos_2",
+						"ObfuscationName": "E_LinkPos_2",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "E_LinkPos_3",
+						"ObfuscationName": "E_LinkPos_3",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "PointLight1_Location",
+						"ObfuscationName": "PointLight1_Location",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "PointLight2_Location",
+						"ObfuscationName": "PointLight2_Location",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "PointLight3_Location",
+						"ObfuscationName": "PointLight3_Location",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "PointLight1_ToonLightColor",
+						"ObfuscationName": "PointLight1_ToonLightColor",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "PointLight2_ToonLightColor",
+						"ObfuscationName": "PointLight2_ToonLightColor",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "PointLight3_ToonLightColor",
+						"ObfuscationName": "PointLight3_ToonLightColor",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "EyeLightSimulation_Color1",
+						"ObfuscationName": "EyeLightSimulation_Color1",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "EyeLightSimulation_Color2",
+						"ObfuscationName": "EyeLightSimulation_Color2",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "EyeLightSimulation_Color3",
+						"ObfuscationName": "EyeLightSimulation_Color3",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": [
+					{
+						"FunctionName": "End",
+						"ObfuscationName": "End",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					},
@@ -48534,125 +49697,171 @@
 						"ObfuscationName": "Start",
 						"IsWrapper": true,
 						"IsReturnCache": false
-					}
-				]
-			},
-			{
-				"ClassPathName": "/Game/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAbsoluteTimeStop.TsAnimNotifyStateAbsoluteTimeStop_C",
-				"JsName": "TsAnimNotifyStateAbsoluteTimeStop",
-				"ObfuscationName": "TsAnimNotifyStateAbsoluteTimeStop",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "是否冻结移动效果",
-						"ObfuscationName": "是否冻结移动效果",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Game/Aki/TypeScript/Editor/Gameplay/GameplayEditorFunctionLibrary.GameplayEditorFunctionLibrary_C",
-				"JsName": "GameplayEditorFunctionLibrary",
-				"ObfuscationName": "GameplayEditorFunctionLibrary",
-				"IsWrapper": false,
-				"Properties": [],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Game/Aki/HotPatch/SHotPatchGamepad.SHotPatchGamepad",
-				"JsName": "SHotPatchGamepad",
-				"ObfuscationName": "SHotPatchGamepad",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "ActionName",
-						"ObfuscationName": "ActionName",
-						"IsWrapper": true,
-						"IsCache": true
 					},
 					{
-						"PropertyName": "TextureActor",
-						"ObfuscationName": "TextureActor",
-						"IsWrapper": true,
-						"IsCache": true
-					}
-				],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Game/Aki/TypeScript/Launcher/PlayerInput/TsHotPatchPanelConfig.TsHotPatchPanelConfig_C",
-				"JsName": "TsHotPatchPanelConfig",
-				"ObfuscationName": "TsHotPatchPanelConfig",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "AxisMap",
-						"ObfuscationName": "AxisMap",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "ActionMap",
-						"ObfuscationName": "ActionMap",
-						"IsWrapper": true,
-						"IsCache": false
-					}
-				],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Game/Aki/Render/RuntimeBP/Character/Npc/SNpcSetupPartInfo.SNpcSetupPartInfo",
-				"JsName": "SNpcSetupPartInfo",
-				"ObfuscationName": "SNpcSetupPartInfo",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "SkeletalMeshComponents",
-						"ObfuscationName": "SkeletalMeshComponents",
-						"IsWrapper": true,
-						"IsCache": true
-					}
-				],
-				"Functions": []
-			},
-			{
-				"ClassPathName": "/Game/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSoftLock.TsAnimNotifyStateSoftLock_C",
-				"JsName": "TsAnimNotifyStateSoftLock",
-				"ObfuscationName": "TsAnimNotifyStateSoftLock",
-				"IsWrapper": true,
-				"Properties": [],
-				"Functions": [
-					{
-						"FunctionName": "DisableSoftLock",
-						"ObfuscationName": "DisableSoftLock",
-						"IsWrapper": true,
-						"IsReturnCache": false
-					},
-					{
-						"FunctionName": "EnableSoftLock",
-						"ObfuscationName": "EnableSoftLock",
+						"FunctionName": "Reset",
+						"ObfuscationName": "Reset",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
 				]
 			},
 			{
-				"ClassPathName": "/Game/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateWalkOnWater.TsAnimNotifyStateWalkOnWater_C",
-				"JsName": "TsAnimNotifyStateWalkOnWater",
-				"ObfuscationName": "TsAnimNotifyStateWalkOnWater",
+				"ClassPathName": "/Game/Aki/Data/AIGearStrategy/BP_AiGearStrategy.BP_AIGearStrategy_C",
+				"JsName": "BP_AIGearStrategy",
+				"ObfuscationName": "BP_AIGearStrategy",
 				"IsWrapper": true,
 				"Properties": [
 					{
-						"PropertyName": "Key",
-						"ObfuscationName": "Key",
+						"PropertyName": "LostWeight",
+						"ObfuscationName": "LostWeight",
 						"IsWrapper": true,
 						"IsCache": false
 					},
 					{
-						"PropertyName": "FixLocation",
-						"ObfuscationName": "FixLocation",
+						"PropertyName": "RoundDecay",
+						"ObfuscationName": "RoundDecay",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "IterationCount",
+						"ObfuscationName": "IterationCount",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "PlayerIterationCount",
+						"ObfuscationName": "PlayerIterationCount",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "IterationDecay",
+						"ObfuscationName": "IterationDecay",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/Data/Level/Vehicle/BP_VehicleConfig.BP_VehicleConfig_C",
+				"JsName": "BP_VehicleConfig",
+				"ObfuscationName": "BP_VehicleConfig",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "前进最大移动速度",
+						"ObfuscationName": "前进最大移动速度",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "冲刺最大移动速度",
+						"ObfuscationName": "冲刺最大移动速度",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "后退最大移动速度",
+						"ObfuscationName": "后退最大移动速度",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "加速度曲线",
+						"ObfuscationName": "加速度曲线",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "转向公式角度修正系数",
+						"ObfuscationName": "转向公式角度修正系数",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "转向公式速度修正系数",
+						"ObfuscationName": "转向公式速度修正系数",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "转向公式最终修正系数",
+						"ObfuscationName": "转向公式最终修正系数",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "临时_冲刺加速度",
+						"ObfuscationName": "临时_冲刺加速度",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "临时_常态加速度",
+						"ObfuscationName": "临时_常态加速度",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "冲刺持续时间",
+						"ObfuscationName": "冲刺持续时间",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "径向运动摩擦力",
+						"ObfuscationName": "径向运动摩擦力",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "横向运动摩擦力",
+						"ObfuscationName": "横向运动摩擦力",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "超出最大速度时的额外摩擦力",
+						"ObfuscationName": "超出最大速度时的额外摩擦力",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "最大转向速度",
+						"ObfuscationName": "最大转向速度",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "转向摩擦力系数",
+						"ObfuscationName": "转向摩擦力系数",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "转向静止摩擦力",
+						"ObfuscationName": "转向静止摩擦力",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "转动惯量",
+						"ObfuscationName": "转动惯量",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "速度冲击力系数",
+						"ObfuscationName": "速度冲击力系数",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "旋转冲击力系数",
+						"ObfuscationName": "旋转冲击力系数",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -48816,45 +50025,6 @@
 				"Functions": []
 			},
 			{
-				"ClassPathName": "/Game/Aki/Character/BaseCharacter/SFollowRotateInfo.SFollowRotateInfo",
-				"JsName": "SFollowRotateInfo",
-				"ObfuscationName": "SFollowRotateInfo",
-				"IsWrapper": true,
-				"Properties": [
-					{
-						"PropertyName": "RotateSpeed",
-						"ObfuscationName": "RotateSpeed",
-						"IsWrapper": true,
-						"IsCache": true
-					},
-					{
-						"PropertyName": "RotateType",
-						"ObfuscationName": "RotateType",
-						"IsWrapper": true,
-						"IsCache": true
-					},
-					{
-						"PropertyName": "CameraDistance",
-						"ObfuscationName": "CameraDistance",
-						"IsWrapper": true,
-						"IsCache": true
-					},
-					{
-						"PropertyName": "EntityIdBlackboardKey",
-						"ObfuscationName": "EntityIdBlackboardKey",
-						"IsWrapper": true,
-						"IsCache": true
-					},
-					{
-						"PropertyName": "NotSyncAxisList",
-						"ObfuscationName": "NotSyncAxisList",
-						"IsWrapper": true,
-						"IsCache": true
-					}
-				],
-				"Functions": []
-			},
-			{
 				"ClassPathName": "/Game/Aki/TypeScript/Game/AI/BehaviorTree/Task/NPC/LevelAiTask/TsTaskTurnToEntity.TsTaskTurnToEntity_C",
 				"JsName": "TsTaskTurnToEntity",
 				"ObfuscationName": "TsTaskTurnToEntity",
@@ -48888,6 +50058,210 @@
 				"Functions": []
 			},
 			{
+				"ClassPathName": "/Game/Aki/Character/BaseCharacter/SCounterWindupAttack.SCounterWindupAttack",
+				"JsName": "SCounterWindupAttack",
+				"ObfuscationName": "SCounterWindupAttack",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "Buff",
+						"ObfuscationName": "Buff",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "Effect",
+						"ObfuscationName": "Effect",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "SocketName",
+						"ObfuscationName": "SocketName",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "EffectAttach",
+						"ObfuscationName": "EffectAttach",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "RelativeTransform",
+						"ObfuscationName": "RelativeTransform",
+						"IsWrapper": true,
+						"IsCache": true
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAttackWindUp.TsAnimNotifyStateAttackWindUp_C",
+				"JsName": "TsAnimNotifyStateAttackWindUp",
+				"ObfuscationName": "TsAnimNotifyStateAttackWindUp",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "Info",
+						"ObfuscationName": "Info",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/Character/BaseCharacter/Camera/SSequenceCamera_SpecificConfig.SSequenceCamera_SpecificConfig",
+				"JsName": "SSequenceCamera_SpecificConfig",
+				"ObfuscationName": "SSequenceCamera_SpecificConfig",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "SpecificType",
+						"ObfuscationName": "SpecificType",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "OverrideSequenceTime",
+						"ObfuscationName": "OverrideSequenceTime",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "OverrideBlendOutTime",
+						"ObfuscationName": "OverrideBlendOutTime",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "OverrideCondition",
+						"ObfuscationName": "OverrideCondition",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "IsRecoverRotation",
+						"ObfuscationName": "IsRecoverRotation",
+						"IsWrapper": true,
+						"IsCache": true
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/TypeScript/Game/AI/BehaviorTree/Decorator/TsDecoratorSelectSkill.TsDecoratorSelectSkill_C",
+				"JsName": "TsDecoratorSelectSkill",
+				"ObfuscationName": "TsDecoratorSelectSkill",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "DebugLog",
+						"ObfuscationName": "DebugLog",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "SkillType",
+						"ObfuscationName": "SkillType",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/TypeScript/Game/AI/BehaviorTree/Task/TsTaskTurnToTargetContinuously.TsTaskTurnToTargetContinuously_C",
+				"JsName": "TsTaskTurnToTargetContinuously",
+				"ObfuscationName": "TsTaskTurnToTargetContinuously",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "BlackboardKeyActor",
+						"ObfuscationName": "BlackboardKeyActor",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "TurnSpeed",
+						"ObfuscationName": "TurnSpeed",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "EndAfterTurnToTarget",
+						"ObfuscationName": "EndAfterTurnToTarget",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/Character/BaseCharacter/SFollowMoveInfo.SFollowMoveInfo",
+				"JsName": "SFollowMoveInfo",
+				"ObfuscationName": "SFollowMoveInfo",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "FollowTargetType",
+						"ObfuscationName": "FollowTargetType",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "EntityIdBlackboardKey",
+						"ObfuscationName": "EntityIdBlackboardKey",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "Offset",
+						"ObfuscationName": "Offset",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "MaxMoveSpeed",
+						"ObfuscationName": "MaxMoveSpeed",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "DistanceMin",
+						"ObfuscationName": "DistanceMin",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "DistanceMax",
+						"ObfuscationName": "DistanceMax",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "DistanceForceMove",
+						"ObfuscationName": "DistanceForceMove",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "DistanceMaxSpeed",
+						"ObfuscationName": "DistanceMaxSpeed",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "KeepDistanceMin",
+						"ObfuscationName": "KeepDistanceMin",
+						"IsWrapper": true,
+						"IsCache": true
+					}
+				],
+				"Functions": []
+			},
+			{
 				"ClassPathName": "/Game/Aki/TypeScript/Game/Render/Effect/Data/EffectModelPostProcess.EffectModelPostProcess_C",
 				"JsName": "EffectModelPostProcess",
 				"ObfuscationName": "EffectModelPostProcess",
@@ -48903,26 +50277,300 @@
 				"Functions": []
 			},
 			{
-				"ClassPathName": "/Game/Aki/Render/RuntimeBP/PCG/Spindrift/Blueprint/BP_EditorTicker.BP_EditorTicker_C",
-				"JsName": "BP_EditorTicker",
-				"ObfuscationName": "BP_EditorTicker",
+				"ClassPathName": "/Game/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyFootstepAudio.TsAnimNotifyFootstepAudio_C",
+				"JsName": "TsAnimNotifyFootstepAudio",
+				"ObfuscationName": "TsAnimNotifyFootstepAudio",
 				"IsWrapper": true,
 				"Properties": [
 					{
-						"PropertyName": "UberGraphFrame",
-						"ObfuscationName": "UberGraphFrame",
+						"PropertyName": "Variant",
+						"ObfuscationName": "Variant",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateFoleyAudioEvent.TsAnimNotifyStateFoleyAudioEvent_C",
+				"JsName": "TsAnimNotifyStateFoleyAudioEvent",
+				"ObfuscationName": "TsAnimNotifyStateFoleyAudioEvent",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "FadeDuration",
+						"ObfuscationName": "FadeDuration",
 						"IsWrapper": true,
 						"IsCache": false
 					},
 					{
-						"PropertyName": "DefaultSceneRoot",
-						"ObfuscationName": "DefaultSceneRoot",
+						"PropertyName": "FadeCurve",
+						"ObfuscationName": "FadeCurve",
 						"IsWrapper": true,
 						"IsCache": false
 					},
 					{
-						"PropertyName": "TickInterval",
-						"ObfuscationName": "TickInterval",
+						"PropertyName": "Variant",
+						"ObfuscationName": "Variant",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/Character/BaseCharacter/StateMachine/BP_SM_ActionExitHit.BP_SM_ActionExitHit_C",
+				"JsName": "BP_SM_ActionExitHit",
+				"ObfuscationName": "BP_SM_ActionExitHit",
+				"IsWrapper": false,
+				"Properties": [],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/Character/BaseCharacter/StateMachine/BP_SM_ConditionCheckPositionState.BP_SM_ConditionCheckPositionState_C",
+				"JsName": "BP_SM_ConditionCheckPositionState",
+				"ObfuscationName": "BP_SM_ConditionCheckPositionState",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "位置状态",
+						"ObfuscationName": "位置状态",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/Character/BaseCharacter/StateMachine/BP_SM_ConditionHasMoveInput.BP_SM_ConditionHasMoveInput_C",
+				"JsName": "BP_SM_ConditionHasMoveInput",
+				"ObfuscationName": "BP_SM_ConditionHasMoveInput",
+				"IsWrapper": false,
+				"Properties": [],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/Character/BaseCharacter/StateMachine/BP_SM_ConditionMontageTimeElapsing.BP_SM_ConditionMontageTimeElapsing_C",
+				"JsName": "BP_SM_ConditionMontageTimeElapsing",
+				"ObfuscationName": "BP_SM_ConditionMontageTimeElapsing",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "Time",
+						"ObfuscationName": "Time",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/Character/BaseCharacter/StateMachine/BP_SM_TaskBeHitMontage.BP_SM_TaskBeHitMontage_C",
+				"JsName": "BP_SM_TaskBeHitMontage",
+				"ObfuscationName": "BP_SM_TaskBeHitMontage",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "DefaultAnim",
+						"ObfuscationName": "DefaultAnim",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "HitAnim",
+						"ObfuscationName": "HitAnim",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "允许打断",
+						"ObfuscationName": "允许打断",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "BlendInTime",
+						"ObfuscationName": "BlendInTime",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/TypeScript/Game/Module/UiNavigation/TsUiHotKeyLinkListener.TsUiHotKeyLinkListener_C",
+				"JsName": "TsUiHotKeyLinkListener",
+				"ObfuscationName": "TsUiHotKeyLinkListener",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "ActorList",
+						"ObfuscationName": "ActorList",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/Sequence/Common_Seq/Video/SplitScreen/SplitScreenData/BP_SplitScreenCharacterData.BP_SplitScreenCharacterData_C",
+				"JsName": "BP_SplitScreenCharacterData",
+				"ObfuscationName": "BP_SplitScreenCharacterData",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "CharacterActorClass",
+						"ObfuscationName": "CharacterActorClass",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Cos_Pose_AnimSequence",
+						"ObfuscationName": "Cos_Pose_AnimSequence",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "PointLight_Location",
+						"ObfuscationName": "PointLight_Location",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "PointLight_Color",
+						"ObfuscationName": "PointLight_Color",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "EyeLightSimulation_Color",
+						"ObfuscationName": "EyeLightSimulation_Color",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyJoinTeamQte.TsAnimNotifyJoinTeamQte_C",
+				"JsName": "TsAnimNotifyJoinTeamQte",
+				"ObfuscationName": "TsAnimNotifyJoinTeamQte",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "QteId",
+						"ObfuscationName": "QteId",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "PreloadRoleIdList",
+						"ObfuscationName": "PreloadRoleIdList",
+						"IsWrapper": true,
+						"IsCache": false
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/Character/BaseCharacter/SAudioEventProbabilityCooldownInfo.SAudioEventProbabilityCooldownInfo",
+				"JsName": "SAudioEventProbabilityCooldownInfo",
+				"ObfuscationName": "SAudioEventProbabilityCooldownInfo",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "DefaultProbability",
+						"ObfuscationName": "DefaultProbability",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "DefaultCooldownTime",
+						"ObfuscationName": "DefaultCooldownTime",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "TagProbability",
+						"ObfuscationName": "TagProbability",
+						"IsWrapper": true,
+						"IsCache": true
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/Character/BaseCharacter/SGameplayTagProbabilityCooldownInfo.SGameplayTagProbabilityCooldownInfo",
+				"JsName": "SGameplayTagProbabilityCooldownInfo",
+				"ObfuscationName": "SGameplayTagProbabilityCooldownInfo",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "GameplayTag",
+						"ObfuscationName": "GameplayTag",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "Probability",
+						"ObfuscationName": "Probability",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "CooldownTime",
+						"ObfuscationName": "CooldownTime",
+						"IsWrapper": true,
+						"IsCache": true
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/TypeScript/Game/AI/BehaviorTree/Task/NPC/LevelAiTask/TsTaskMoveToTarget.TsTaskMoveToTarget_C",
+				"JsName": "TsTaskMoveToTarget",
+				"ObfuscationName": "TsTaskMoveToTarget",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "MoveMode",
+						"ObfuscationName": "MoveMode",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "MoveState",
+						"ObfuscationName": "MoveState",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "TargetEntityId",
+						"ObfuscationName": "TargetEntityId",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "TargetPos",
+						"ObfuscationName": "TargetPos",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "IsFly",
+						"ObfuscationName": "IsFly",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Distance",
+						"ObfuscationName": "Distance",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "IsFollow",
+						"ObfuscationName": "IsFollow",
 						"IsWrapper": true,
 						"IsCache": false
 					}

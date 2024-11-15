@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const UE=require("ue"),TsBaseCharacter_1=require("../Character/TsBaseCharacter");class TsAnimNotifyDetach extends UE.KuroAnimNotify{constructor(){super(...arguments),this.IsDetachFollower=!1,this.IsRecursion=!1}K2_Notify(e,t){var s,e=e.GetOwner();return e instanceof TsBaseCharacter_1.default&&!(!(s=e.CharacterActorComponent)?.Valid||!s.IsAutonomousProxy||!(s=e.GetEntityNoBlueprint()?.GetComponent(166))?.Valid||(s.DetachFromHost(this.IsDetachFollower,this.IsRecursion),0))}GetNotifyName(){return"从目标身上解绑"}}exports.default=TsAnimNotifyDetach;
+//# sourceMappingURL=TsAnimNotifyDetach.js.map
