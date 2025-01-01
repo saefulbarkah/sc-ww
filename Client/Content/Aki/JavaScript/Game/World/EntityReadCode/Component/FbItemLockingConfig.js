@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbItemLockingConfig=void 0;class FbItemLockingConfig{constructor(t){this.FbDataInternal=t,this.REh=!1,this.xEh=void 0,this.$2h=!1,this.X2h=void 0}static Create(t){if(t)return new FbItemLockingConfig(t)}get EffectPath(){return this.REh||(this.REh=!0,this.xEh=this.FbDataInternal.effectPath()),this.xEh}get TeleControlPerform(){return this.$2h||(this.$2h=!0,this.X2h=this.FbDataInternal.teleControlPerform()),this.X2h}}exports.FbItemLockingConfig=FbItemLockingConfig;
+//# sourceMappingURL=FbItemLockingConfig.js.map

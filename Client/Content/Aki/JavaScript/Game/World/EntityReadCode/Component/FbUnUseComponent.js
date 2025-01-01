@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbUnUseComponent=void 0;class FbUnUseComponent{constructor(t){this.FbDataInternal=t,this.p_h=!1,this.v_h=!1}static Create(t){if(t)return new FbUnUseComponent(t)}get Disabled(){return this.p_h||(this.p_h=!0,this.v_h=this.FbDataInternal.disabled()),this.v_h}}exports.FbUnUseComponent=FbUnUseComponent;
+//# sourceMappingURL=FbUnUseComponent.js.map

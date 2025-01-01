@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbGravityDirectionWorldAxis=void 0;class FbGravityDirectionWorldAxis{constructor(t){this.FbDataInternal=t,this.$1h=!1,this.f8o=void 0,this.pxh=!1,this.vxh=void 0}static Create(t){if(t)return new FbGravityDirectionWorldAxis(t)}get Type(){return this.$1h||(this.$1h=!0,this.f8o=this.FbDataInternal.type()),this.f8o}get WorldAxis(){return this.pxh||(this.pxh=!0,this.vxh=this.FbDataInternal.worldAxis()),this.vxh}}exports.FbGravityDirectionWorldAxis=FbGravityDirectionWorldAxis;
+//# sourceMappingURL=FbGravityDirectionWorldAxis.js.map

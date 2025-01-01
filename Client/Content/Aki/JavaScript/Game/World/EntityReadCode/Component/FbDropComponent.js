@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbDropComponent=void 0;class FbDropComponent{constructor(t){this.FbDataInternal=t,this.p_h=!1,this.v_h=!1}static Create(t){if(t)return new FbDropComponent(t)}get Disabled(){return this.p_h||(this.p_h=!0,this.v_h=this.FbDataInternal.disabled()),this.v_h}}exports.FbDropComponent=FbDropComponent;
+//# sourceMappingURL=FbDropComponent.js.map

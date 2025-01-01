@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbMonsterShowOnDeathEffect=void 0;class FbMonsterShowOnDeathEffect{constructor(t){this.FbDataInternal=t,this.$1h=!1,this.f8o=void 0,this.DVl=!1,this.BVl=0}static Create(t){if(t)return new FbMonsterShowOnDeathEffect(t)}get Type(){return this.$1h||(this.$1h=!0,this.f8o=this.FbDataInternal.type()),this.f8o}get EffectId(){return this.DVl||(this.DVl=!0,this.BVl=this.FbDataInternal.effectId()),this.BVl}}exports.FbMonsterShowOnDeathEffect=FbMonsterShowOnDeathEffect;
+//# sourceMappingURL=FbMonsterShowOnDeathEffect.js.map

@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbShowSpecificEntities=void 0;class FbShowSpecificEntities{constructor(t){this.FbDataInternal=t,this.V_h=!1,this.j_h=void 0,this.WAh=!1,this.QAh=!1}static Create(t){if(t)return new FbShowSpecificEntities(t)}get EntityIds(){if(!this.V_h){this.V_h=!0,this.j_h=new Array;var i=this.FbDataInternal.entityIdsLength();if(i)for(let t=0;t<i;++t)this.j_h.push(this.FbDataInternal.entityIds(t))}return this.j_h}get DelayShow(){return this.WAh||(this.WAh=!0,this.QAh=this.FbDataInternal.delayShow()),this.QAh}}exports.FbShowSpecificEntities=FbShowSpecificEntities;
+//# sourceMappingURL=FbShowSpecificEntities.js.map

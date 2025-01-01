@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.CLOUD_GAME_DEFAULT_DPI=exports.cloudGameScreenResolution=exports.cloudGameDeviceScreenResolution=exports.cloudGameDpiRegex=exports.cloudGameServerTagRegex=exports.cloudGameDeviceRegex=exports.cloudGamePlatformRegex=void 0,exports.cloudGamePlatformRegex=/-CloudGamePlatform=([^\s]+)/,exports.cloudGameDeviceRegex=/-Device=([^\s]+)/,exports.cloudGameServerTagRegex=/-ServerTag=([^\s]+)/,exports.cloudGameDpiRegex=/-Dpi=([^\s]+)/,exports.cloudGameDeviceScreenResolution=/-DeviceScreenResolution=(\d+)x(\d+)/,exports.cloudGameScreenResolution=/Res=(\d+)x(\d+)/,exports.CLOUD_GAME_DEFAULT_DPI=180;
+//# sourceMappingURL=CloudGameDefine.js.map

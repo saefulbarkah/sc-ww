@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbActivateSpecifiedPieceConfig=void 0;const FbJigsawConfig_1=require("../Action/FbJigsawConfig");class FbActivateSpecifiedPieceConfig{constructor(i){this.FbDataInternal=i,this.MFh=!1,this.EFh=void 0,this.p2h=!1,this.v2h=void 0}static Create(i){if(i)return new FbActivateSpecifiedPieceConfig(i)}get Jigsaw(){return this.MFh||(this.MFh=!0,this.EFh=FbJigsawConfig_1.FbJigsawConfig.Create(this.FbDataInternal.jigsaw())),this.EFh}get SelfState(){return this.p2h||(this.p2h=!0,this.v2h=this.FbDataInternal.selfState()),this.v2h}}exports.FbActivateSpecifiedPieceConfig=FbActivateSpecifiedPieceConfig;
+//# sourceMappingURL=FbActivateSpecifiedPieceConfig.js.map

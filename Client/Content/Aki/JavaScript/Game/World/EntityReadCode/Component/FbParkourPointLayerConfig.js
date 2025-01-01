@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbParkourPointLayerConfig=void 0;class FbParkourPointLayerConfig{constructor(t){this.FbDataInternal=t,this.V7h=!1,this.j7h=0,this.H7h=!1,this.W7h=0}static Create(t){if(t)return new FbParkourPointLayerConfig(t)}get Width(){return this.V7h||(this.V7h=!0,this.j7h=this.FbDataInternal.width()),this.j7h}get Length(){return this.H7h||(this.H7h=!0,this.W7h=this.FbDataInternal.length()),this.W7h}}exports.FbParkourPointLayerConfig=FbParkourPointLayerConfig;
+//# sourceMappingURL=FbParkourPointLayerConfig.js.map

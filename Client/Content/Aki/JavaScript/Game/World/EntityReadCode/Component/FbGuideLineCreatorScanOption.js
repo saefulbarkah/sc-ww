@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbGuideLineCreatorScanOption=void 0;class FbGuideLineCreatorScanOption{constructor(t){this.FbDataInternal=t,this.F8h=!1,this.N8h=0}static Create(t){if(t)return new FbGuideLineCreatorScanOption(t)}get ResponseRange(){return this.F8h||(this.F8h=!0,this.N8h=this.FbDataInternal.responseRange()),this.N8h}}exports.FbGuideLineCreatorScanOption=FbGuideLineCreatorScanOption;
+//# sourceMappingURL=FbGuideLineCreatorScanOption.js.map

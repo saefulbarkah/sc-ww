@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbFlowIndex=void 0;class FbFlowIndex{constructor(t){this.FbDataInternal=t,this.I_h=!1,this.T_h=void 0,this.b_h=!1,this.L_h=0}static Create(t){if(t)return new FbFlowIndex(t)}get FlowListName(){return this.I_h||(this.I_h=!0,this.T_h=this.FbDataInternal.flowListName()),this.T_h}get FlowId(){return this.b_h||(this.b_h=!0,this.L_h=this.FbDataInternal.flowId()),this.L_h}}exports.FbFlowIndex=FbFlowIndex;
+//# sourceMappingURL=FbFlowIndex.js.map

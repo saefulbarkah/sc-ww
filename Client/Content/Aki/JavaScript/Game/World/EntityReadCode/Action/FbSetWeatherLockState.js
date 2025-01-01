@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbSetWeatherLockState=void 0;class FbSetWeatherLockState{constructor(t){this.FbDataInternal=t,this.ibh=!1,this.rbh=void 0}static Create(t){if(t)return new FbSetWeatherLockState(t)}get LockState(){return this.ibh||(this.ibh=!0,this.rbh=this.FbDataInternal.lockState()),this.rbh}}exports.FbSetWeatherLockState=FbSetWeatherLockState;
+//# sourceMappingURL=FbSetWeatherLockState.js.map

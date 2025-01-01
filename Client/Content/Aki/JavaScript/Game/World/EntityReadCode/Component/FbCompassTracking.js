@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbCompassTracking=void 0;class FbCompassTracking{constructor(t){this.FbDataInternal=t,this.$1h=!1,this.f8o=void 0,this.x5h=!1,this.w5h=0,this.P5h=!1,this.U5h=0}static Create(t){if(t)return new FbCompassTracking(t)}get Type(){return this.$1h||(this.$1h=!0,this.f8o=this.FbDataInternal.type()),this.f8o}get ShowRange(){return this.x5h||(this.x5h=!0,this.w5h=this.FbDataInternal.showRange()),this.w5h}get HideRange(){return this.P5h||(this.P5h=!0,this.U5h=this.FbDataInternal.hideRange()),this.U5h}}exports.FbCompassTracking=FbCompassTracking;
+//# sourceMappingURL=FbCompassTracking.js.map

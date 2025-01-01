@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbActorRef=void 0;class FbActorRef{constructor(t){this.FbDataInternal=t,this.uxh=!1,this.dxh=void 0,this.mxh=!1,this.Cxh=void 0,this.gxh=!1,this.fxh=void 0}static Create(t){if(t)return new FbActorRef(t)}get ActorName(){return this.uxh||(this.uxh=!0,this.dxh=this.FbDataInternal.actorName()),this.dxh}get PathName(){return this.mxh||(this.mxh=!0,this.Cxh=this.FbDataInternal.pathName()),this.Cxh}get Platform(){return this.gxh||(this.gxh=!0,this.fxh=this.FbDataInternal.platform()),this.fxh}}exports.FbActorRef=FbActorRef;
+//# sourceMappingURL=FbActorRef.js.map

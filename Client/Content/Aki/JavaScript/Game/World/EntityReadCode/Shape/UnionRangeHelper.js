@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.UnionRangeHelper=void 0;const fb_shape_1=require("../../../../Game/World/EntityFb/fb-shape"),FbCircleRange_1=require("./FbCircleRange");class UnionRangeHelper{static GetUnionRangeObject(e){if(e===fb_shape_1.UnionRange.CircleRange)return new fb_shape_1.CircleRange}static ReadUnionRange(e,n){return void 0!==n&&e===fb_shape_1.UnionRange.CircleRange?FbCircleRange_1.FbCircleRange.Create(n):void 0}}exports.UnionRangeHelper=UnionRangeHelper;
+//# sourceMappingURL=UnionRangeHelper.js.map

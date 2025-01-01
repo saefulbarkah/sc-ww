@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbThrowCfg=void 0;const UnionThrowMotionHelper_1=require("./UnionThrowMotionHelper");class FbThrowCfg{constructor(o){this.FbDataInternal=o,this.LNh=!1,this.ANh=void 0}static Create(o){if(o)return new FbThrowCfg(o)}get MotionConfig(){var o,t;return!this.LNh&&(this.LNh=!0,o=this.FbDataInternal.motionConfigType(),t=UnionThrowMotionHelper_1.UnionThrowMotionHelper.GetUnionThrowMotionObject(o))&&(this.ANh=UnionThrowMotionHelper_1.UnionThrowMotionHelper.ReadUnionThrowMotion(o,this.FbDataInternal.motionConfig(t))),this.ANh}}exports.FbThrowCfg=FbThrowCfg;
+//# sourceMappingURL=FbThrowCfg.js.map

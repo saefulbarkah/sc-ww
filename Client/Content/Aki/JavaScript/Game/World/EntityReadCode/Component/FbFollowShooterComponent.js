@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbFollowShooterComponent=void 0;class FbFollowShooterComponent{constructor(t){this.FbDataInternal=t,this.p_h=!1,this.v_h=!1,this.bSh=!1,this.TAe=void 0}static Create(t){if(t)return new FbFollowShooterComponent(t)}get Disabled(){return this.p_h||(this.p_h=!0,this.v_h=this.FbDataInternal.disabled()),this.v_h}get Config(){return this.bSh||(this.bSh=!0,this.TAe=this.FbDataInternal.config()),this.TAe}}exports.FbFollowShooterComponent=FbFollowShooterComponent;
+//# sourceMappingURL=FbFollowShooterComponent.js.map

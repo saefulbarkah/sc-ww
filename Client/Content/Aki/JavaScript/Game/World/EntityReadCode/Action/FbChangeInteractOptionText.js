@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbChangeInteractOptionText=void 0;class FbChangeInteractOptionText{constructor(t){this.FbDataInternal=t,this.z1h=!1,this.J1h=void 0}static Create(t){if(t)return new FbChangeInteractOptionText(t)}get TidContent(){return this.z1h||(this.z1h=!0,this.J1h=this.FbDataInternal.tidContent()),this.J1h}}exports.FbChangeInteractOptionText=FbChangeInteractOptionText;
+//# sourceMappingURL=FbChangeInteractOptionText.js.map

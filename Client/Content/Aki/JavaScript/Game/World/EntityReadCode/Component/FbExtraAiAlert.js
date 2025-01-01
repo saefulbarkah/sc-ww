@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbExtraAiAlert=void 0;class FbExtraAiAlert{constructor(t){this.FbDataInternal=t,this.WHh=!1,this.QHh=0,this.KHh=!1,this.$Hh=0}static Create(t){if(t)return new FbExtraAiAlert(t)}get MoveAlert(){return this.WHh||(this.WHh=!0,this.QHh=this.FbDataInternal.moveAlert()),this.QHh}get StopAlert(){return this.KHh||(this.KHh=!0,this.$Hh=this.FbDataInternal.stopAlert()),this.$Hh}}exports.FbExtraAiAlert=FbExtraAiAlert;
+//# sourceMappingURL=FbExtraAiAlert.js.map

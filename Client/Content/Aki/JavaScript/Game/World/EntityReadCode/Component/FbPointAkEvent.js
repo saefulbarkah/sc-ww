@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbPointAkEvent=void 0;class FbPointAkEvent{constructor(t){this.FbDataInternal=t,this.$1h=!1,this.f8o=void 0,this.Fjh=!1,this.Njh=void 0,this.Vjh=!1,this.jjh=!1}static Create(t){if(t)return new FbPointAkEvent(t)}get Type(){return this.$1h||(this.$1h=!0,this.f8o=this.FbDataInternal.type()),this.f8o}get PointIds(){if(!this.Fjh){this.Fjh=!0,this.Njh=new Array;var i=this.FbDataInternal.pointIdsLength();if(i)for(let t=0;t<i;++t)this.Njh.push(this.FbDataInternal.pointIds(t))}return this.Njh}get UseListenerCone(){return this.Vjh||(this.Vjh=!0,this.jjh=this.FbDataInternal.useListenerCone()),this.jjh}}exports.FbPointAkEvent=FbPointAkEvent;
+//# sourceMappingURL=FbPointAkEvent.js.map

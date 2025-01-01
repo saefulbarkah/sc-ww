@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbTimePathConfig=void 0;class FbTimePathConfig{constructor(t){this.FbDataInternal=t,this.SCh=!1,this.MCh=0,this.o7h=!1,this.n7h=void 0}static Create(t){if(t)return new FbTimePathConfig(t)}get TotalTime(){return this.SCh||(this.SCh=!0,this.MCh=this.FbDataInternal.totalTime()),this.MCh}get TimePathCurve(){return this.o7h||(this.o7h=!0,this.n7h=this.FbDataInternal.timePathCurve()),this.n7h}}exports.FbTimePathConfig=FbTimePathConfig;
+//# sourceMappingURL=FbTimePathConfig.js.map

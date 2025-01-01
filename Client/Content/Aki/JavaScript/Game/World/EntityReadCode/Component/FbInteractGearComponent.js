@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbInteractGearComponent=void 0;class FbInteractGearComponent{constructor(t){this.FbDataInternal=t,this.p_h=!1,this.v_h=!1,this.R6h=!1,this.x6h=0,this.w6h=!1,this.P6h=0}static Create(t){if(t)return new FbInteractGearComponent(t)}get Disabled(){return this.p_h||(this.p_h=!0,this.v_h=this.FbDataInternal.disabled()),this.v_h}get NormalPrepareTime(){return this.R6h||(this.R6h=!0,this.x6h=this.FbDataInternal.normalPrepareTime()),this.x6h}get ActivePrepareTime(){return this.w6h||(this.w6h=!0,this.P6h=this.FbDataInternal.activePrepareTime()),this.P6h}}exports.FbInteractGearComponent=FbInteractGearComponent;
+//# sourceMappingURL=FbInteractGearComponent.js.map

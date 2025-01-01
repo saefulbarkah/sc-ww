@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbGravityFlipConfig=void 0;const FbVectorInfo_1=require("../Var/FbVectorInfo");class FbGravityFlipConfig{constructor(t){this.FbDataInternal=t,this.$1h=!1,this.f8o=void 0,this.H4h=!1,this.W4h=void 0}static Create(t){if(t)return new FbGravityFlipConfig(t)}get Type(){return this.$1h||(this.$1h=!0,this.f8o=this.FbDataInternal.type()),this.f8o}get SafeLocation(){return this.H4h||(this.H4h=!0,this.W4h=FbVectorInfo_1.FbVectorInfo.Create(this.FbDataInternal.safeLocation())),this.W4h}}exports.FbGravityFlipConfig=FbGravityFlipConfig;
+//# sourceMappingURL=FbGravityFlipConfig.js.map

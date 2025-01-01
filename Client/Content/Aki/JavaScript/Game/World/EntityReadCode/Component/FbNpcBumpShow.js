@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbNpcBumpShow=void 0;const FbNpcPerformBubble_1=require("./FbNpcPerformBubble");class FbNpcBumpShow{constructor(e){this.FbDataInternal=e,this.qVh=!1,this.kVh=void 0}static Create(e){if(e)return new FbNpcBumpShow(e)}get BumpBubble(){return this.qVh||(this.qVh=!0,this.kVh=FbNpcPerformBubble_1.FbNpcPerformBubble.Create(this.FbDataInternal.bumpBubble())),this.kVh}}exports.FbNpcBumpShow=FbNpcBumpShow;
+//# sourceMappingURL=FbNpcBumpShow.js.map

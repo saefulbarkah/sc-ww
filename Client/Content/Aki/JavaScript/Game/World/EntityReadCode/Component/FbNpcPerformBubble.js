@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbNpcPerformBubble=void 0;const FbBubbleIndex_1=require("../Action/FbBubbleIndex");class FbNpcPerformBubble{constructor(t){this.FbDataInternal=t,this.GVh=!1,this.OVh=void 0,this.FVh=!1,this.DTo=0}static Create(t){if(t)return new FbNpcPerformBubble(t)}get Bubble(){return this.GVh||(this.GVh=!0,this.OVh=FbBubbleIndex_1.FbBubbleIndex.Create(this.FbDataInternal.bubble())),this.OVh}get Rate(){return this.FVh||(this.FVh=!0,this.DTo=this.FbDataInternal.rate()),this.DTo}}exports.FbNpcPerformBubble=FbNpcPerformBubble;
+//# sourceMappingURL=FbNpcPerformBubble.js.map

@@ -1,0 +1,3 @@
+
+"use strict";var EDirectTrainStartCondition;Object.defineProperty(exports,"__esModule",{value:!0}),exports.EDirectTrainStartCondition=void 0,function(t){t[t.WorldDone=0]="WorldDone",t[t.ActivateBattle=1]="ActivateBattle",t[t.ServerConditionDone=2]="ServerConditionDone",t[t.ActivityOpen=3]="ActivityOpen"}(EDirectTrainStartCondition=exports.EDirectTrainStartCondition||(exports.EDirectTrainStartCondition={}));
+//# sourceMappingURL=ActivityDirectTrainDefine.js.map

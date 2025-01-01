@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbPlayFlow=void 0;class FbPlayFlow{constructor(t){this.FbDataInternal=t,this.I_h=!1,this.T_h=void 0,this.b_h=!1,this.L_h=0,this.A_h=!1,this.R_h=0,this.x_h=!1,this.w_h=void 0}static Create(t){if(t)return new FbPlayFlow(t)}get FlowListName(){return this.I_h||(this.I_h=!0,this.T_h=this.FbDataInternal.flowListName()),this.T_h}get FlowId(){return this.b_h||(this.b_h=!0,this.L_h=this.FbDataInternal.flowId()),this.L_h}get StateId(){return this.A_h||(this.A_h=!0,this.R_h=this.FbDataInternal.stateId()),this.R_h}get FlowGuid(){return this.x_h||(this.x_h=!0,this.w_h=this.FbDataInternal.flowGuid()),this.w_h}}exports.FbPlayFlow=FbPlayFlow;
+//# sourceMappingURL=FbPlayFlow.js.map

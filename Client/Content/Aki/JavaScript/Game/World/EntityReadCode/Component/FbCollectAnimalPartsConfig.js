@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbCollectAnimalPartsConfig=void 0;class FbCollectAnimalPartsConfig{constructor(t){this.FbDataInternal=t,this.Ajh=!1,this.Rjh=void 0,this.xjh=!1,this.wjh=void 0,this.Pjh=!1,this.Ujh=0}static Create(t){if(t)return new FbCollectAnimalPartsConfig(t)}get Slot(){return this.Ajh||(this.Ajh=!0,this.Rjh=this.FbDataInternal.slot()),this.Rjh}get Skeleton(){return this.xjh||(this.xjh=!0,this.wjh=this.FbDataInternal.skeleton()),this.wjh}get CollectEntity(){return this.Pjh||(this.Pjh=!0,this.Ujh=this.FbDataInternal.collectEntity()),this.Ujh}}exports.FbCollectAnimalPartsConfig=FbCollectAnimalPartsConfig;
+//# sourceMappingURL=FbCollectAnimalPartsConfig.js.map

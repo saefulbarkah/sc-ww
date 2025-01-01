@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbConditionBubbleData=void 0;const FbBubbleData_1=require("../Action/FbBubbleData"),FbConditionGroup_1=require("../Condition/FbConditionGroup");class FbConditionBubbleData{constructor(t){this.FbDataInternal=t,this.Z1h=!1,this.X6o=void 0,this.M_h=!1,this.E_h=void 0}static Create(t){if(t)return new FbConditionBubbleData(t)}get Condition(){return this.Z1h||(this.Z1h=!0,this.X6o=FbConditionGroup_1.FbConditionGroup.Create(this.FbDataInternal.condition())),this.X6o}get Flow(){return this.M_h||(this.M_h=!0,this.E_h=FbBubbleData_1.FbBubbleData.Create(this.FbDataInternal.flow())),this.E_h}}exports.FbConditionBubbleData=FbConditionBubbleData;
+//# sourceMappingURL=FbConditionBubbleData.js.map

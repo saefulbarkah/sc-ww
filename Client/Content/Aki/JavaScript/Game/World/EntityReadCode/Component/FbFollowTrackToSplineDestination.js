@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbFollowTrackToSplineDestination=void 0;class FbFollowTrackToSplineDestination{constructor(t){this.FbDataInternal=t,this.$1h=!1,this.f8o=void 0,this.G2h=!1,this.O2h=void 0}static Create(t){if(t)return new FbFollowTrackToSplineDestination(t)}get Type(){return this.$1h||(this.$1h=!0,this.f8o=this.FbDataInternal.type()),this.f8o}get ChangeSelfState(){return this.G2h||(this.G2h=!0,this.O2h=this.FbDataInternal.changeSelfState()),this.O2h}}exports.FbFollowTrackToSplineDestination=FbFollowTrackToSplineDestination;
+//# sourceMappingURL=FbFollowTrackToSplineDestination.js.map

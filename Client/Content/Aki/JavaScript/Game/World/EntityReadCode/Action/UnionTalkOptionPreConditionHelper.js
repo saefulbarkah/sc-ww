@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.UnionTalkOptionPreConditionHelper=void 0;const fb_action_1=require("../../../../Game/World/EntityFb/fb-action"),FbTalkOptionPreOption_1=require("./FbTalkOptionPreOption");class UnionTalkOptionPreConditionHelper{static GetUnionTalkOptionPreConditionObject(i){if(i===fb_action_1.UnionTalkOptionPreCondition.TalkOptionPreOption)return new fb_action_1.TalkOptionPreOption}static ReadUnionTalkOptionPreCondition(i,n){return void 0!==n&&i===fb_action_1.UnionTalkOptionPreCondition.TalkOptionPreOption?FbTalkOptionPreOption_1.FbTalkOptionPreOption.Create(n):void 0}}exports.UnionTalkOptionPreConditionHelper=UnionTalkOptionPreConditionHelper;
+//# sourceMappingURL=UnionTalkOptionPreConditionHelper.js.map

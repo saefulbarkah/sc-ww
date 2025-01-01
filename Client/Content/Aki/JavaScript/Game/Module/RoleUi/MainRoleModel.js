@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.MainRoleModel=void 0;const ModelBase_1=require("../../../Core/Framework/ModelBase"),TimeUtil_1=require("../../Common/TimeUtil");class MainRoleModel extends ModelBase_1.ModelBase{constructor(){super(...arguments),this.g2l=0}UpdateCanChangeSexTime(e){this.g2l=e}CanChangeSex(){return TimeUtil_1.TimeUtil.GetServerTimeStamp()>=this.g2l}GetCanChangeSexTime(){return this.g2l}}exports.MainRoleModel=MainRoleModel;
+//# sourceMappingURL=MainRoleModel.js.map

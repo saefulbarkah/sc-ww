@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.LevelEventSetTimeLockState=void 0;const Protocol_1=require("../../../Core/Define/Net/Protocol"),ModelManager_1=require("../../Manager/ModelManager"),LevelGeneralBase_1=require("../LevelGeneralBase");class LevelEventSetTimeLockState extends LevelGeneralBase_1.LevelEventBase{ExecuteNew(e,o,r){6===o.Type&&o.BtType===Protocol_1.Aki.Protocol.hps.Proto_BtTypeInst&&("Lock"===(o=e).LockState?ModelManager_1.ModelManager.TimeOfDayModel.TimeRunLockState=!0:"Unlock"===o.LockState&&(ModelManager_1.ModelManager.TimeOfDayModel.TimeRunLockState=!1))}}exports.LevelEventSetTimeLockState=LevelEventSetTimeLockState;
+//# sourceMappingURL=LevelEventSetTimeLockState.js.map

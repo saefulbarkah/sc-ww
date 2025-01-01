@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.CharacterExploreModel=void 0;const ModelBase_1=require("../../../../../Core/Framework/ModelBase");class CharacterExploreModel extends ModelBase_1.ModelBase{constructor(){super(...arguments),this.ManipulateFound=!1,this.ManipulateEntity=void 0,this.ManipulateActorComp=void 0,this.LastManipulateTriggerId=0,this.CurManipulateTriggerId=0,this.HookFound=!1,this.HookEntity=void 0,this.LastHookTriggerId=0,this.CurHookTriggerId=0,this.SavedSkillId=0}}exports.CharacterExploreModel=CharacterExploreModel;
+//# sourceMappingURL=CharacterExploreModel.js.map

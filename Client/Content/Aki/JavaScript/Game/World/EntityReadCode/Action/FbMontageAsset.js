@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbMontageAsset=void 0;class FbMontageAsset{constructor(t){this.FbDataInternal=t,this.$1h=!1,this.f8o=void 0,this.hxh=!1,this.lxh=void 0}static Create(t){if(t)return new FbMontageAsset(t)}get Type(){return this.$1h||(this.$1h=!0,this.f8o=this.FbDataInternal.type()),this.f8o}get Asset(){return this.hxh||(this.hxh=!0,this.lxh=this.FbDataInternal.asset()),this.lxh}}exports.FbMontageAsset=FbMontageAsset;
+//# sourceMappingURL=FbMontageAsset.js.map

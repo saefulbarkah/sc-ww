@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbCommonTipGeneralFloatingTip=void 0;class FbCommonTipGeneralFloatingTip{constructor(t){this.FbDataInternal=t,this.$1h=!1,this.f8o=void 0,this._yh=!1,this.cyh=void 0}static Create(t){if(t)return new FbCommonTipGeneralFloatingTip(t)}get Type(){return this.$1h||(this.$1h=!0,this.f8o=this.FbDataInternal.type()),this.f8o}get TidMainText(){return this._yh||(this._yh=!0,this.cyh=this.FbDataInternal.tidMainText()),this.cyh}}exports.FbCommonTipGeneralFloatingTip=FbCommonTipGeneralFloatingTip;
+//# sourceMappingURL=FbCommonTipGeneralFloatingTip.js.map

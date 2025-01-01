@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.AsyncUtil=void 0;const JsModelManager_1=require("../../Core/Model/JsModelManager"),Platform_1=require("../../Launcher/Platform/Platform"),AiConfig_1=require("../AI/Common/AiConfig");class AsyncUtil{static InitializeEnvironment(){this.Vh1||!Platform_1.Platform.IsPs5Platform()&&!Platform_1.Platform.IsPcPlatform()||(JsModelManager_1.JsModelManager.InitializeEnvironment(),AiConfig_1.AiConfig.AsyncAiPerception=!0,this.Vh1=!0)}static DestroyEnvironment(){this.Vh1&&(JsModelManager_1.JsModelManager.DestroyEnvironment(),this.Vh1=!1)}}(exports.AsyncUtil=AsyncUtil).Vh1=!1;
+//# sourceMappingURL=AsyncUtil.js.map

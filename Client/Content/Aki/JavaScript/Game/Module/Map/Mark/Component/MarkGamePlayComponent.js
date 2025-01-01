@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.MarkGamePlayComponent=void 0;const MapComponent_1=require("../../Base/MapComponent");class MarkGamePlayComponent extends MapComponent_1.MapComponent{get ComponentType(){return 8}set GamePlayState(e){this.PropertyMap.set(0,e)}get GamePlayState(){return this.PropertyMap.tryGet(0,0)}IsFinish(){return 2===this.GamePlayState}}exports.MarkGamePlayComponent=MarkGamePlayComponent;
+//# sourceMappingURL=MarkGamePlayComponent.js.map

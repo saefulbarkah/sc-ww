@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.MarkResourceComponent=void 0;const MapComponent_1=require("../../Base/MapComponent");class MarkResourceComponent extends MapComponent_1.MapComponent{get ComponentType(){return 9}set TopRightIconPath(e){this.PropertyMap.set(0,e)}get TopRightIconPath(){return this.PropertyMap.tryGet(0,"")}}exports.MarkResourceComponent=MarkResourceComponent;
+//# sourceMappingURL=MarkResourceComponent.js.map

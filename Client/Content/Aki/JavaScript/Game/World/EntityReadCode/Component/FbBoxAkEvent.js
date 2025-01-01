@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbBoxAkEvent=void 0;class FbBoxAkEvent{constructor(t){this.FbDataInternal=t,this.$1h=!1,this.f8o=void 0,this.Gjh=!1,this.Ojh=void 0,this.NIh=!1,this.cui=0}static Create(t){if(t)return new FbBoxAkEvent(t)}get Type(){return this.$1h||(this.$1h=!0,this.f8o=this.FbDataInternal.type()),this.f8o}get AudioType(){return this.Gjh||(this.Gjh=!0,this.Ojh=this.FbDataInternal.audioType()),this.Ojh}get Priority(){return this.NIh||(this.NIh=!0,this.cui=this.FbDataInternal.priority()),this.cui}}exports.FbBoxAkEvent=FbBoxAkEvent;
+//# sourceMappingURL=FbBoxAkEvent.js.map

@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbWeaponComponent=void 0;class FbWeaponComponent{constructor(t){this.FbDataInternal=t,this.p_h=!1,this.v_h=!1,this.Vxh=!1,this.jxh=0}static Create(t){if(t)return new FbWeaponComponent(t)}get Disabled(){return this.p_h||(this.p_h=!0,this.v_h=this.FbDataInternal.disabled()),this.v_h}get WeaponId(){return this.Vxh||(this.Vxh=!0,this.jxh=this.FbDataInternal.weaponId()),this.jxh}}exports.FbWeaponComponent=FbWeaponComponent;
+//# sourceMappingURL=FbWeaponComponent.js.map

@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbOnThrowTriggerTimeCondition=void 0;class FbOnThrowTriggerTimeCondition{constructor(t){this.FbDataInternal=t,this.$1h=!1,this.f8o=void 0,this.p0h=!1,this.nXs=0,this.MNh=!1,this.ENh=0}static Create(t){if(t)return new FbOnThrowTriggerTimeCondition(t)}get Type(){return this.$1h||(this.$1h=!0,this.f8o=this.FbDataInternal.type()),this.f8o}get BulletId(){return this.p0h||(this.p0h=!0,this.nXs=Number(this.FbDataInternal.bulletId())),this.nXs}get TriggerTime(){return this.MNh||(this.MNh=!0,this.ENh=this.FbDataInternal.triggerTime()),this.ENh}}exports.FbOnThrowTriggerTimeCondition=FbOnThrowTriggerTimeCondition;
+//# sourceMappingURL=FbOnThrowTriggerTimeCondition.js.map

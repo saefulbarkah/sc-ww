@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbSuperCatapult=void 0;const FbCatapultParam_1=require("./FbCatapultParam");class FbSuperCatapult{constructor(t){this.FbDataInternal=t,this.$1h=!1,this.f8o=void 0,this.F1h=!1,this.N1h=void 0}static Create(t){if(t)return new FbSuperCatapult(t)}get Type(){return this.$1h||(this.$1h=!0,this.f8o=this.FbDataInternal.type()),this.f8o}get Param(){return this.F1h||(this.F1h=!0,this.N1h=FbCatapultParam_1.FbCatapultParam.Create(this.FbDataInternal.param())),this.N1h}}exports.FbSuperCatapult=FbSuperCatapult;
+//# sourceMappingURL=FbSuperCatapult.js.map

@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbVehiclePassengerConfig=void 0;class FbVehiclePassengerConfig{constructor(s){this.FbDataInternal=s,this.GVl=!1,this.OVl=0,this.hMh=!1,this.lMh=0}static Create(s){if(s)return new FbVehiclePassengerConfig(s)}get PassengerNpc(){return this.GVl||(this.GVl=!0,this.OVl=this.FbDataInternal.passengerNpc()),this.OVl}get Seat(){return this.hMh||(this.hMh=!0,this.lMh=this.FbDataInternal.seat()),this.lMh}}exports.FbVehiclePassengerConfig=FbVehiclePassengerConfig;
+//# sourceMappingURL=FbVehiclePassengerConfig.js.map

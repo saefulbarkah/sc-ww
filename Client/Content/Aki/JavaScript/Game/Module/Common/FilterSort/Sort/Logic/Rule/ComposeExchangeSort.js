@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ComposeExchangeSort=void 0;const CommonSort_1=require("./CommonSort");class ComposeExchangeSort extends CommonSort_1.CommonSort{constructor(){super(...arguments),this.KDt=(o,t,e)=>{var r;return t.IsUnlock!==o.IsUnlock?(r=t.IsUnlock-o.IsUnlock,e?r:-r):o.Quality!==t.Quality?(t.Quality-o.Quality)*(e?-1:1):o.ConfigId-t.ConfigId}}OnInitSortMap(){this.SortMap.set(1,this.KDt)}}exports.ComposeExchangeSort=ComposeExchangeSort;
+//# sourceMappingURL=ComposeExchangeSort.js.map

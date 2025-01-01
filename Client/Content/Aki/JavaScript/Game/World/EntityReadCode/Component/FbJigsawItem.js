@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbJigsawItem=void 0;const UnionFillConfigHelper_1=require("./UnionFillConfigHelper");class FbJigsawItem{constructor(i){this.FbDataInternal=i,this.p_h=!1,this.v_h=!1,this.eFh=!1,this.tFh=void 0}static Create(i){if(i)return new FbJigsawItem(i)}get Disabled(){return this.p_h||(this.p_h=!0,this.v_h=this.FbDataInternal.disabled()),this.v_h}get FillCfg(){var i,t;return!this.eFh&&(this.eFh=!0,i=this.FbDataInternal.fillCfgType(),t=UnionFillConfigHelper_1.UnionFillConfigHelper.GetUnionFillConfigObject(i))&&(this.tFh=UnionFillConfigHelper_1.UnionFillConfigHelper.ReadUnionFillConfig(i,this.FbDataInternal.fillCfg(t))),this.tFh}}exports.FbJigsawItem=FbJigsawItem;
+//# sourceMappingURL=FbJigsawItem.js.map

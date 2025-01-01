@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbTeleControlBaseCfg=void 0;class FbTeleControlBaseCfg{constructor(t){this.FbDataInternal=t,this.oNh=!1,this.nNh=void 0,this.sNh=!1,this.aNh=!1,this.hNh=!1,this.lNh=!1}static Create(t){if(t)return new FbTeleControlBaseCfg(t)}get CommonConfig(){return this.oNh||(this.oNh=!0,this.nNh=this.FbDataInternal.commonConfig()),this.nNh}get CanRotate(){return this.sNh||(this.sNh=!0,this.aNh=this.FbDataInternal.canRotate()),this.aNh}get InitialGravity(){return this.hNh||(this.hNh=!0,this.lNh=this.FbDataInternal.initialGravity()),this.lNh}}exports.FbTeleControlBaseCfg=FbTeleControlBaseCfg;
+//# sourceMappingURL=FbTeleControlBaseCfg.js.map

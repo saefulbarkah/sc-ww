@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbTriggerCountConfig=void 0;class FbTriggerCountConfig{constructor(t){this.FbDataInternal=t,this.pNh=!1,this.vNh=0,this.yNh=!1,this.SNh=0}static Create(t){if(t)return new FbTriggerCountConfig(t)}get TriggerCount(){return this.pNh||(this.pNh=!0,this.vNh=this.FbDataInternal.triggerCount()),this.vNh}get TriggerInterval(){return this.yNh||(this.yNh=!0,this.SNh=this.FbDataInternal.triggerInterval()),this.SNh}}exports.FbTriggerCountConfig=FbTriggerCountConfig;
+//# sourceMappingURL=FbTriggerCountConfig.js.map

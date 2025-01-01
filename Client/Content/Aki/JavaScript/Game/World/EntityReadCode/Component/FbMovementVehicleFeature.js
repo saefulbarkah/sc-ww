@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbMovementVehicleFeature=void 0;class FbMovementVehicleFeature{constructor(e){this.FbDataInternal=e,this.$1h=!1,this.f8o=void 0,this.Pjl=!1,this.Ujl=0}static Create(e){if(e)return new FbMovementVehicleFeature(e)}get Type(){return this.$1h||(this.$1h=!0,this.f8o=this.FbDataInternal.type()),this.f8o}get MoveSpline(){return this.Pjl||(this.Pjl=!0,this.Ujl=this.FbDataInternal.moveSpline()),this.Ujl}}exports.FbMovementVehicleFeature=FbMovementVehicleFeature;
+//# sourceMappingURL=FbMovementVehicleFeature.js.map

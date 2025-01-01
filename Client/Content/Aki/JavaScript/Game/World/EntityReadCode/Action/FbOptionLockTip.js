@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbOptionLockTip=void 0;class FbOptionLockTip{constructor(t){this.FbDataInternal=t,this.P_h=!1,this.U_h=void 0,this.D_h=!1,this.B_h=void 0}static Create(t){if(t)return new FbOptionLockTip(t)}get TidAppendText(){return this.P_h||(this.P_h=!0,this.U_h=this.FbDataInternal.tidAppendText()),this.U_h}get TidHintText(){return this.D_h||(this.D_h=!0,this.B_h=this.FbDataInternal.tidHintText()),this.B_h}}exports.FbOptionLockTip=FbOptionLockTip;
+//# sourceMappingURL=FbOptionLockTip.js.map

@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbTimeStopTarget=void 0;const FbDynamicEntityMatch_1=require("./FbDynamicEntityMatch");class FbTimeStopTarget{constructor(t){this.FbDataInternal=t,this.V_h=!1,this.j_h=void 0,this.g2h=!1,this.f2h=void 0}static Create(t){if(t)return new FbTimeStopTarget(t)}get EntityIds(){if(!this.V_h){this.V_h=!0,this.j_h=new Array;var i=this.FbDataInternal.entityIdsLength();if(i)for(let t=0;t<i;++t)this.j_h.push(this.FbDataInternal.entityIds(t))}return this.j_h}get EntityMatch(){return this.g2h||(this.g2h=!0,this.f2h=FbDynamicEntityMatch_1.FbDynamicEntityMatch.Create(this.FbDataInternal.entityMatch())),this.f2h}}exports.FbTimeStopTarget=FbTimeStopTarget;
+//# sourceMappingURL=FbTimeStopTarget.js.map

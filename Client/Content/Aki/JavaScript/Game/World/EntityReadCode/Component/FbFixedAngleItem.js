@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbFixedAngleItem=void 0;class FbFixedAngleItem{constructor(t){this.FbDataInternal=t,this.cHh=!1,this.uHh=0,this.dHh=!1,this.mHh=0,this.CHh=!1,this.gHh=0}static Create(t){if(t)return new FbFixedAngleItem(t)}get InitAngle(){return this.cHh||(this.cHh=!0,this.uHh=this.FbDataInternal.initAngle()),this.uHh}get TargetAngle(){return this.dHh||(this.dHh=!0,this.mHh=this.FbDataInternal.targetAngle()),this.mHh}get RotateAngle(){return this.CHh||(this.CHh=!0,this.gHh=this.FbDataInternal.rotateAngle()),this.gHh}}exports.FbFixedAngleItem=FbFixedAngleItem;
+//# sourceMappingURL=FbFixedAngleItem.js.map

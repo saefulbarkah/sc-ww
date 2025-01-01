@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbEditCustomAoiComponent=void 0;class FbEditCustomAoiComponent{constructor(t){this.FbDataInternal=t,this.p_h=!1,this.v_h=!1,this.Ayh=!1,this.Ryh=void 0}static Create(t){if(t)return new FbEditCustomAoiComponent(t)}get Disabled(){return this.p_h||(this.p_h=!0,this.v_h=this.FbDataInternal.disabled()),this.v_h}get Entities(){if(!this.Ayh){this.Ayh=!0,this.Ryh=new Array;var i=this.FbDataInternal.entitiesLength();if(i)for(let t=0;t<i;++t)this.Ryh.push(this.FbDataInternal.entities(t))}return this.Ryh}}exports.FbEditCustomAoiComponent=FbEditCustomAoiComponent;
+//# sourceMappingURL=FbEditCustomAoiComponent.js.map

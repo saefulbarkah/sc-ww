@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbQuantityRefillCondition=void 0;class FbQuantityRefillCondition{constructor(t){this.FbDataInternal=t,this.$1h=!1,this.f8o=void 0,this.Zqh=!1,this.ekh=0}static Create(t){if(t)return new FbQuantityRefillCondition(t)}get Type(){return this.$1h||(this.$1h=!0,this.f8o=this.FbDataInternal.type()),this.f8o}get Quantity(){return this.Zqh||(this.Zqh=!0,this.ekh=this.FbDataInternal.quantity()),this.ekh}}exports.FbQuantityRefillCondition=FbQuantityRefillCondition;
+//# sourceMappingURL=FbQuantityRefillCondition.js.map

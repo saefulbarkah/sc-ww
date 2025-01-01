@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbControlTrackingOther=void 0;class FbControlTrackingOther{constructor(t){this.FbDataInternal=t,this.$1h=!1,this.f8o=void 0,this.Ayh=!1,this.Ryh=void 0}static Create(t){if(t)return new FbControlTrackingOther(t)}get Type(){return this.$1h||(this.$1h=!0,this.f8o=this.FbDataInternal.type()),this.f8o}get Entities(){if(!this.Ayh){this.Ayh=!0,this.Ryh=new Array;var i=this.FbDataInternal.entitiesLength();if(i)for(let t=0;t<i;++t)this.Ryh.push(this.FbDataInternal.entities(t))}return this.Ryh}}exports.FbControlTrackingOther=FbControlTrackingOther;
+//# sourceMappingURL=FbControlTrackingOther.js.map

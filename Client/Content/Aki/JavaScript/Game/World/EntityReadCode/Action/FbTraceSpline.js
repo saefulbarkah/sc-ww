@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbTraceSpline=void 0;class FbTraceSpline{constructor(t){this.FbDataInternal=t,this.REh=!1,this.xEh=void 0,this.s_h=!1,this.y6o=0,this.kuh=!1,this.Guh=0}static Create(t){if(t)return new FbTraceSpline(t)}get EffectPath(){return this.REh||(this.REh=!0,this.xEh=this.FbDataInternal.effectPath()),this.xEh}get Duration(){return this.s_h||(this.s_h=!0,this.y6o=this.FbDataInternal.duration()),this.y6o}get SplineEntityId(){return this.kuh||(this.kuh=!0,this.Guh=this.FbDataInternal.splineEntityId()),this.Guh}}exports.FbTraceSpline=FbTraceSpline;
+//# sourceMappingURL=FbTraceSpline.js.map

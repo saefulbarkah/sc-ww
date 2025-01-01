@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbCloseFlowTemplate=void 0;class FbCloseFlowTemplate{constructor(t){this.FbDataInternal=t,this.$Mh=!1,this.XMh=!1}static Create(t){if(t)return new FbCloseFlowTemplate(t)}get IsResetPosition(){return this.$Mh||(this.$Mh=!0,this.XMh=this.FbDataInternal.isResetPosition()),this.XMh}}exports.FbCloseFlowTemplate=FbCloseFlowTemplate;
+//# sourceMappingURL=FbCloseFlowTemplate.js.map

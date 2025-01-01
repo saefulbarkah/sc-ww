@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbEntityAttachTarget=void 0;class FbEntityAttachTarget{constructor(t){this.FbDataInternal=t,this.$1h=!1,this.f8o=void 0,this.j1h=!1,this.I9o=0,this.RHh=!1,this.xHh=void 0}static Create(t){if(t)return new FbEntityAttachTarget(t)}get Type(){return this.$1h||(this.$1h=!0,this.f8o=this.FbDataInternal.type()),this.f8o}get EntityId(){return this.j1h||(this.j1h=!0,this.I9o=this.FbDataInternal.entityId()),this.I9o}get AttachPoint(){return this.RHh||(this.RHh=!0,this.xHh=this.FbDataInternal.attachPoint()),this.xHh}}exports.FbEntityAttachTarget=FbEntityAttachTarget;
+//# sourceMappingURL=FbEntityAttachTarget.js.map

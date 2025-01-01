@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbHoldingTrackTarget=void 0;class FbHoldingTrackTarget{constructor(t){this.FbDataInternal=t,this.REh=!1,this.xEh=void 0,this.TNh=!1,this.bNh=0,this.j1h=!1,this.I9o=0}static Create(t){if(t)return new FbHoldingTrackTarget(t)}get EffectPath(){return this.REh||(this.REh=!0,this.xEh=this.FbDataInternal.effectPath()),this.xEh}get EffectLength(){return this.TNh||(this.TNh=!0,this.bNh=this.FbDataInternal.effectLength()),this.bNh}get EntityId(){return this.j1h||(this.j1h=!0,this.I9o=this.FbDataInternal.entityId()),this.I9o}}exports.FbHoldingTrackTarget=FbHoldingTrackTarget;
+//# sourceMappingURL=FbHoldingTrackTarget.js.map

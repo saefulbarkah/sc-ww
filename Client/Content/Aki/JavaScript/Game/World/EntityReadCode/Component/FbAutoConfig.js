@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbAutoConfig=void 0;class FbAutoConfig{constructor(t){this.FbDataInternal=t,this.Qxh=!1,this.Kxh=!1,this.W6h=!1,this.e6o=0}static Create(t){if(t)return new FbAutoConfig(t)}get IsCircle(){return this.Qxh||(this.Qxh=!0,this.Kxh=this.FbDataInternal.isCircle()),this.Kxh}get Interval(){return this.W6h||(this.W6h=!0,this.e6o=this.FbDataInternal.interval()),this.e6o}}exports.FbAutoConfig=FbAutoConfig;
+//# sourceMappingURL=FbAutoConfig.js.map

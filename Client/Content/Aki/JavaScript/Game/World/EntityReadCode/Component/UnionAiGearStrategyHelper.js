@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.UnionAiGearStrategyHelper=void 0;const fb_component_1=require("../../../../Game/World/EntityFb/fb-component"),FbRenjuStrategy_1=require("./FbRenjuStrategy");class UnionAiGearStrategyHelper{static GetUnionAiGearStrategyObject(e){if(e===fb_component_1.UnionAiGearStrategy.RenjuStrategy)return new fb_component_1.RenjuStrategy}static ReadUnionAiGearStrategy(e,t){return void 0!==t&&e===fb_component_1.UnionAiGearStrategy.RenjuStrategy?FbRenjuStrategy_1.FbRenjuStrategy.Create(t):void 0}}exports.UnionAiGearStrategyHelper=UnionAiGearStrategyHelper;
+//# sourceMappingURL=UnionAiGearStrategyHelper.js.map

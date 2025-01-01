@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbVehicleWaterfallClimbing=void 0;class FbVehicleWaterfallClimbing{constructor(t){this.FbDataInternal=t,this.kuh=!1,this.Guh=0}static Create(t){if(t)return new FbVehicleWaterfallClimbing(t)}get SplineEntityId(){return this.kuh||(this.kuh=!0,this.Guh=this.FbDataInternal.splineEntityId()),this.Guh}}exports.FbVehicleWaterfallClimbing=FbVehicleWaterfallClimbing;
+//# sourceMappingURL=FbVehicleWaterfallClimbing.js.map

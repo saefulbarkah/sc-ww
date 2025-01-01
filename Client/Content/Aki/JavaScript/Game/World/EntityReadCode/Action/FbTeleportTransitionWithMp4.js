@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbTeleportTransitionWithMp4=void 0;class FbTeleportTransitionWithMp4{constructor(t){this.FbDataInternal=t,this.$1h=!1,this.f8o=void 0,this.ivh=!1,this.rvh=void 0,this.ovh=!1,this.nvh=!1}static Create(t){if(t)return new FbTeleportTransitionWithMp4(t)}get Type(){return this.$1h||(this.$1h=!0,this.f8o=this.FbDataInternal.type()),this.f8o}get Mp4Path(){return this.ivh||(this.ivh=!0,this.rvh=this.FbDataInternal.mp4Path()),this.rvh}get IsFadeInScreenAfterTeleport(){return this.ovh||(this.ovh=!0,this.nvh=this.FbDataInternal.isFadeInScreenAfterTeleport()),this.nvh}}exports.FbTeleportTransitionWithMp4=FbTeleportTransitionWithMp4;
+//# sourceMappingURL=FbTeleportTransitionWithMp4.js.map

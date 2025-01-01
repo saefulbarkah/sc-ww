@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbCheckPlayerGender=void 0;class FbCheckPlayerGender{constructor(e){this.FbDataInternal=e,this.$1h=!1,this.f8o=void 0,this.Azh=!1,this.Rzh=void 0}static Create(e){if(e)return new FbCheckPlayerGender(e)}get Type(){return this.$1h||(this.$1h=!0,this.f8o=this.FbDataInternal.type()),this.f8o}get Gender(){return this.Azh||(this.Azh=!0,this.Rzh=this.FbDataInternal.gender()),this.Rzh}}exports.FbCheckPlayerGender=FbCheckPlayerGender;
+//# sourceMappingURL=FbCheckPlayerGender.js.map
