@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbToggleTimerPauseState=void 0;class FbToggleTimerPauseState{constructor(t){this.FbDataInternal=t,this.wEh=!1,this.PEh=void 0,this.ot_=!1,this.nt_=!1}static Create(t){if(t)return new FbToggleTimerPauseState(t)}get TimerType(){return this.wEh||(this.wEh=!0,this.PEh=this.FbDataInternal.timerType()),this.PEh}get IsPause(){return this.ot_||(this.ot_=!0,this.nt_=this.FbDataInternal.isPause()),this.nt_}}exports.FbToggleTimerPauseState=FbToggleTimerPauseState;
+//# sourceMappingURL=FbToggleTimerPauseState.js.map

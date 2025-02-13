@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.MarkItemComponentHandle=void 0;class MarkItemComponentHandle{constructor(i){this.Context=void 0,this.Context=i}Init(){this.OnInit()}Update(){void 0!==this.Context.MarkItemEntity&&this.OnUpdate()}SetVisible(i){void 0!==this.Context.MarkItemEntity&&this.OnSetVisible(i)}ApplyModified(){void 0!==this.Context.MarkItemEntity&&this.OnApplyModified()}Dispose(){this.OnDispose()}OnInit(){}OnUpdate(){}OnDispose(){}OnSetVisible(i){}OnApplyModified(){}}exports.MarkItemComponentHandle=MarkItemComponentHandle;
+//# sourceMappingURL=MarkItemComponentHandle.js.map

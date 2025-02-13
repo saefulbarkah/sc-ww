@@ -1,3 +1,3 @@
 
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbVehiclePlayPassengerVoice=void 0;class FbVehiclePlayPassengerVoice{constructor(e){this.FbDataInternal=e,this.h8l=!1,this.l8l=void 0}static Create(e){if(e)return new FbVehiclePlayPassengerVoice(e)}get TriggerType(){return this.h8l||(this.h8l=!0,this.l8l=this.FbDataInternal.triggerType()),this.l8l}}exports.FbVehiclePlayPassengerVoice=FbVehiclePlayPassengerVoice;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbVehiclePlayPassengerVoice=void 0;class FbVehiclePlayPassengerVoice{constructor(e){this.FbDataInternal=e,this.S5l=!1,this.M5l=void 0}static Create(e){if(e)return new FbVehiclePlayPassengerVoice(e)}get TriggerType(){return this.S5l||(this.S5l=!0,this.M5l=this.FbDataInternal.triggerType()),this.M5l}}exports.FbVehiclePlayPassengerVoice=FbVehiclePlayPassengerVoice;
 //# sourceMappingURL=FbVehiclePlayPassengerVoice.js.map

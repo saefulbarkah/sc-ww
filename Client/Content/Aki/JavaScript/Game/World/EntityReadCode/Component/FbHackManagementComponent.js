@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbHackManagementComponent=void 0;class FbHackManagementComponent{constructor(t){this.FbDataInternal=t,this.q_h=!1,this.k_h=!1,this.Nd_=!1,this.Vd_=0,this.v8_=!1,this.y8_=0}static Create(t){if(t)return new FbHackManagementComponent(t)}get Disabled(){return this.q_h||(this.q_h=!0,this.k_h=this.FbDataInternal.disabled()),this.k_h}get MaxHackingCount(){return this.Nd_||(this.Nd_=!0,this.Vd_=this.FbDataInternal.maxHackingCount()),this.Vd_}get ValidDistance(){return this.v8_||(this.v8_=!0,this.y8_=this.FbDataInternal.validDistance()),this.y8_}}exports.FbHackManagementComponent=FbHackManagementComponent;
+//# sourceMappingURL=FbHackManagementComponent.js.map

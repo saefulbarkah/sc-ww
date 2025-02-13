@@ -1,3 +1,3 @@
 
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.CreateMarkViewParams=void 0;class CreateMarkViewParams{constructor(){this.MapType=2,this.MarkScale=1,this.ViewParent=void 0}}exports.CreateMarkViewParams=CreateMarkViewParams;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.canOutOfBoundUpdateTypeSet=exports.permanentUpdateTypeSet=exports.CreateMarkViewParams=void 0;class CreateMarkViewParams{constructor(){this.MapType=2,this.MarkScale=1,this.ViewParent=void 0}}exports.CreateMarkViewParams=CreateMarkViewParams,exports.permanentUpdateTypeSet=new Set([11,22,17,31]),exports.canOutOfBoundUpdateTypeSet=new Set([11]);
 //# sourceMappingURL=MarkDefine.js.map

@@ -44,28 +44,27 @@ class AsyncAiPerception {
         this._private_LineTrace = undefined;
     }
     _private_FindNewInSenseActor() {
+        AsyncAiPerception._private_FindNewInSenseActorStat.Start();
         const selfLocation = this._private_EntityActor.D_K2_GetActorLocation();
         this._private_PerceptionData.EntitiesToAdd.Empty();
         if (this._private_PerceptionData.MingZhongZhiGuiLog) {
             const size = this._private_PerceptionData.ActivateAiSenseObjects.Num();
+            const entityId = this._private_EntityData?.EntityId;
             if (Log_1.Log.CheckInfo()) {
-                Log_1.Log.Info("AI", 6, 'Mingzhongzhigui AiSense', ['Size', size]);
+                Log_1.Log.Info("AI", 36, '[AsyncAIDebug] ActivateAiSenseObjects', ['Id', entityId], ['Size', size]);
             }
             for (let i = 0; i < size; i++) {
                 const key = this._private_PerceptionData.ActivateAiSenseObjects.GetKey(i);
                 const value = this._private_PerceptionData.ActivateAiSenseObjects.Get(key);
                 if (Log_1.Log.CheckInfo()) {
-                    Log_1.Log.Info("AI", 6, 'Mingzhongzhigui AiSense2', ['sensTargetType', key], ['activateAiSenseObjectSet.size', value?.Num()]);
+                    Log_1.Log.Info("AI", 36, '[AsyncAIDebug] ActivateObject', ['Id', entityId], ['SensTargetType', key], ['ActivateAiSenseObjectSet.size', value?.Num()]);
                 }
                 if (value) {
                     const setSize = value.Num();
                     for (let j = 0; j < setSize; j++) {
                         const aiSenseObject = value.Get(j);
                         if (Log_1.Log.CheckInfo()) {
-                            Log_1.Log.Info("AI", 6, 'Mingzhongzhigui Active', [
-                                'aiSense',
-                                aiSenseObject.AiSenseId,
-                            ]);
+                            Log_1.Log.Info("AI", 36, '[AsyncAIDebug] Active', ['Id', entityId], ['AiSense', aiSenseObject.AiSenseId]);
                         }
                     }
                 }
@@ -106,21 +105,20 @@ class AsyncAiPerception {
                     }
                     if (this._private_PerceptionData.MingZhongZhiGuiLog) {
                         if (Log_1.Log.CheckInfo()) {
-                            Log_1.Log.Info("AI", 6, 'Mingzhongzhigui In Sense', [
-                                'actor',
-                                entityData.EntityId,
-                            ]);
+                            Log_1.Log.Info("AI", 36, '[AsyncAIDebug] In Sense', ['Id', this._private_EntityData?.EntityId], ['actor', entityData.EntityId]);
                         }
                     }
                     this._private_PerceptionData.EntitiesToAdd.Add(entityData.EntityId, senseTargetType);
                 }
             }
         }
+        AsyncAiPerception._private_FindNewInSenseActorStat.Stop();
     }
     _private_FindOutSenseActor() {
         if (!this._private_PerceptionData || !this._private_EntityData) {
             return;
         }
+        AsyncAiPerception._private_FindOutSenseActorStat.Start();
         const selfLocation = this._private_EntityData.GetActor().D_K2_GetActorLocation();
         const entitiesInSense = this._private_PerceptionData.EntitiesInSense;
         const entitiesToRemove = this._private_PerceptionData.EntitiesToRemove;
@@ -129,6 +127,7 @@ class AsyncAiPerception {
         entitiesToRemove.Empty();
         let size = entitiesInSense.Num();
         if (this._private_PerceptionData.MingZhongZhiGuiLog) {
+            const selfEntityId = this._private_EntityData?.EntityId;
             for (let i = 0; i < size; i++) {
                 const entityId = entitiesInSense.GetKey(i);
                 const senseTargetType = entitiesInSense.Get(entityId);
@@ -136,7 +135,7 @@ class AsyncAiPerception {
                     continue;
                 }
                 if (Log_1.Log.CheckInfo()) {
-                    Log_1.Log.Info("AI", 6, 'Mingzhongzhigui EntityIn', ['Id', entityId], ['type', senseTargetType]);
+                    Log_1.Log.Info("AI", 36, '[AsyncAIDebug] EntityIn', ['Id', selfEntityId], ['OtherId', entityId], ['type', senseTargetType]);
                 }
             }
         }
@@ -177,12 +176,14 @@ class AsyncAiPerception {
                     MathUtils_1.MathUtils.GetRandomRange(this._private_PerceptionData.AiSenseGroupLoseDelayRange.X, this._private_PerceptionData.AiSenseGroupLoseDelayRange.Y));
             }
         }
+        AsyncAiPerception._private_FindOutSenseActorStat.Stop();
     }
     _private_IsActorInSense(entity, selfLocation, inSenseBefore, senseTargetType, debugLog = false) {
         const otherActor = entity.GetActor();
         if (!otherActor?.IsValid() || !this._private_PerceptionData || !this._private_EntityActor?.IsValid()) {
             return false;
         }
+        AsyncAiPerception._private_IsActorInSenseStat.Start();
         const selfRotation = this._private_EntityActor.K2_GetActorRotation();
         const otherLocation = Vector_1.Vector.Create(otherActor.D_K2_GetActorLocation());
         const debugLogAndRole = debugLog && entity.GetCreatureDataComponent().EntityType === 0;
@@ -206,6 +207,7 @@ class AsyncAiPerception {
         this._private_TmpCheckedTraceType.clear();
         const activateAiSenseObjects = this._private_PerceptionData.ActivateAiSenseObjects.Get(senseTargetType);
         if (!activateAiSenseObjects) {
+            AsyncAiPerception._private_IsActorInSenseStat.Stop();
             return false;
         }
         const size = activateAiSenseObjects.Num();
@@ -216,7 +218,7 @@ class AsyncAiPerception {
             }
             if (debugLogAndRole) {
                 if (Log_1.Log.CheckInfo()) {
-                    Log_1.Log.Info("AI", 6, 'Mingzhongzhigui Ai InArea', ['actor', otherActor?.GetName()], ['CantBeBlock', aiSenseObject.AiSenseCantBeBlock]);
+                    Log_1.Log.Info("AI", 36, '[AsyncAIDebug] Ai InArea', ['Id', this._private_EntityData?.EntityId], ['actor', otherActor?.GetName()], ['CantBeBlock', aiSenseObject.AiSenseCantBeBlock]);
                 }
             }
             if (!aiSenseObject.AiSenseCantBeBlock) {
@@ -231,7 +233,7 @@ class AsyncAiPerception {
                     if (hitResult.bBlockingHit && actors.Get(0) !== otherActor) {
                         if (debugLogAndRole) {
                             if (Log_1.Log.CheckInfo()) {
-                                Log_1.Log.Info("AI", 6, 'Mingzhongzhigui Ai Hit', ['actor', actors.Get(0)?.GetName()], ['Comp', hitResult.Components.Get(0)?.GetName()]);
+                                Log_1.Log.Info("AI", 36, '[AsyncAIDebug] Ai Hit', ['Id', this._private_EntityData?.EntityId], ['actor', actors.Get(0)?.GetName()], ['Comp', hitResult.Components.Get(0)?.GetName()]);
                             }
                         }
                         this._private_TmpCheckedTraceType.add(aiSenseObject.AiSenseBlockType);
@@ -239,8 +241,10 @@ class AsyncAiPerception {
                     }
                 }
             }
+            AsyncAiPerception._private_IsActorInSenseStat.Stop();
             return true;
         }
+        AsyncAiPerception._private_IsActorInSenseStat.Stop();
         return false;
     }
     _private_InArea(aiSenseObject, squaredDist, angleHorizontal, angleVertical, positionState, moveState, inSenseBefore) {

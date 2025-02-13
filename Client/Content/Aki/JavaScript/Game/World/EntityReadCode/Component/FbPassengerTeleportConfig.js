@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbPassengerTeleportConfig=void 0;const FbPosA_1=require("../Action/FbPosA");class FbPassengerTeleportConfig{constructor(s){this.FbDataInternal=s,this.QQ_=!1,this.KQ_=void 0}static Create(s){if(s)return new FbPassengerTeleportConfig(s)}get PosA(){return this.QQ_||(this.QQ_=!0,this.KQ_=FbPosA_1.FbPosA.Create(this.FbDataInternal.posA())),this.KQ_}}exports.FbPassengerTeleportConfig=FbPassengerTeleportConfig;
+//# sourceMappingURL=FbPassengerTeleportConfig.js.map

@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbRemoveGuestCharacter=void 0;class FbRemoveGuestCharacter{constructor(t){this.FbDataInternal=t,this.jV_=!1,this.HV_=0}static Create(t){if(t)return new FbRemoveGuestCharacter(t)}get GuestCharacterId(){return this.jV_||(this.jV_=!0,this.HV_=this.FbDataInternal.guestCharacterId()),this.HV_}}exports.FbRemoveGuestCharacter=FbRemoveGuestCharacter;
+//# sourceMappingURL=FbRemoveGuestCharacter.js.map

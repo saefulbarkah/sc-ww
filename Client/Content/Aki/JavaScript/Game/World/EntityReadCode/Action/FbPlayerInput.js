@@ -1,3 +1,3 @@
 
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbPlayerInput=void 0;class FbPlayerInput{constructor(t){this.FbDataInternal=t,this.kKl=!1,this.OKl=void 0}static Create(t){if(t)return new FbPlayerInput(t)}get Input(){return this.kKl||(this.kKl=!0,this.OKl=this.FbDataInternal.input()),this.OKl}}exports.FbPlayerInput=FbPlayerInput;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbPlayerInput=void 0;class FbPlayerInput{constructor(t){this.FbDataInternal=t,this.W__=!1,this.Q__=void 0}static Create(t){if(t)return new FbPlayerInput(t)}get Input(){return this.W__||(this.W__=!0,this.Q__=this.FbDataInternal.input()),this.Q__}}exports.FbPlayerInput=FbPlayerInput;
 //# sourceMappingURL=FbPlayerInput.js.map
