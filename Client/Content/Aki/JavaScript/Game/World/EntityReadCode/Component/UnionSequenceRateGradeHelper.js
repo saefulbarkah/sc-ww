@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.UnionSequenceRateGradeHelper=void 0;const fb_component_1=require("../../../../Game/World/EntityFb/fb-component"),FbSequenceRateState_1=require("./FbSequenceRateState");class UnionSequenceRateGradeHelper{static GetUnionSequenceRateGradeObject(e){if(e===fb_component_1.UnionSequenceRateGrade.SequenceRateState)return new fb_component_1.SequenceRateState}static ReadUnionSequenceRateGrade(e,t){return void 0!==t&&e===fb_component_1.UnionSequenceRateGrade.SequenceRateState?FbSequenceRateState_1.FbSequenceRateState.Create(t):void 0}}exports.UnionSequenceRateGradeHelper=UnionSequenceRateGradeHelper;
+//# sourceMappingURL=UnionSequenceRateGradeHelper.js.map

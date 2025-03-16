@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbSlideRailStart=void 0;class FbSlideRailStart{constructor(t){this.FbDataInternal=t,this.hpc=!1,this.lpc=0}static Create(t){if(t)return new FbSlideRailStart(t)}get RailEntityId(){return this.hpc||(this.hpc=!0,this.lpc=this.FbDataInternal.railEntityId()),this.lpc}}exports.FbSlideRailStart=FbSlideRailStart;
+//# sourceMappingURL=FbSlideRailStart.js.map

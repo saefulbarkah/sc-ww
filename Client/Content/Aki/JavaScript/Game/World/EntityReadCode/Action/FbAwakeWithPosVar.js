@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbAwakeWithPosVar=void 0;const UnionVarRefHelper_1=require("../Var/UnionVarRefHelper");class FbAwakeWithPosVar{constructor(t){this.FbDataInternal=t,this.u_h=!1,this.f8o=void 0,this.a0c=!1,this.h0c=void 0}static Create(t){if(t)return new FbAwakeWithPosVar(t)}get Type(){return this.u_h||(this.u_h=!0,this.f8o=this.FbDataInternal.type()),this.f8o}get PosVar(){var t,e;return!this.a0c&&(this.a0c=!0,t=this.FbDataInternal.posVarType(),e=UnionVarRefHelper_1.UnionVarRefHelper.GetUnionVarRefObject(t))&&(this.h0c=UnionVarRefHelper_1.UnionVarRefHelper.ReadUnionVarRef(t,this.FbDataInternal.posVar(e))),this.h0c}}exports.FbAwakeWithPosVar=FbAwakeWithPosVar;
+//# sourceMappingURL=FbAwakeWithPosVar.js.map

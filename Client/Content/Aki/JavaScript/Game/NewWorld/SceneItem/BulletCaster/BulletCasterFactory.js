@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.BulletCasterClassFactory=void 0;class BulletCasterClassFactory{static GetInstance(t,s){if(BulletCasterClassFactory.mJ_.has(t))return new(BulletCasterClassFactory.mJ_.get(t))(s)}static Register(s){return function(t){BulletCasterClassFactory.mJ_.has(s)||BulletCasterClassFactory.mJ_.set(s,t)}}}(exports.BulletCasterClassFactory=BulletCasterClassFactory).mJ_=new Map;
+//# sourceMappingURL=BulletCasterFactory.js.map

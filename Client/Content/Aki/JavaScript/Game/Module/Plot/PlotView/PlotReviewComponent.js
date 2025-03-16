@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.PlotReviewComponent=void 0;class PlotReviewComponent{constructor(t,s){this.dce=!1,this.hlc=void 0,this.EnableReviewButton=t=>{this.dce!==t&&(this.dce=t,this.llc.SetUIActive(this.dce))},this._lc=()=>{this.dce&&this.NTt?.()},this.hlc=t,this.llc=t.RootUIComp,this.NTt=s,this.hlc.OnClickCallBack.Bind(this._lc),this.dce=!1}OnClear(){this.dce=!1,this.NTt=void 0,this.hlc?.OnClickCallBack.Unbind()}}exports.PlotReviewComponent=PlotReviewComponent;
+//# sourceMappingURL=PlotReviewComponent.js.map

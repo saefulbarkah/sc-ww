@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbVehicleWaterfallClimbGravityConfig=void 0;class FbVehicleWaterfallClimbGravityConfig{constructor(t){this.FbDataInternal=t,this.qZ_=!1,this.OZ_=0,this.yUh=!1,this.SUh=void 0}static Create(t){if(t)return new FbVehicleWaterfallClimbGravityConfig(t)}get SafePositionEntityId(){return this.qZ_||(this.qZ_=!0,this.OZ_=this.FbDataInternal.safePositionEntityId()),this.OZ_}get GravityDirection(){return this.yUh||(this.yUh=!0,this.SUh=this.FbDataInternal.gravityDirection()),this.SUh}}exports.FbVehicleWaterfallClimbGravityConfig=FbVehicleWaterfallClimbGravityConfig;
+//# sourceMappingURL=FbVehicleWaterfallClimbGravityConfig.js.map

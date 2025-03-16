@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbGramophoneCheckCondition=void 0;class FbGramophoneCheckCondition{constructor(t){this.FbDataInternal=t,this.wJh=!1,this.PJh=void 0,this.agc=!1,this.hgc=void 0}static Create(t){if(t)return new FbGramophoneCheckCondition(t)}get CheckType(){return this.wJh||(this.wJh=!0,this.PJh=this.FbDataInternal.checkType()),this.PJh}get PlayList(){if(!this.agc){this.agc=!0,this.hgc=new Array;var i=this.FbDataInternal.playListLength();if(i)for(let t=0;t<i;++t)this.hgc.push(this.FbDataInternal.playList(t))}return this.hgc}}exports.FbGramophoneCheckCondition=FbGramophoneCheckCondition;
+//# sourceMappingURL=FbGramophoneCheckCondition.js.map

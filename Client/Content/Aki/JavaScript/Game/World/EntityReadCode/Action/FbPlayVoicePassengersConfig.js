@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbPlayVoicePassengersConfig=void 0;class FbPlayVoicePassengersConfig{constructor(s){this.FbDataInternal=s,this.Gtc=!1,this.Ftc=void 0,this.Ntc=!1,this.Vtc=!1}static Create(s){if(s)return new FbPlayVoicePassengersConfig(s)}get Passengers(){if(!this.Gtc){this.Gtc=!0,this.Ftc=new Array;var t=this.FbDataInternal.passengersLength();if(t)for(let s=0;s<t;++s)this.Ftc.push(this.FbDataInternal.passengers(s))}return this.Ftc}get MatchNone(){return this.Ntc||(this.Ntc=!0,this.Vtc=this.FbDataInternal.matchNone()),this.Vtc}}exports.FbPlayVoicePassengersConfig=FbPlayVoicePassengersConfig;
+//# sourceMappingURL=FbPlayVoicePassengersConfig.js.map

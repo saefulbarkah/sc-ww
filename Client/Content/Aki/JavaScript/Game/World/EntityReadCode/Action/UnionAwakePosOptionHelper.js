@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.UnionAwakePosOptionHelper=void 0;const fb_action_1=require("../../../../Game/World/EntityFb/fb-action"),FbAwakeWithPosVar_1=require("./FbAwakeWithPosVar");class UnionAwakePosOptionHelper{static GetUnionAwakePosOptionObject(e){if(e===fb_action_1.UnionAwakePosOption.AwakeWithPosVar)return new fb_action_1.AwakeWithPosVar}static ReadUnionAwakePosOption(e,o){return void 0!==o&&e===fb_action_1.UnionAwakePosOption.AwakeWithPosVar?FbAwakeWithPosVar_1.FbAwakeWithPosVar.Create(o):void 0}}exports.UnionAwakePosOptionHelper=UnionAwakePosOptionHelper;
+//# sourceMappingURL=UnionAwakePosOptionHelper.js.map

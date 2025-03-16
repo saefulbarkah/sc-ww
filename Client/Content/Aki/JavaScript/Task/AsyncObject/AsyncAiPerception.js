@@ -47,29 +47,6 @@ class AsyncAiPerception {
         AsyncAiPerception._private_FindNewInSenseActorStat.Start();
         const selfLocation = this._private_EntityActor.D_K2_GetActorLocation();
         this._private_PerceptionData.EntitiesToAdd.Empty();
-        if (this._private_PerceptionData.MingZhongZhiGuiLog) {
-            const size = this._private_PerceptionData.ActivateAiSenseObjects.Num();
-            const entityId = this._private_EntityData?.EntityId;
-            if (Log_1.Log.CheckInfo()) {
-                Log_1.Log.Info("AI", 36, '[AsyncAIDebug] ActivateAiSenseObjects', ['Id', entityId], ['Size', size]);
-            }
-            for (let i = 0; i < size; i++) {
-                const key = this._private_PerceptionData.ActivateAiSenseObjects.GetKey(i);
-                const value = this._private_PerceptionData.ActivateAiSenseObjects.Get(key);
-                if (Log_1.Log.CheckInfo()) {
-                    Log_1.Log.Info("AI", 36, '[AsyncAIDebug] ActivateObject', ['Id', entityId], ['SensTargetType', key], ['ActivateAiSenseObjectSet.size', value?.Num()]);
-                }
-                if (value) {
-                    const setSize = value.Num();
-                    for (let j = 0; j < setSize; j++) {
-                        const aiSenseObject = value.Get(j);
-                        if (Log_1.Log.CheckInfo()) {
-                            Log_1.Log.Info("AI", 36, '[AsyncAIDebug] Active', ['Id', entityId], ['AiSense', aiSenseObject.AiSenseId]);
-                        }
-                    }
-                }
-            }
-        }
         const size = this._private_PerceptionData.ActivateAiSenseObjects.Num();
         const tempActors = new Array();
         for (let i = 0; i < size; i++) {
@@ -100,13 +77,8 @@ class AsyncAiPerception {
                     if (type !== undefined) {
                         continue;
                     }
-                    if (!this._private_IsActorInSense(entityData, Vector_1.Vector.Create(selfLocation), false, senseTargetType, this._private_PerceptionData.MingZhongZhiGuiLog)) {
+                    if (!this._private_IsActorInSense(entityData, Vector_1.Vector.Create(selfLocation), false, senseTargetType)) {
                         continue;
-                    }
-                    if (this._private_PerceptionData.MingZhongZhiGuiLog) {
-                        if (Log_1.Log.CheckInfo()) {
-                            Log_1.Log.Info("AI", 36, '[AsyncAIDebug] In Sense', ['Id', this._private_EntityData?.EntityId], ['actor', entityData.EntityId]);
-                        }
                     }
                     this._private_PerceptionData.EntitiesToAdd.Add(entityData.EntityId, senseTargetType);
                 }
@@ -126,19 +98,6 @@ class AsyncAiPerception {
         const entitiesNotSense = this._private_PerceptionData.EntitiesNotSense;
         entitiesToRemove.Empty();
         let size = entitiesInSense.Num();
-        if (this._private_PerceptionData.MingZhongZhiGuiLog) {
-            const selfEntityId = this._private_EntityData?.EntityId;
-            for (let i = 0; i < size; i++) {
-                const entityId = entitiesInSense.GetKey(i);
-                const senseTargetType = entitiesInSense.Get(entityId);
-                if (entityId === this._private_EntityData.EntityId) {
-                    continue;
-                }
-                if (Log_1.Log.CheckInfo()) {
-                    Log_1.Log.Info("AI", 36, '[AsyncAIDebug] EntityIn', ['Id', selfEntityId], ['OtherId', entityId], ['type', senseTargetType]);
-                }
-            }
-        }
         for (let i = 0; i < size; i++) {
             const entityId = entitiesInSense.GetKey(i);
             if (entityId === this._private_EntityData.EntityId) {
@@ -218,7 +177,7 @@ class AsyncAiPerception {
             }
             if (debugLogAndRole) {
                 if (Log_1.Log.CheckInfo()) {
-                    Log_1.Log.Info("AI", 36, '[AsyncAIDebug] Ai InArea', ['Id', this._private_EntityData?.EntityId], ['actor', otherActor?.GetName()], ['CantBeBlock', aiSenseObject.AiSenseCantBeBlock]);
+                    Log_1.Log.Info("AI", 6, 'Mingzhongzhigui Ai InArea', ['actor', otherActor?.GetName()], ['CantBeBlock', aiSenseObject.AiSenseCantBeBlock]);
                 }
             }
             if (!aiSenseObject.AiSenseCantBeBlock) {
@@ -233,7 +192,7 @@ class AsyncAiPerception {
                     if (hitResult.bBlockingHit && actors.Get(0) !== otherActor) {
                         if (debugLogAndRole) {
                             if (Log_1.Log.CheckInfo()) {
-                                Log_1.Log.Info("AI", 36, '[AsyncAIDebug] Ai Hit', ['Id', this._private_EntityData?.EntityId], ['actor', actors.Get(0)?.GetName()], ['Comp', hitResult.Components.Get(0)?.GetName()]);
+                                Log_1.Log.Info("AI", 6, 'Mingzhongzhigui Ai Hit', ['actor', actors.Get(0)?.GetName()], ['Comp', hitResult.Components.Get(0)?.GetName()]);
                             }
                         }
                         this._private_TmpCheckedTraceType.add(aiSenseObject.AiSenseBlockType);

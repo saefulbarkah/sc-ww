@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbResetLevelPlay=void 0;class FbResetLevelPlay{constructor(e){this.FbDataInternal=e,this.tQ_=!1,this.iQ_=void 0}static Create(e){if(e)return new FbResetLevelPlay(e)}get ResetLevelPlayList(){if(!this.tQ_){this.tQ_=!0,this.iQ_=new Array;var t=this.FbDataInternal.resetLevelPlayListLength();if(t)for(let e=0;e<t;++e)this.iQ_.push(this.FbDataInternal.resetLevelPlayList(e))}return this.iQ_}}exports.FbResetLevelPlay=FbResetLevelPlay;
+//# sourceMappingURL=FbResetLevelPlay.js.map

@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbVehicleCruisingParams=void 0;class FbVehicleCruisingParams{constructor(t){this.FbDataInternal=t,this.hhc=!1,this.lhc=0,this._hc=!1,this.chc=0,this.udc=!1,this.ddc=!1}static Create(t){if(t)return new FbVehicleCruisingParams(t)}get ForwardSpeed(){return this.hhc||(this.hhc=!0,this.lhc=this.FbDataInternal.forwardSpeed()),this.lhc}get ForwardAcceleration(){return this._hc||(this._hc=!0,this.chc=this.FbDataInternal.forwardAcceleration()),this.chc}get DisableSprint(){return this.udc||(this.udc=!0,this.ddc=this.FbDataInternal.disableSprint()),this.ddc}}exports.FbVehicleCruisingParams=FbVehicleCruisingParams;
+//# sourceMappingURL=FbVehicleCruisingParams.js.map

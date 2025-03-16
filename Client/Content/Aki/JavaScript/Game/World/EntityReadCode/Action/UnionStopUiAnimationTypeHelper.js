@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.UnionStopUiAnimationTypeHelper=void 0;const fb_action_1=require("../../../../Game/World/EntityFb/fb-action"),FbStopGuestCartethyia_1=require("./FbStopGuestCartethyia");class UnionStopUiAnimationTypeHelper{static GetUnionStopUiAnimationTypeObject(t){if(t===fb_action_1.UnionStopUiAnimationType.StopGuestCartethyia)return new fb_action_1.StopGuestCartethyia}static ReadUnionStopUiAnimationType(t,i){return void 0!==i&&t===fb_action_1.UnionStopUiAnimationType.StopGuestCartethyia?FbStopGuestCartethyia_1.FbStopGuestCartethyia.Create(i):void 0}}exports.UnionStopUiAnimationTypeHelper=UnionStopUiAnimationTypeHelper;
+//# sourceMappingURL=UnionStopUiAnimationTypeHelper.js.map

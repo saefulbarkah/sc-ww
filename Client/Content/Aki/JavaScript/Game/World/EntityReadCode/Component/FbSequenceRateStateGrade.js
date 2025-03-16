@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbSequenceRateStateGrade=void 0;class FbSequenceRateStateGrade{constructor(t){this.FbDataInternal=t,this.Bch=!1,this.Cbo=void 0,this.F4h=!1,this.DTo=0}static Create(t){if(t)return new FbSequenceRateStateGrade(t)}get State(){return this.Bch||(this.Bch=!0,this.Cbo=this.FbDataInternal.state()),this.Cbo}get Rate(){return this.F4h||(this.F4h=!0,this.DTo=this.FbDataInternal.rate()),this.DTo}}exports.FbSequenceRateStateGrade=FbSequenceRateStateGrade;
+//# sourceMappingURL=FbSequenceRateStateGrade.js.map

@@ -1,3 +1,3 @@
 
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.MarkConfigComponent=void 0;const MapComponent_1=require("../../Base/MapComponent");class MarkConfigComponent extends MapComponent_1.MapComponent{constructor(){super(...arguments),this.Config=void 0,this.DynamicConfig=void 0}get ComponentType(){return 14}}exports.MarkConfigComponent=MarkConfigComponent;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.MarkConfigComponent=void 0;const MapComponent_1=require("../../Base/MapComponent");class MarkConfigComponent extends MapComponent_1.MapComponent{constructor(){super(...arguments),this.Config=void 0,this.DynamicConfig=void 0}get ComponentType(){return 15}}exports.MarkConfigComponent=MarkConfigComponent;
 //# sourceMappingURL=MarkConfigComponent.js.map

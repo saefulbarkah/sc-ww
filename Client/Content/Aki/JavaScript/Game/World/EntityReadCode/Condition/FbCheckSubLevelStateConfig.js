@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbCheckSubLevelStateConfig=void 0;class FbCheckSubLevelStateConfig{constructor(t){this.FbDataInternal=t,this.U8_=!1,this.D8_=void 0,this.B8_=!1,this.k8_=void 0}static Create(t){if(t)return new FbCheckSubLevelStateConfig(t)}get SubLevelName(){return this.U8_||(this.U8_=!0,this.D8_=this.FbDataInternal.subLevelName()),this.D8_}get SubLevelState(){return this.B8_||(this.B8_=!0,this.k8_=this.FbDataInternal.subLevelState()),this.k8_}}exports.FbCheckSubLevelStateConfig=FbCheckSubLevelStateConfig;
+//# sourceMappingURL=FbCheckSubLevelStateConfig.js.map

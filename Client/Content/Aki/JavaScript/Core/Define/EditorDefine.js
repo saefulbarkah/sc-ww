@@ -1,3 +1,3 @@
 
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.WORKSPACE_BRANCH=exports.RUNTIME=void 0,exports.RUNTIME="aki",exports.WORKSPACE_BRANCH="branch_2.1";
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.WORKSPACE_BRANCH=exports.RUNTIME=void 0,exports.RUNTIME="aki",exports.WORKSPACE_BRANCH="branch_2.2";
 //# sourceMappingURL=EditorDefine.js.map

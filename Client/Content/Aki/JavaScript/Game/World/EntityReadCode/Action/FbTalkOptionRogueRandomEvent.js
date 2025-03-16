@@ -1,0 +1,3 @@
+
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FbTalkOptionRogueRandomEvent=void 0;class FbTalkOptionRogueRandomEvent{constructor(t){this.FbDataInternal=t,this.u_h=!1,this.f8o=void 0,this.sK_=!1,this.aK_=0}static Create(t){if(t)return new FbTalkOptionRogueRandomEvent(t)}get Type(){return this.u_h||(this.u_h=!0,this.f8o=this.FbDataInternal.type()),this.f8o}get OptionId(){return this.sK_||(this.sK_=!0,this.aK_=this.FbDataInternal.optionId()),this.aK_}}exports.FbTalkOptionRogueRandomEvent=FbTalkOptionRogueRandomEvent;
+//# sourceMappingURL=FbTalkOptionRogueRandomEvent.js.map
