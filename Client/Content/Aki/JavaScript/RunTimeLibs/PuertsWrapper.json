@@ -3746,6 +3746,12 @@
 						"ObfuscationName": "ActorHasTag",
 						"IsWrapper": true,
 						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetActorScale3D",
+						"ObfuscationName": "GetActorScale3D",
+						"IsWrapper": true,
+						"IsReturnCache": false
 					}
 				]
 			},
@@ -10598,6 +10604,12 @@
 						"ObfuscationName": "D_GetActorOriginalTransform",
 						"IsWrapper": true,
 						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "CheckAssetPlatformInclude",
+						"ObfuscationName": "CheckAssetPlatformInclude",
+						"IsWrapper": true,
+						"IsReturnCache": false
 					}
 				]
 			},
@@ -10729,18 +10741,6 @@
 					{
 						"PropertyName": "OnLevelHidden",
 						"ObfuscationName": "OnLevelHidden",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "bShouldBlockOnLoad",
-						"ObfuscationName": "bShouldBlockOnLoad",
-						"IsWrapper": true,
-						"IsCache": false
-					},
-					{
-						"PropertyName": "bShouldBlockOnUnload",
-						"ObfuscationName": "bShouldBlockOnUnload",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -11188,6 +11188,18 @@
 					{
 						"PropertyName": "bEnabled",
 						"ObfuscationName": "bEnabled",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "Priority",
+						"ObfuscationName": "Priority",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "bUnbound",
+						"ObfuscationName": "bUnbound",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -20305,7 +20317,20 @@
 				"ObfuscationName": "KuroPostProcessVolume",
 				"IsWrapper": false,
 				"Properties": [],
-				"Functions": []
+				"Functions": [
+					{
+						"FunctionName": "SetWeatherDataAsset",
+						"ObfuscationName": "SetWeatherDataAsset",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "PostModify",
+						"ObfuscationName": "PostModify",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
 			},
 			{
 				"ClassPathName": "/Script/KuroRenderingRuntimeBPPlugin.KuroRenderingRuntimeBPPluginBPLibrary",
@@ -20767,6 +20792,18 @@
 					{
 						"FunctionName": "SetVulkanPromotion",
 						"ObfuscationName": "SetVulkanPromotion",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "MarkWorldPostProcessPriorityDirty",
+						"ObfuscationName": "MarkWorldPostProcessPriorityDirty",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "SetRayTracingEnable",
+						"ObfuscationName": "SetRayTracingEnable",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -21450,6 +21487,12 @@
 					{
 						"FunctionName": "Encrypt",
 						"ObfuscationName": "Encrypt",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "WillClearPatchPaks",
+						"ObfuscationName": "WillClearPatchPaks",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -22548,6 +22591,18 @@
 					{
 						"FunctionName": "GetProcessorId",
 						"ObfuscationName": "GetProcessorId",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetDiskSerialNo",
+						"ObfuscationName": "GetDiskSerialNo",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetSysUUID",
+						"ObfuscationName": "GetSysUUID",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -26645,6 +26700,18 @@
 						"ObfuscationName": "GetIntValue",
 						"IsWrapper": true,
 						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "SetBoolValue",
+						"ObfuscationName": "SetBoolValue",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetBoolValue",
+						"ObfuscationName": "GetBoolValue",
+						"IsWrapper": true,
+						"IsReturnCache": false
 					}
 				]
 			},
@@ -27428,6 +27495,60 @@
 					{
 						"FunctionName": "IsSupportedAFME",
 						"ObfuscationName": "IsSupportedAFME",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Script/KuroGameplay.KuroLevelPlaySubsystem",
+				"JsName": "KuroLevelPlaySubsystem",
+				"ObfuscationName": "KuroLevelPlaySubsystem",
+				"IsWrapper": true,
+				"Properties": [],
+				"Functions": [
+					{
+						"FunctionName": "ProcessAllItems",
+						"ObfuscationName": "ProcessAllItems",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					}
+				]
+			},
+			{
+				"ClassPathName": "/Script/KuroUtility.KuroSubLevelVisibleSubsystem",
+				"JsName": "KuroSubLevelVisibleSubsystem",
+				"ObfuscationName": "KuroSubLevelVisibleSubsystem",
+				"IsWrapper": true,
+				"Properties": [],
+				"Functions": [
+					{
+						"FunctionName": "SetOneFrameExecuteCount",
+						"ObfuscationName": "SetOneFrameExecuteCount",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "SetLevelActorsVisible",
+						"ObfuscationName": "SetLevelActorsVisible",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "RemoveLevel",
+						"ObfuscationName": "RemoveLevel",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "GetSubSystem",
+						"ObfuscationName": "GetSubSystem",
+						"IsWrapper": true,
+						"IsReturnCache": false
+					},
+					{
+						"FunctionName": "AddLevel",
+						"ObfuscationName": "AddLevel",
 						"IsWrapper": true,
 						"IsReturnCache": false
 					}
@@ -36132,6 +36253,12 @@
 					{
 						"PropertyName": "AddTagsWhenCurrentRoleHasAnyTags",
 						"ObfuscationName": "AddTagsWhenCurrentRoleHasAnyTags",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "BornTransform",
+						"ObfuscationName": "BornTransform",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -51126,6 +51253,12 @@
 						"ObfuscationName": "Index",
 						"IsWrapper": true,
 						"IsCache": false
+					},
+					{
+						"PropertyName": "IsUsePool",
+						"ObfuscationName": "IsUsePool",
+						"IsWrapper": true,
+						"IsCache": false
 					}
 				],
 				"Functions": []
@@ -51277,6 +51410,12 @@
 					{
 						"PropertyName": "ExitTagPriority",
 						"ObfuscationName": "ExitTagPriority",
+						"IsWrapper": true,
+						"IsCache": false
+					},
+					{
+						"PropertyName": "IsUsePool",
+						"ObfuscationName": "IsUsePool",
 						"IsWrapper": true,
 						"IsCache": false
 					}
@@ -55316,6 +55455,53 @@
 						"IsCache": true
 					}
 				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/Character/BaseCharacter/SBornTransform.SBornTransform",
+				"JsName": "SBornTransform",
+				"ObfuscationName": "SBornTransform",
+				"IsWrapper": true,
+				"Properties": [
+					{
+						"PropertyName": "Offset",
+						"ObfuscationName": "Offset",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "OffsetTargetType",
+						"ObfuscationName": "OffsetTargetType",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "RotateType",
+						"ObfuscationName": "RotateType",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "RotateCameraDistance",
+						"ObfuscationName": "RotateCameraDistance",
+						"IsWrapper": true,
+						"IsCache": true
+					},
+					{
+						"PropertyName": "RotateInvalidAxis",
+						"ObfuscationName": "RotateInvalidAxis",
+						"IsWrapper": true,
+						"IsCache": true
+					}
+				],
+				"Functions": []
+			},
+			{
+				"ClassPathName": "/Game/Aki/TypeScript/Game/World/GameBudget/TsGameBudgetFunctionLibrary.TsGameBudgetFunctionLibrary_C",
+				"JsName": "TsGameBudgetFunctionLibrary",
+				"ObfuscationName": "TsGameBudgetFunctionLibrary",
+				"IsWrapper": false,
+				"Properties": [],
 				"Functions": []
 			}
 		]

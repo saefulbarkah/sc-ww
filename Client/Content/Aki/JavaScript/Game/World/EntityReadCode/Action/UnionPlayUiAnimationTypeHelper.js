@@ -1,3 +1,0 @@
-
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.UnionPlayUiAnimationTypeHelper=void 0;const fb_action_1=require("../../../../Game/World/EntityFb/fb-action"),FbPlayGuestCartethyia_1=require("./FbPlayGuestCartethyia");class UnionPlayUiAnimationTypeHelper{static GetUnionPlayUiAnimationTypeObject(t){if(t===fb_action_1.UnionPlayUiAnimationType.PlayGuestCartethyia)return new fb_action_1.PlayGuestCartethyia}static ReadUnionPlayUiAnimationType(t,i){return void 0!==i&&t===fb_action_1.UnionPlayUiAnimationType.PlayGuestCartethyia?FbPlayGuestCartethyia_1.FbPlayGuestCartethyia.Create(i):void 0}}exports.UnionPlayUiAnimationTypeHelper=UnionPlayUiAnimationTypeHelper;
-//# sourceMappingURL=UnionPlayUiAnimationTypeHelper.js.map
